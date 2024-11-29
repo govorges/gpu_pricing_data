@@ -1,3 +1,8 @@
+/Errors/errors/*.json
+/Errors/errors/*.png
+/Errors/errors/*.jpg
 
-test.png
-/Webdriver/__pycache__
+/Logs/logfiles/*.log
+
+*__pycache__
+*.pyc

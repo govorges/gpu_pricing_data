@@ -21,7 +21,7 @@ value_map = {
     }
 }
 
-def load_driver_configuration() -> dict:
+def load_configuration() -> dict:
     """json.loads() frogscraper/Config/driver.json into a dict"""
     with open(path.join(CONFIG_DIR, "driver.json"), "r") as config_file:
         loaded_config_data = json.loads(config_file.read())
@@ -46,4 +46,4 @@ def load_driver_configuration() -> dict:
     return built_config
 
 if __name__ == "__main__":
-    print(load_driver_configuration())
+    print(load_configuration())
