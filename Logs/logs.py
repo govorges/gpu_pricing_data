@@ -1,7 +1,7 @@
 import datetime
 from os import path
 
-from .config import load_configuration
+from Logs.config import load_configuration
 
 LOGS_DIR = path.dirname(path.realpath(__file__))
 

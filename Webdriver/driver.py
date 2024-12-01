@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import BrowserContext, Page, ElementHandle, WebSocketRoute
 
-from config import load_configuration
+from Webdriver.config import load_configuration
 
 import sys
 from os import path
@@ -13,8 +13,8 @@ from Logs.logs import Logger
 from Errors.errors import ErrorHandler, error_handler_hook
 
 class WebDriver:
-    def __init__(self, logger: Logger = None, errorhandler: ErrorHandler = None, _conf: dict = None):
-        self._playwright = sync_playwright().start()
+    def __init__(self, logger: Logger = None, errorhandler: ErrorHandler = None, _conf: dict = None, _playwright: sync_playwright = None):
+        self._playwright = _playwright if _playwright else sync_playwright().start()
         self.Configuration = _conf if _conf else load_configuration() 
 
         self.Logger = logger
@@ -50,7 +50,7 @@ class WebDriver:
             context = self._default_context
         
         if self.Logger is not None:
-            self.Logger.Info(f"Webdriver ; Creating page in {'_default_context' if context is self._default_context else str(context)}")
+            self.Logger.Info(f"Webdriver: Creating page in {'_default_context' if context is self._default_context else str(context)}")
         
         page = context.new_page()
 
@@ -63,11 +63,11 @@ class WebDriver:
         Kwargs are passed to a Page.goto() call, additional configuration available using this.
         '''
         if self.Logger is not None:
-            self.Logger.Info(f"Webdriver ; Navigating a page to: {url}")
+            self.Logger.Info(f"Webdriver: Navigating a page to: {url}")
 
         page.goto(url, **kwargs)
-
-        page.wait_for_load_state("domcontentloaded")
+        if kwargs.get('wait_until') is None:
+            page.wait_for_load_state("domcontentloaded")
 
         return None
 

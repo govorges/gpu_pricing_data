@@ -3,6 +3,9 @@ from playwright.sync_api import BrowserContext, Page
 from os import path, listdir
 from os import remove as remove_file
 
+from threading import Thread
+
+import traceback
 import datetime
 import json
 
@@ -29,8 +32,15 @@ def error_handler_hook(func):
                     function_name = args[1].__name__ if isinstance(args[1], func.__class__) else func.__name__
                 else:
                     function_name = func.__name__
-
-                super_error_handler.save_error_information(E, super, function_name, *args, **kwargs)
+                
+                if super_error_handler.Configuration['threaded']:
+                    t = Thread(
+                        target=super_error_handler.save_error_information,
+                        args=(E, super, function_name, *args),
+                        kwargs=kwargs
+                    ).start()
+                else:
+                    super_error_handler.save_error_information(E, super, function_name, *args, **kwargs)
             else:
                 raise E
     return wrapper
@@ -69,45 +79,41 @@ class ErrorHandler:
         data = {
             "type": str(exception.__class__),
             "exception": [x for x in exception.args],
+            "traceback": "".join(traceback.TracebackException.from_exception(exception).format()),
             "call": func,
             "timestamp": datetime.datetime.now().timestamp(),
             "environment": {
                 "super": {x: str(super.__dict__[x]) for x in super.__dict__.keys()},
-                "args": str(args),
-                "kwargs": {
-                    **kwargs
-                }
+                "args": str([arg for arg in args]),
+                "kwargs": { kw: str(kwargs[kw]) for kw in kwargs.keys() }
             }
         }
+        if self.Configuration['screenshots']:
+            screenshots = []
+            for item in args:
+                if not isinstance(item, BrowserContext):
+                    continue
+                for page in item.pages:
+                    index = item.pages.index(page)
+                    screenshot_file = f"{timestamp}-{index}.png"
 
-        screenshots = []
-        for item in args:
-            if not isinstance(item, BrowserContext):
-                continue
-            print("BrowserContext found")
-            for page in item.pages:
-                index = item.pages.index(page)
-                screenshot_file = f"{timestamp}-{index}.png"
+                    screenshots.append(screenshot_file)
+                    page.screenshot(
+                        path = path.join(ERRORS_DIR, screenshot_file)
+                    )
 
-                screenshots.append(screenshot_file)
-                page.screenshot(
-                    path = path.join(ERRORS_DIR, screenshot_file)
-                )
+            default_context: BrowserContext = super.__dict__.get('_default_context')
+            if default_context is not None:
+                for page in default_context.pages:
+                    index = default_context.pages.index(page)
+                    screenshot_file = f"{timestamp}-default-{index}.png"
 
-        default_context: BrowserContext = super.__dict__.get('_default_context')
-        print(default_context)
-        if default_context is not None:
-            for page in default_context.pages:
-                index = default_context.pages.index(page)
-                screenshot_file = f"{timestamp}-default-{index}.png"
+                    screenshots.append(screenshot_file)
+                    page.screenshot(
+                        path = path.join(ERRORS_DIR, "errors", screenshot_file)
+                    )
+            data['screenshots'] = screenshots
 
-                screenshots.append(screenshot_file)
-                page.screenshot(
-                    path = path.join(ERRORS_DIR, "errors", screenshot_file)
-                )
-
-        data['screenshots'] = screenshots
-        print(screenshots)
         
         if self.Logger is not None:
             self.Logger.Error(f"ErrorHandler: {str(exception.__class__)} in {func} | Detailed report in {error_output_path.rsplit(path.sep, 1)[-1]}")

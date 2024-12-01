@@ -1,0 +1,48 @@
+{
+    "vendors": {
+        "usa_newegg": {
+            "metadata": {
+                "name": "USA Newegg",
+                "homepage": "https://newegg.com",
+                "color": "blue"
+            },
+            "url": {
+                "start": "https://www.newegg.com/p/pl?d=",
+                "end": ""
+            },
+            "selectors": {
+                "listings": ".list-wrap > div > div.item-cell",
+                "title": {
+                    "css_selector": ".item-info > .item-title",
+                    "type": "text",
+                    "required": true,
+                    "description": "The listing's title."
+                },
+                "url": {
+                    "css_selector": ".item-info > .item-title",
+                    "type": "link",
+                    "required": true,
+                    "description": "The listing's dedicated product page."
+                },
+                "promo": {
+                    "css_selector": ".item-promo",
+                    "type": "text",
+                    "required": false,
+                    "description": "An item's promotional offer(s), typically a discount or digital content that comes with a purchase."
+                },
+                "price": {
+                    "css_selector": ".price-current",
+                    "type": "price",
+                    "required": true,
+                    "description": "The listing's price"
+                },
+                "thumbnail": {
+                    "css_selector": "img",
+                    "type": "image",
+                    "required": false,
+                    "description": "The listing's thumbnail"
+                }
+            }
+        }
+    }
+}

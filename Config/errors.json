@@ -1,3 +1,5 @@
 {
-    "purge": true
+    "purge": true,
+    "screenshots": false,
+    "threaded": true
 }

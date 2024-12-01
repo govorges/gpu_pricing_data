@@ -10,6 +10,14 @@ value_map = {
     "purge": {
         "type": bool,
         "default": False
+    },
+    "screenshots": {
+        "type": bool,
+        "default": True
+    },
+    "threaded": {
+        "type": bool,
+        "default": False # This will thread save_error_information in error_handler_hook. This is not recommended to use with "screenshots" enabled as the page may change before a screenshot is successfully taken, but won't slow down page speed.
     }
 }
 
