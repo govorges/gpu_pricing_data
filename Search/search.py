@@ -37,8 +37,9 @@ from price_parser import Price
 from playwright.sync_api import Page
 
 def is_valid_url(url: str) -> bool:
+    """Check if a provided URL is valid and can be parsed by urlparse."""
     parsed = urlparse(url)
-    return parsed.scheme and parsed.netloc
+    return parsed.scheme != "" and parsed.netloc != ""
 
 def build_url_from_relative_href(url: ParseResult, href: str) -> str:
     return f"{url.scheme}://{url.netloc}{href}"
@@ -203,47 +204,10 @@ class SearchHandler:
         
 
 if __name__ == "__main__":
-    from playwright.sync_api import sync_playwright
-    from Webdriver.config import load_configuration as driver_conf
-
-    import time
-    from statistics import mean
-    import json
-
-    _playwright = sync_playwright().start()
-    conf = driver_conf()
-
-    logger = Logger()
-    errorhandler = ErrorHandler(logger=logger)
-
-    conf['engine'] = 'chromium'
-    webdriver = WebDriver(logger=logger, errorhandler=errorhandler, _conf=conf, _playwright=_playwright)
-    sh = SearchHandler(webdriver, errorhandler = errorhandler, logger = logger)
-    usa_newegg: Vendor = sh.find_vendor_by_identifier("usa_newegg")
-
-    page = webdriver.create_page_in_context()
-    page.route("**/*.{png,jpg,jpeg,css,gif,js}", lambda route: route.abort())
-    webdriver.navigate_page_to_url(usa_newegg.metadata.get("homepage"), page, wait_until='commit')
-
-    print("usa_newegg search load times\n")
-
-    print("CHROMIUM RESULTS:")
-    start = time.time()
-    listings: list[Listing] = sh.retrieve_search_listings(page=page, vendor=usa_newegg, query="\"Arc B580\"")
-    end = time.time()
-    print(f"retrieve_search_listings time elapsed: {end-start}s")
-
-    for x in listings:
-        if x.Data.get("price") is None:
-            listings.remove(x)
-        
-    prices = sorted(listings, key=lambda x: x.Data.get("price"))
-    avg_price = round(mean([x.Data.get("price") for x in prices]), 2)
-    print("query: `\"Arc B580\"`")
-    print(f"listings found: {len(prices)} | avg: {avg_price} | low: {prices[0].Data.get('price')}\n\n")
-    
-    with open("test-output.json", "w+") as outputFile:
-        outputFile.write(json.dumps([x.Data for x in prices], indent=4))
-
-    sh._default_context.close()
-    webdriver.Browser.close()
+    assert is_valid_url("https://google.com"), \
+        "https://google.com - Should have been a valid URL."
+    assert not is_valid_url("google.com"), \
+        "google.com - Should have not been a valid URL"
+    assert not is_valid_url("/example-url-path?a=123&b=456"), \
+        "/example-url-path?a=123&b=456 - Should have not been a valid URL"
+    print("All assertions OK")
