@@ -1,3 +1,5 @@
+"""Contains the WebDriver class"""
+
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import BrowserContext, Page, ElementHandle
 
@@ -13,6 +15,7 @@ from Logs.logs import Logger
 from Errors.errors import ErrorHandler, error_handler_hook
 
 class WebDriver:
+    """A wrapper to manage sync_playwright browser instances with error handling & logging for Frogscraper."""
     def __init__(self, logger: Logger = None, errorhandler: ErrorHandler = None, _conf: dict = None, _playwright: sync_playwright = None, **kwargs):
         self._playwright = _playwright if _playwright else sync_playwright().start()
         self.Configuration = _conf if _conf else load_configuration() 
