@@ -1,9 +1,6 @@
 # Frogscraper
 A utility to scrape and aggregate pricing data from online retailers. Built using Playwright, mostly.
 
-## Quick-Start Guide
-This will get you going, but it won't teach you everything you need to know. I highly recommend you read through this documentation so you know how to operate Frogscraper to its fullest potential.
-
 ### 1. Configuration
 Setting up Frogscraper is done through 90% JSON and 10% Python. First, check out frogscraper/Config for some low-level configuration options:
 
