@@ -14,7 +14,7 @@ from flask import Flask
 api = Flask(__name__)
 api.config
 
-from urllib.parse import urlparse, ParseResult
+from urllib.parse import urlparse, ParseResult, urljoin
 # I don't know how imports work
 sys.path.append(path.join(path.dirname(path.realpath(__file__)), ".."))
 
@@ -22,9 +22,11 @@ from Logs.logs import Logger
 from Errors.errors import ErrorHandler, error_handler_hook
 from Webdriver.driver import WebDriver
 
-from vendor import Vendor
-from listing import Listing
+from Search.vendor import Vendor
+from Search.listing import Listing
 from Search.config import load_configuration
+
+from Query.query import Query
 
 from bs4 import BeautifulSoup
 import chardet # yeah, I read docs. how'd you know?
@@ -56,13 +58,14 @@ class SearchHandler:
         assert len(vendor_data.keys()) > 0, \
             f"No vendors configured in SearchHandler."
         
-        self.Vendors = []
+        self.Vendors: list[Vendor] = []
         for key in vendor_data.keys():
             vendor = Vendor(
                 identifier = key,
                 metadata = vendor_data[key]['metadata'],
                 url = vendor_data[key]['url'],
-                selectors = vendor_data[key]['selectors']
+                selectors = vendor_data[key]['selectors'],
+                strip_phrases = vendor_data[key].get('strip_phrases', [])
             )
             self.Vendors.append(vendor)
 
@@ -81,7 +84,7 @@ class SearchHandler:
         return None
 
     @error_handler_hook
-    def retrieve_search_listings(self, page: Page, vendor: str | Vendor, query: str) -> list:
+    def retrieve_search_listings(self, page: Page, vendor: str | Vendor, query: Query) -> list:
         search_page = page
         if isinstance(vendor, str):
             _vendor = self.find_vendor_by_identifier(vendor)
@@ -96,31 +99,32 @@ class SearchHandler:
         assert is_valid_url(target_search_url), \
             f"Constructed URL, {target_search_url} is not valid. Check vendor: {vendor.identifier} configuration."
 
-        start = time.time()
-        self.WebDriver.navigate_page_to_url(target_search_url, search_page, wait_until='commit')
+        self.WebDriver.navigate_page_to_url(target_search_url, search_page, wait_until='domcontentloaded')
         search_page.wait_for_selector("body")
-        end = time.time()
-        print(f"navigate_page_to_url: {round(end - start, 4)}s")
 
-        start = time.time()        
-        soup = BeautifulSoup(search_page.content(), 'lxml')
-        end = time.time()
-        print(f"page.content() -> BeautifulSoup: {round(end - start, 4)}s")
+        soup = BeautifulSoup(search_page.content().encode("utf-8"), 'lxml')
 
         #listings = self.WebDriver.select_all(search_page, vendor.selectors['listings'])
-        start = time.time()
         listings = soup.select(vendor.selectors['listings'])
-        end = time.time()
-        print(f"BeautifulSoup.select(listings): {round(end - start, 4)}")
         assert len(listings) > 0, \
-            f"No listings were found." # simple messages as its best to defer to errorhandler at this point
-
+            f"No listings were found. {len(listings)}" # simple messages as its best to defer to errorhandler at this point
+        
         selectors = vendor.selectors.copy()
         selectors.pop('listings')
 
         output_listings = []
 
-        listing_time_start = time.time()
+        # This is used when checking if a listing's price is within the Query's MinimumValue & MaximumValue. 
+        # Populated by any items with the 'price' value type in vendor CSS selectors
+        # Overwritten by subsequent items with this type set. 
+        # Ideal use case for this : grabbing a "default" price before grabbing a "discounted" price will have the default price overwritten by the discounted.
+        price = None
+        # Additive price is used for other misc costs that should be added on top of the total listing price. 
+        #       This value(s) are not pushed to the listing.Data object, and solely exist behind the scenes of your queries.
+        #               Additive prices add to eachother, so if there are multiple elements you need for this, no worries.
+        additive_price = 0.00
+
+
         for item in listings: # mega-nester 451
             item_data = {}
             for key in selectors.keys():
@@ -138,6 +142,7 @@ class SearchHandler:
                             value = build_url_from_relative_href(
                                 urlparse(target_search_url), value
                             )
+                        value = urljoin(value, urlparse(value).path)
                     case 'image':
                         value = selected_element.attrs.get('src')
                         if not is_valid_url(value) and value is not None:
@@ -147,6 +152,16 @@ class SearchHandler:
                     case 'price':
                         value = Price.fromstring(selected_element.text)
                         value = value.amount_float
+
+                        price = value
+                    case 'misc_price': # A value treated as a price, but does not overwrite the main 'price' value.
+                        value = Price.fromstring(selected_element.text)
+                        value = value.amount_float
+                    case 'additive_price':
+                        value = Price.fromstring(selected_element.text)
+                        value = value.amount_float
+
+                        additive_price += value
                 item_data[key] = value
 
             missing_keys = []
@@ -154,6 +169,7 @@ class SearchHandler:
                 if item_data[key] is None and selectors[key].get('required', False):
                     missing_keys.append(key)
             if len(missing_keys) > 0:
+                self.Logger.Warn(f"SearchHandler: Dropped Listing for {query} ; Required keys, [{', '.join([x for x in missing_keys])}] not found in listing. (check deferred environment error for more details)")
                 self.defer_environment_error(
                     ValueError,
                     f"Required keys, [{', '.join([x for x in missing_keys])}] not found in listing.",
@@ -162,10 +178,27 @@ class SearchHandler:
                 continue
                 
             listing = Listing(item_data)
-            output_listings.append(listing)
 
-        listing_time_end = time.time()
-        print(f'listings parse time: {round(listing_time_end - listing_time_start, 8)}')
+            check_strings = []
+            for key in listing.Data.keys():
+                key_data = listing.Data[key]
+                if not isinstance(key_data, str):
+                    continue
+                elif selectors[key]["type"] in ["link", "image"]:
+                    continue
+                check_strings.append(key_data)
+
+            if price is None:
+                continue
+
+            price += additive_price
+
+            check_result = query.IsValidListing(check_strings, price)
+            if isinstance(check_result, bool) and check_result:
+                output_listings.append(listing)
+            else:
+                self.Logger.Info(f"SearchHandler: Dropped Listing for {query} ; check_result: {check_result} ; {str(listing.Data).encode()}")
+                
         return output_listings
         
 
@@ -175,6 +208,7 @@ if __name__ == "__main__":
 
     import time
     from statistics import mean
+    import json
 
     _playwright = sync_playwright().start()
     conf = driver_conf()
@@ -195,38 +229,21 @@ if __name__ == "__main__":
 
     print("CHROMIUM RESULTS:")
     start = time.time()
-    listings: list[Listing] = sh.retrieve_search_listings(page=page, vendor=usa_newegg, query="\"RTX 4090\"")
+    listings: list[Listing] = sh.retrieve_search_listings(page=page, vendor=usa_newegg, query="\"Arc B580\"")
     end = time.time()
     print(f"retrieve_search_listings time elapsed: {end-start}s")
 
-    prices = [x.Data['price'] for x in listings]
-    prices = sorted(prices)
-    avg_price = round(mean(prices), 2)
-    print("query: `\"RTX 4090\"`")
-    print(f"listings found: {len(prices)} | avg: {avg_price} | low: {prices[0]}\n\n")
-
-    sh._default_context.close()
-    webdriver.Browser.close()
-
-    conf['engine'] = 'firefox'
-    webdriver = WebDriver(logger = logger, errorhandler = errorhandler, _conf=conf, _playwright=_playwright)
-    sh = SearchHandler(webdriver, errorhandler = errorhandler, logger = logger)
+    for x in listings:
+        if x.Data.get("price") is None:
+            listings.remove(x)
+        
+    prices = sorted(listings, key=lambda x: x.Data.get("price"))
+    avg_price = round(mean([x.Data.get("price") for x in prices]), 2)
+    print("query: `\"Arc B580\"`")
+    print(f"listings found: {len(prices)} | avg: {avg_price} | low: {prices[0].Data.get('price')}\n\n")
     
-    page = webdriver.create_page_in_context()
-    page.route("**/*.{png,jpg,jpeg,css,gif,js}", lambda route: route.abort())
-    webdriver.navigate_page_to_url(usa_newegg.metadata.get("homepage"), page, wait_until='commit')
-
-    print("GECKODRIVER / FIREFOX RESULTS:")
-    start = time.time()
-    listings: list[Listing] = sh.retrieve_search_listings(page=page, vendor=usa_newegg, query="\"RTX 4090\"")
-    end = time.time()
-    print(f"retrieve_search_listings time elapsed: {end-start}s")
-
-    prices = [x.Data['price'] for x in listings]
-    prices = sorted(prices)
-    avg_price = round(mean(prices), 2)
-    print("query: `\"RTX 4090\"`")
-    print(f"listings found: {len(prices)} | avg: {avg_price} | low: {prices[0]}\n\n")
+    with open("test-output.json", "w+") as outputFile:
+        outputFile.write(json.dumps([x.Data for x in prices], indent=4))
 
     sh._default_context.close()
     webdriver.Browser.close()

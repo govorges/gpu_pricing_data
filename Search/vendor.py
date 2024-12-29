@@ -1,11 +1,12 @@
 
 
 class Vendor:
-    def __init__(self, identifier: str, metadata: dict, url: dict, selectors: dict):
+    def __init__(self, identifier: str, metadata: dict, url: dict, selectors: dict, strip_phrases: list):
         self.identifier = identifier
         self.metadata = metadata
         self.url = url
         self.selectors = selectors
+        self.strip_phrases = strip_phrases
 
         assert "listings" in self.selectors.keys(), \
             f"Required selector, `listings` not defined in {identifier} configuration."

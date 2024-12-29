@@ -1,0 +1,107 @@
+{
+    "settings": {
+        "filtered_phrases": [
+            "no core",
+            "pack of",
+            "- read",
+            "no pcb",
+            "cracked",
+            "quanvec",
+            "backpl",
+            "gddr2",
+            "for ",
+            "ek-ac",
+            "2pcs\/set",
+            "workstation x",
+            "ek quantum",
+            "tarus",
+            "defekt",
+            "read ",
+            "powerlink",
+            "thermal pad",
+            "ek-quantum",
+            "cable",
+            "cooling fan",
+            "ekwb",
+            "parts",
+            "display ",
+            "xlr8",
+            "artifacting",
+            "damage",
+            "as-is",
+            "broken",
+            "magazine",
+            "alphacool",
+            "set of",
+            "lot of",
+            "*read*",
+            "ssd",
+            "nvlink",
+            "unstable",
+            "parts",
+            "repair",
+            "block",
+            "description",
+            "faulty",
+            " for ",
+            "as is",
+            "not working",
+            "*for ",
+            "mining rig",
+            "laptop",
+            "qty",
+            "riser",
+            "bracket",
+            "gaming pc",
+            "gaming desktop",
+            "wifi"
+        ]
+    },
+    "queries": [
+        {
+            "Content": "Ryzen 7 9800X3D",
+            "Include": ["9800", "X3D"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000
+        },
+        {
+            "Content": "Ryzen 7 7800X3D",
+            "Include": ["7800", "X3D"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000
+        },
+        {
+            "Content": "Ryzen 7 7950X3D",
+            "Include": ["7950", "X3D"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000
+        }
+    ]
+}

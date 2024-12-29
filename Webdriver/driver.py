@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright
-from playwright.sync_api import BrowserContext, Page, ElementHandle, WebSocketRoute
+from playwright.sync_api import BrowserContext, Page, ElementHandle
 
 from Webdriver.config import load_configuration
 
@@ -13,7 +13,7 @@ from Logs.logs import Logger
 from Errors.errors import ErrorHandler, error_handler_hook
 
 class WebDriver:
-    def __init__(self, logger: Logger = None, errorhandler: ErrorHandler = None, _conf: dict = None, _playwright: sync_playwright = None):
+    def __init__(self, logger: Logger = None, errorhandler: ErrorHandler = None, _conf: dict = None, _playwright: sync_playwright = None, **kwargs):
         self._playwright = _playwright if _playwright else sync_playwright().start()
         self.Configuration = _conf if _conf else load_configuration() 
 
@@ -31,7 +31,7 @@ class WebDriver:
        
         # TODO: kwargs config parsing
         self.Browser = self.Browser.launch(
-            headless = self.Configuration['headless']
+            headless = self.Configuration['headless'], **kwargs
         )
         # TODO: something something context handling.
         #   from docs: browser.new_context(proxy={"server": "http://myproxy.com:3128"})
@@ -39,6 +39,11 @@ class WebDriver:
     
     # thought process is to wrap Page.goto() so I can perform some error handling & logging of my own
     #   maybe screenshot of page when there are issues? lot of options very neat.
+    @error_handler_hook
+    def restart_browser(self, **kwargs):
+        self.Browser = self.Browser.launch(
+            headless = self.Configuration['headless'], **kwargs
+        )
 
     @error_handler_hook # todo: think of cooler name for this
     def create_page_in_context(self, context: BrowserContext = None) -> Page:
