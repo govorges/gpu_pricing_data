@@ -32,7 +32,7 @@ for vendor in search_handler.Vendors:
     for item in query_list.Queries:
         search_context.clear_cookies()
 
-        time.sleep(3)
+        time.sleep(3) # This can be removed, but may yield unreliable results depending on a site's traffic limits.
 
         retrieved_listings = search_handler.retrieve_search_listings(page=search_page, vendor=vendor, query=item)
         print(f"{vendor.identifier} ; {item.Content} ; {len(retrieved_listings)} listings found!")
@@ -56,7 +56,7 @@ for vendor in search_handler.Vendors:
             "listings": [x.Data for x in retrieved_listings]
         }
     
-    with open(f"{vendor.identifier}.json", "w+") as vendor_output_file:
+    with open(f"{vendor.identifier}-output.json", "w+") as vendor_output_file:
         vendor_output_file.write(json.dumps(vendor_output_data, indent=4))
 
 webdriver.Browser.close()
