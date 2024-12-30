@@ -11,10 +11,6 @@ value_map = {
         "type": str,
         "default": f"{datetime.datetime.now().date()}.log"
     },
-    "max_file_size_kb": {
-        "type": int,
-        "default": 256000
-    },
     "log_folder": {
         "type": str,
         "default": path.join(LOGS_DIR, "logfiles")

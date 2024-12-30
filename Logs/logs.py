@@ -6,6 +6,7 @@ from Logs.config import load_configuration
 LOGS_DIR = path.dirname(path.realpath(__file__))
 
 class Logger:
+    """Homebrew Logger implementation. Outputs to frogscraper/Logs/logfiles in a YYYY-MM-DD.log format."""
     def __init__(self):
         self.Configuration = load_configuration()
         self.log_file_path = path.join(self.Configuration['log_folder'], self.Configuration['file'])

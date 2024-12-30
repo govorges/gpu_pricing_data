@@ -16,6 +16,10 @@ from .config import load_configuration
 ERRORS_DIR = path.dirname(path.realpath(__file__))
 
 def error_handler_hook(func):
+    """
+    Function decorator, dumps any exceptions in the wrapped function to save_error_information. 
+    This requires the wrapped function to be in the context of a class with an ErrorHandler set.
+    """
     def wrapper(*args, **kwargs):
         super = args[0] # self
         super_error_handler: ErrorHandler = None
@@ -70,6 +74,7 @@ class ErrorHandler:
         return func(*args, **kwargs)
 
     def save_error_information(self, exception: Exception, super, func, *args, **kwargs):
+        """Creates a dump of exception details in frogscraper/Errors/errors, files are output as a .JSON file with a UNIX timestamp as the filename."""
         error_output_path = ""
         while path.isfile(error_output_path) or error_output_path == "":
             timestamp = datetime.datetime.now().timestamp()

@@ -1,5 +1,4 @@
 {
     "headless": true,
-    "engine": "chromium",
-    "screenshots": true
+    "engine": "chromium"
 }
