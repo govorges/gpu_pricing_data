@@ -16,7 +16,7 @@
             "ek quantum",
             "tarus",
             "defekt",
-            "read ",
+            " read ",
             "powerlink",
             "thermal pad",
             "ek-quantum",
@@ -54,7 +54,10 @@
             "bracket",
             "gaming pc",
             "gaming desktop",
-            "wifi"
+            "wifi",
+            "cyberpower",
+            "computer",
+            "bundle"
         ]
     },
     "queries": [
@@ -102,6 +105,366 @@
             },
             "MinimumValue": 200,
             "MaximumValue": 5000
+        },
+        {
+            "Content": "Ryzen 5 7600X3D",
+            "Include": ["7600", "X3D"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 9 7900X3D",
+            "Include": ["7900", "X3D"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i9 14900K",
+            "Include": ["14900K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 7 9700X",
+            "Include": ["9700X"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 9 9950X",
+            "Include": ["9950X"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i7 14700K",
+            "Include": ["14700K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i9 13900K",
+            "Include": ["13900K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i9 13700K",
+            "Include": ["13700K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Core 9 285K",
+            "Include": ["285K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 9 9900X",
+            "Include": ["9900X"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 5 9600X",
+            "Include": ["9600X"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 9 7950X",
+            "Include": ["7950X"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Core 7 265K",
+            "Include": ["265K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i5 14600K",
+            "Include": ["14600K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i5 13600K",
+            "Include": ["13600K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 9 7900X",
+            "Include": ["7900X"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 7 7700X",
+            "Include": ["7700X"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 7 5700X3D",
+            "Include": ["5700", "X3D"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Core 5 245K",
+            "Include": ["245K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i9 12900K",
+            "Include": ["12900K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "Ryzen 5 7600X",
+            "Include": ["7600X"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i7 12700K",
+            "Include": ["12700K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i5 12600K",
+            "Include": ["12600K"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
+        },
+        {
+            "Content": "i5 14400",
+            "Include": ["14400"],
+            "IncludeSettings": {
+                "operator": "and",
+                "case_sensitive": false,
+                "require_content": false
+            },
+            "Exclude": [],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 100,
+            "MaximumValue": 5000  
         }
     ]
 }

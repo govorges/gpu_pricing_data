@@ -99,6 +99,98 @@
                     "description": "The listing's thumbnail"
                 }
             }
+        },
+        "microcenter_store_185": {
+            "metadata": {
+                "name": "Microcenter - Miami",
+                "homepage": "https://www.microcenter.com/?storeid=185",
+                "color": "blue"
+            },
+            "strip_phrases": ["\n"],
+            "url": {
+                "start": "https://www.microcenter.com/search/search_results.aspx?N=&cat=&Ntt=",
+                "end": "&searchButton=search"
+            },
+            "preload": "https://www.microcenter.com/?storeid=185",
+            "selectors": {
+                "listings": ".product_wrapper",
+                "title": {
+                    "css_selector": "div.h2",
+                    "type": "text",
+                    "required": true,
+                    "description": "The listing's title."
+                },
+                "price": {
+                    "css_selector": ".price > span",
+                    "type": "price",
+                    "required": true,
+                    "description": "The listing's price."
+                },
+                "stock_count": {
+                    "css_selector": ".inventoryCnt",
+                    "type": "text",
+                    "required": false,
+                    "description": "The amount of items in stock."
+                },
+                "secondary_stock_count": {
+                    "css_selector": ".clearance",
+                    "type": "text",
+                    "required": false,
+                    "description": "A secondary stock count, typically shows how many 'open box' items are available at this store for the listing."
+                },
+                "purchase_restriction": {
+                    "css_selector": ".footerrestrictions",
+                    "type": "text",
+                    "required": false,
+                    "description": "Restrictions on purchase, typically shows whether it's available for in-store purchase only or if there's a limit on how many a customer can purchase."
+                }
+            }
+        },
+        "microcenter_store_61": {
+            "metadata": {
+                "name": "Microcenter - St. Davids",
+                "homepage": "https://www.microcenter.com/?storeid=061",
+                "color": "blue"
+            },
+            "strip_phrases": ["\n", "                                        "],
+            "url": {
+                "start": "https://www.microcenter.com/search/search_results.aspx?N=&cat=&Ntt=",
+                "end": "&searchButton=search"
+            },
+            "preload": "https://www.microcenter.com/?storeid=061",
+            "selectors": {
+                "listings": ".product_wrapper",
+                "title": {
+                    "css_selector": "div.h2",
+                    "type": "text",
+                    "required": true,
+                    "description": "The listing's title."
+                },
+                "price": {
+                    "css_selector": ".price > span",
+                    "type": "price",
+                    "required": true,
+                    "description": "The listing's price."
+                },
+                "stock_count": {
+                    "css_selector": ".inventoryCnt",
+                    "type": "text",
+                    "required": false,
+                    "description": "The amount of items in stock."
+                },
+                "secondary_stock_count": {
+                    "css_selector": ".clearance",
+                    "type": "text",
+                    "required": false,
+                    "description": "A secondary stock count, typically shows how many 'open box' items are available at this store for the listing."
+                },
+                "purchase_restriction": {
+                    "css_selector": ".footerrestrictions",
+                    "type": "text",
+                    "required": false,
+                    "description": "Restrictions on purchase, typically shows whether it's available for in-store purchase only or if there's a limit on how many a customer can purchase."
+                }
+            }
         }
     }
 }

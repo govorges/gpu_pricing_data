@@ -1,4 +1,4 @@
 {
-    "headless": true,
+    "headless": false,
     "engine": "chromium"
 }

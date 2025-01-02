@@ -66,7 +66,8 @@ class SearchHandler:
                 metadata = vendor_data[key]['metadata'],
                 url = vendor_data[key]['url'],
                 selectors = vendor_data[key]['selectors'],
-                strip_phrases = vendor_data[key].get('strip_phrases', [])
+                strip_phrases = vendor_data[key].get('strip_phrases', []),
+                preload =  vendor_data[key].get("preload")
             )
             self.Vendors.append(vendor)
 
@@ -107,8 +108,8 @@ class SearchHandler:
 
         #listings = self.WebDriver.select_all(search_page, vendor.selectors['listings'])
         listings = soup.select(vendor.selectors['listings'])
-        assert len(listings) > 0, \
-            f"No listings were found. {len(listings)}" # simple messages as its best to defer to errorhandler at this point
+        if len(listings) == 0:
+            return []
         
         selectors = vendor.selectors.copy()
         selectors.pop('listings')

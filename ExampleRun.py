@@ -19,6 +19,7 @@ search_context = webdriver.create_browser_context()
 search_page = webdriver.create_page_in_context(search_context)
 
 query_list = query.QueryList("GPUs.json")
+
 search_handler = search.SearchHandler(
     webdriver = webdriver,
     errorhandler = error_handler,
@@ -29,9 +30,12 @@ for vendor in search_handler.Vendors:
     vendor_output_data = {
         "date": str(datetime.datetime.now().date())
     }
+
+    if vendor.preload is not None:
+        webdriver.navigate_page_to_url(vendor.preload, search_page)
+
     for item in query_list.Queries:
-        if item.Content != "RX 7900 XTX": continue
-        search_context.clear_cookies()
+        if vendor.preload is None: search_context.clear_cookies()
 
         time.sleep(3) # This can be removed, but may yield unreliable results depending on a site's traffic limits.
 
