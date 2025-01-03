@@ -45,12 +45,12 @@ def build_url_from_relative_href(url: ParseResult, href: str) -> str:
     return f"{url.scheme}://{url.netloc}{href}"
 
 class SearchHandler:
-    def __init__(self, webdriver: WebDriver, errorhandler: ErrorHandler, logger: Logger = None, _conf: dict = None) -> None:
+    def __init__(self, webdriver: WebDriver = None, errorhandler: ErrorHandler = None, logger: Logger = None, _conf: dict = None) -> None:
         self.WebDriver = webdriver
         self.ErrorHandler = errorhandler
         self.Logger = logger
 
-        self._default_context = self.WebDriver._default_context
+        self._default_context = self.WebDriver._default_context if self.WebDriver is not None else None
 
         self.Configuration = _conf if _conf else load_configuration()
 
