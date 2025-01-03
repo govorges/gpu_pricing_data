@@ -108,7 +108,7 @@ class SearchHandler:
 
         #listings = self.WebDriver.select_all(search_page, vendor.selectors['listings'])
         listings = soup.select(vendor.selectors['listings'])
-        if len(listings) == 0:
+        if len(listings) == 0 or listings is None:
             return []
         
         selectors = vendor.selectors.copy()
