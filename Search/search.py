@@ -102,7 +102,9 @@ class SearchHandler:
             f"Constructed URL, {target_search_url} is not valid. Check vendor: {vendor.identifier} configuration."
 
         self.WebDriver.navigate_page_to_url(target_search_url, search_page, wait_until='domcontentloaded')
+        
         search_page.wait_for_selector("body")
+        search_page.wait_for_selector(vendor.selectors["listings"])
 
         soup = BeautifulSoup(search_page.content().encode("utf-8"), 'lxml')
 
