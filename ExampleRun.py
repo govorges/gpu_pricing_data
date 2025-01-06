@@ -1,5 +1,6 @@
 from Webdriver import driver
 from Search import search
+from Search.vendor import Vendor
 from Query import query
 
 from Logs import logs
@@ -10,6 +11,10 @@ import datetime
 
 import json
 from statistics import mean
+
+from os import mkdir, path
+
+LOCAL_DIR = path.dirname(path.realpath(__file__))
 
 Logger = logs.Logger()
 error_handler = errors.ErrorHandler(logger=Logger)
@@ -26,11 +31,10 @@ search_handler = search.SearchHandler(
     logger = Logger
 )
 
-for vendor in search_handler.Vendors:
+def RunSearchForVendor(vendor: Vendor):
     vendor_output_data = {
         "date": str(datetime.datetime.now().date())
     }
-
     if vendor.preload is not None:
         webdriver.navigate_page_to_url(vendor.preload, search_page)
 
@@ -47,8 +51,6 @@ for vendor in search_handler.Vendors:
         retrieved_listings = sorted(retrieved_listings, key=lambda x: x.Data.get("price")) # O(36,000,000,000,000)
 
         item_prices = [x.Data.get("price") for x in retrieved_listings]
-
-        cleaned_listings_output = []
         for listing in retrieved_listings:
             strip_phrases = vendor.strip_phrases
             for key in listing.Data.keys():
@@ -61,7 +63,14 @@ for vendor in search_handler.Vendors:
             "listings": [x.Data for x in retrieved_listings]
         }
     
-    with open(f"{vendor.identifier}-output.json", "w+") as vendor_output_file:
+    OUTPUT_DIR = path.join(LOCAL_DIR, "output")
+    if not path.isdir(OUTPUT_DIR): mkdir(OUTPUT_DIR)
+
+    with open(path.join(OUTPUT_DIR, f"{vendor.identifier}.json"), "w+") as vendor_output_file:
         vendor_output_file.write(json.dumps(vendor_output_data, indent=4))
 
-webdriver.Browser.close()
+if __name__ == "__main__":
+    vendor = search_handler.find_vendor_by_identifier("usa_newegg")
+    RunSearchForVendor(vendor=vendor)
+
+    webdriver.Browser.close()
