@@ -156,6 +156,60 @@
                 }
             }
         },
+        "uk_ebay": {
+            "metadata": {
+                "name": "UK Ebay",
+                "homepage": "https://ebay.co.uk",
+                "color": "green"
+            },
+            "strip_phrases": [
+                "Opens in a new window or tab",
+                "New Listing"
+            ],
+            "url": {
+                "start": "https://www.ebay.co.uk/sch/i.html?_fsrp=1&rt=nc&_from=R40&_nkw=",
+                "end": "&_sacat=0&LH_BIN=1"
+            },
+            "selectors": {
+                "listings": "#srp-river-results > ul > li",
+                "title": {
+                    "css_selector": ".s-item__link",
+                    "type": "text",
+                    "required": true,
+                    "description": "The listing's title."
+                },
+                "url": {
+                    "css_selector": ".s-item__link",
+                    "type": "link",
+                    "required": true,
+                    "description": "The listing's dedicated product page."
+                },
+                "subtitle": {
+                    "css_selector": ".s-item__subtitle",
+                    "type": "text",
+                    "required": false,
+                    "description": "An item's subtitle, containing some additional details about it."
+                },
+                "price": {
+                    "css_selector": ".s-item__price",
+                    "type": "price",
+                    "required": true,
+                    "description": "The listing's price"
+                },
+                "shipping_price": {
+                    "css_selector": ".s-item__shipping",
+                    "type": "misc_price",
+                    "required": false,
+                    "description": "The listing's shipping cost"
+                },
+                "thumbnail": {
+                    "css_selector": ".s-item__image-wrapper > img",
+                    "type": "image",
+                    "required": false,
+                    "description": "The listing's thumbnail"
+                }
+            }
+        },
         "microcenter_store_185": {
             "metadata": {
                 "name": "Microcenter - Miami",

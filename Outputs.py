@@ -102,4 +102,5 @@ def PrettyPrintCostPerFramesForVendor(vendor: str):
 if __name__ == "__main__":
     # vendor str should be a vendor's "identifier".
     # this function requires output data to exist for the provided vendor
-    PrettyPrintCostPerFramesForVendor("usa_ebay")
+    GenerateCostPerFrameForVendor("uk_ebay")
+    PrettyPrintCostPerFramesForVendor("uk_ebay")

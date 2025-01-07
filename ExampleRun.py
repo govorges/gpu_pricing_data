@@ -70,7 +70,7 @@ def RunSearchForVendor(vendor: Vendor):
         vendor_output_file.write(json.dumps(vendor_output_data, indent=4))
 
 if __name__ == "__main__":
-    vendor = search_handler.find_vendor_by_identifier("usa_newegg")
+    vendor = search_handler.find_vendor_by_identifier("uk_ebay")
     RunSearchForVendor(vendor=vendor)
 
     webdriver.Browser.close()
