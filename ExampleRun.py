@@ -1,7 +1,7 @@
 from Webdriver import driver
 from Search import search
 from Search.vendor import Vendor
-from Query import query
+from Query import query, QueryList
 
 from Logs import logs
 from Errors import errors
@@ -23,22 +23,20 @@ webdriver = driver.WebDriver(logger = Logger, _playwright = None)
 search_context = webdriver.create_browser_context()
 search_page = webdriver.create_page_in_context(search_context)
 
-query_list = query.QueryList("GPUs.json")
-
 search_handler = search.SearchHandler(
     webdriver = webdriver,
     errorhandler = error_handler,
     logger = Logger
 )
 
-def RunSearchForVendor(vendor: Vendor):
+def RunSearchesForVendor(vendor: Vendor, queryList: QueryList):
     vendor_output_data = {
         "date": str(datetime.datetime.now().date())
     }
     if vendor.preload is not None:
         webdriver.navigate_page_to_url(vendor.preload, search_page)
 
-    for item in query_list.Queries:
+    for item in queryList.Queries:
         if vendor.preload is None: search_context.clear_cookies()
 
         time.sleep(3) # This can be removed, but may yield unreliable results depending on a site's traffic limits.
@@ -70,7 +68,7 @@ def RunSearchForVendor(vendor: Vendor):
         vendor_output_file.write(json.dumps(vendor_output_data, indent=4))
 
 if __name__ == "__main__":
-    vendor = search_handler.find_vendor_by_identifier("uk_ebay")
-    RunSearchForVendor(vendor=vendor)
+    vendor = search_handler.find_vendor_by_identifier("usa_ebay")
+    RunSearchesForVendor(vendor=vendor, queryList = query.QueryList("GPUs.json"))
 
     webdriver.Browser.close()
