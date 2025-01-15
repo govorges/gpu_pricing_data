@@ -1,7 +1,7 @@
 from Webdriver import driver
 from Search import search
 from Search.vendor import Vendor
-from Query import query, QueryList
+from Query import query
 
 from Logs import logs
 from Errors import errors
@@ -29,7 +29,7 @@ search_handler = search.SearchHandler(
     logger = Logger
 )
 
-def RunSearchesForVendor(vendor: Vendor, queryList: QueryList):
+def RunSearchesForVendor(vendor: Vendor, queryList: query.QueryList):
     vendor_output_data = {
         "date": str(datetime.datetime.now().date())
     }
