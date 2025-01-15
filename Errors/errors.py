@@ -1,6 +1,6 @@
 from playwright.sync_api import BrowserContext, Page
 
-from os import path, listdir
+from os import path, listdir, mkdir
 from os import remove as remove_file
 
 from threading import Thread
@@ -58,6 +58,8 @@ class ErrorHandler:
         # Clearing out old files in Errors/errors based on our "purge" config setting
         if self.Configuration['purge']:
             errors_path = path.join(ERRORS_DIR, "errors")
+            if not path.isdir(errors_path):
+                mkdir(errors_path)
             existing_error_files = listdir(errors_path)
             
             if self.Logger is not None:

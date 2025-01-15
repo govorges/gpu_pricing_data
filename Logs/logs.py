@@ -1,5 +1,5 @@
 import datetime
-from os import path
+from os import path, mkdir
 
 from Logs.config import load_configuration
 
@@ -11,6 +11,8 @@ class Logger:
         self.Configuration = load_configuration()
         self.log_file_path = path.join(self.Configuration['log_folder'], self.Configuration['file'])
 
+        if not path.isdir(self.Configuration['log_folder']):
+            mkdir(self.Configuration['log_folder'])
         if not path.isfile(self.log_file_path):
             open(self.log_file_path, "w+")
         self.Log = open(self.log_file_path, "a+")

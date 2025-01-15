@@ -97,7 +97,8 @@ def PrettyPrintCostPerFramesForVendor(vendor: str):
         resolution_cost_per_frames = sorted(resolution_cost_per_frames.items(), key=lambda x: x[1]['Cost Per Frames (price (mean))'][resolution])
         print(f"\n\n{resolution} - {vendor.replace('_', ' ').upper()} (mean price)")
         for item in resolution_cost_per_frames:
-            print(f"{item[0]} | ${item[1]['Cost Per Frames (price (mean))'][resolution]}/frame @ ${item[1]['price (mean)']} | {item[1]['performance'][resolution]}FPS")
+            format_string = f"${format(item[1]['Cost Per Frames (price (mean))'][resolution], '.2f')}/frame @ ${item[1]['price (mean)']}"
+            print(f"{item[0]:<22} | " + f"{format_string:<30}" + f"| {item[1]['performance'][resolution]}FPS")
 
 if __name__ == "__main__":
     # vendor str should be a vendor's "identifier".
