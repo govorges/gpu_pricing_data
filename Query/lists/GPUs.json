@@ -71,6 +71,60 @@
     },
     "queries": [
         {
+            "Content": "RTX 5090",
+            "Include": [],
+            "IncludeSettings": {
+                "operator": "xor",
+                "case_sensitive": false,
+                "require_content": true
+            },
+            "Exclude": [
+                "Ti ",
+                "Super"
+            ],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 10000
+        },
+        {
+            "Content": "RTX 5080",
+            "Include": [],
+            "IncludeSettings": {
+                "operator": "xor",
+                "case_sensitive": false,
+                "require_content": true
+            },
+            "Exclude": [
+                "Ti ",
+                "Super"
+            ],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 10000
+        },
+        {
+            "Content": "RTX 5070 Ti",
+            "Include": [],
+            "IncludeSettings": {
+                "operator": "xor",
+                "case_sensitive": false,
+                "require_content": true
+            },
+            "Exclude": [
+                "Ti ",
+                "Super"
+            ],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 10000
+        },
+        {
             "Content": "RTX 4090",
             "Include": [],
             "IncludeSettings": {
