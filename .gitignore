@@ -1,11 +1,1 @@
-/Errors/errors/*.json
-/Errors/errors/*.png
-/Errors/errors/*.jpg
-
-/Logs/logfiles/*.log
-
-*__pycache__
-*.pyc
-
-/*.json
-/output
+/bin/frogscraper
