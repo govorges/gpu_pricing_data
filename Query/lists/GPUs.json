@@ -125,6 +125,37 @@
             "MaximumValue": 10000
         },
         {
+            "Content": "RX 9070",
+            "Include": [],
+            "IncludeSettings": {
+                "operator": "xor",
+                "case_sensitive": false,
+                "require_content": true
+            },
+            "Exclude": [
+                "XT"
+            ],
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 10000
+        },
+        {
+            "Content": "RX 9070 XT",
+            "Include": [],
+            "IncludeSettings": {
+                "operator": "xor",
+                "case_sensitive": false,
+                "require_content": true
+            },
+            "ExcludeSettings": {
+                "operator": "or"
+            },
+            "MinimumValue": 200,
+            "MaximumValue": 10000
+        },
+        {
             "Content": "RTX 4090",
             "Include": [],
             "IncludeSettings": {
