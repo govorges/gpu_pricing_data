@@ -1,21 +1,34 @@
-from os import system, path, chdir, mkdir
+from os import system, path, chdir, mkdir, rmdir, remove, walk, chmod
+import stat
 import json
+import sys
+import shutil
 
 # Setting wdir to bin/
 BIN_DIR = path.dirname(path.realpath(__file__))
 chdir(BIN_DIR)
 
-# Cloning frogscraper repo into bin/frogscraper
+# Fixing permissions of the git repo & then destroying it violently.
 if path.isdir("./frogscraper"):
-    system("git pull https://github.com/govorges/frogscraper")
-else:
-    system("git clone https://github.com/govorges/frogscraper")
+    for root, dirs, files in walk("./frogscraper"):
+        for item in [*dirs, *files]:
+            if "frogscraper" not in root: # failsafe
+                continue
+            chmod(path.join(root, item), stat.S_IRWXU)
+    shutil.rmtree("./frogscraper")
+
+system("git clone https://github.com/govorges/frogscraper")
 assert path.isdir('./frogscraper'), "govorges/frogscraper was not successfully cloned."
 
 # Vendors.json contains a list of vendor identifiers that we will scrape using frogscraper.
 with open("./vendors.json", "r") as vendorsFile:
     vendors = json.loads(vendorsFile.read())
 assert len(vendors) > 1, "vendors.json is empty, no vendors will be scraped."
+
+# Fixing the imports
+frogscraper_path = path.join(BIN_DIR, "frogscraper")
+if frogscraper_path not in sys.path:
+    sys.path.insert(0, frogscraper_path)
 
 from frogscraper.Webdriver import driver
 from frogscraper.Search import search
@@ -48,12 +61,14 @@ gpuQueryList = query.QueryList("GPUs.json")
 for vendor in vendors:
     vendor: Vendor = search_handler.find_vendor_by_identifier(vendor)
     vendor_output_data = {
-        "date": str(datetime.datetime.now().timestamp())
+        "generated_at": str(datetime.datetime.now().timestamp())
     }
     if vendor.preload is not None:
         webdriver.navigate_page_to_url(vendor.preload, search_page)
     
     for queryItem in gpuQueryList.Queries:
+        if "5090" not in queryItem.Content:
+            continue
         if vendor.preload is None:
             search_context.clear_cookies()
         
@@ -65,7 +80,7 @@ for vendor in vendors:
             query = queryItem
         )
 
-        if len(retrieved_listings == 0):
+        if len(retrieved_listings) == 0:
             continue
         retrieved_listings = sorted(retrieved_listings, key=lambda x: x.Data.get("price"))
         
@@ -79,8 +94,15 @@ for vendor in vendors:
             "listings": [x.Data for x in retrieved_listings]
         }
     
+    OUTPUT_DIR = path.join(BIN_DIR, "..")
+    assert path.isdir(OUTPUT_DIR), "Output directory does not exist somehow."
 
+    with open(path.join(OUTPUT_DIR, f"{vendor.identifier}.json"), "w+") as vendorOutputFile:
+        vendorOutputFile.write(json.dumps(vendor_output_data, indent=4))
 
+webdriver.Browser.close()
 
-
-
+chdir(path.join(BIN_DIR, ".."))
+for vendor in vendors:
+    system(f"git add {vendor}.json") 
+system("git commit -a -m \"Update pricing data\"")
