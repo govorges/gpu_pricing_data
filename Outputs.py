@@ -8,36 +8,71 @@ LOCAL_DIR = path.dirname(path.realpath(__file__))
 
 def RetrieveTomsHardwarePerformanceData():
     """Grabs TomsHardware GPU Performance Data and returns a dictionary of gpuName: {1080p Medium: float / 1080p Ultra: float / etc} """
-    request = requests.get('https://www.tomshardware.com/reviews/gpu-hierarchy,4388.html')
+    request = requests.get('https://www.tomshardware.com/reviews/gpu-hierarchy,4388-2.html')
     soup = BeautifulSoup(request.text, 'lxml')
 
     performance_data = {}
     performance_table = soup.select_one(".table__container > table")
-    
-    for row in performance_table.select("tr"):
-        columns = row.select("td")
-        if len(columns) < 1:
-            continue
 
-        card_name = columns[0].text
-        card_name = card_name.replace("GeForce ", "")
-        card_name = card_name.replace("Radeon ", "")
-        card_name = card_name.replace("Intel ", "")
+    # Here I'm grabbing the "new" performance table from TomsHardware and 'translating' it to the format of the old one
+    request = requests.get("https://www.tomshardware.com/reviews/gpu-hierarchy,4388.html")
+    soup = BeautifulSoup(request.text, 'lxml')
+
+    performance_table_new = soup.select_one(".table__container > table")
+
+    for index, table in enumerate([performance_table, performance_table_new]):
+
+        match index:
+            case 1:
+                dataStructure = { # column index of data
+                    "1080p Ultra": 4,
+                    "1080p Medium": 3,
+                    "1440p Ultra": 5,
+                    "4K Ultra": 6
+                }
+            case _:
+                dataStructure = {
+                    "1080p Ultra": 1,
+                    "1080p Medium": 2,
+                    "1440p Ultra": 3,
+                    "4K Ultra": 4
+                }
+
         
-        card_performance_data = {
-            "1080p Ultra": columns[2].text,
-            "1080p Medium": columns[3].text,
-            "1440p Ultra": columns[4].text,
-            "4K Ultra": columns[5].text
-        }
-        for key in [x for x in card_performance_data.keys()]:
-            if "Row" in card_performance_data[key]:
-                card_performance_data.pop(key)
+        for row in table.select("tr"):
+            columns = row.select("td")
+            if len(columns) < 1:
                 continue
-            card_performance_data[key] = card_performance_data[key].split("fps)")[0].split("(")[1]
 
-        performance_data[card_name] = card_performance_data
-    
+            card_name = columns[0].text
+            card_name = card_name.replace("GeForce ", "")
+            card_name = card_name.replace("Radeon ", "")
+            card_name = card_name.replace("Intel ", "")
+            
+            card_performance_data = {
+                "1080p Ultra": columns[
+                    dataStructure['1080p Ultra']
+                ].text,
+                "1080p Medium": columns[
+                    dataStructure['1080p Medium']
+                ].text,
+                "1440p Ultra": columns[
+                    dataStructure['1440p Ultra']
+                ].text,
+                "4K Ultra": columns[
+                    dataStructure['4K Ultra']
+                ].text
+            }
+
+            
+            for key in [x for x in card_performance_data.keys()]:
+                if "Row" in card_performance_data[key]:
+                    card_performance_data.pop(key)
+                    continue
+                card_performance_data[key] = card_performance_data[key].split(")")[0].split("(")[1].replace("fps", "")
+            
+            performance_data[card_name] = card_performance_data
+        
     return performance_data
         
 def GenerateCostPerFrame(pricing_output: dict, performance_data: dict):
@@ -82,10 +117,12 @@ def GenerateCostPerFrameForVendor(vendor: str):
             performance_data = performance_data
         ), indent=4, sort_keys=False))
 
-def PrettyPrintCostPerFramesForVendor(vendor: str):
+def PrettyPrintCostPerFramesForVendor(vendor: str, type: str = "mean"):
+    if type not in ['mean', 'low']:
+        raise ValueError('arg \'type\' must be either \'mean\' or \'low\'')
+    
     cost_per_frame_filepath = path.join(LOCAL_DIR, "output", f"cost_per_frames_{vendor}.json")
     cost_per_frames = json.loads(open(cost_per_frame_filepath).read())
-
 
     resolutions = [x for x in [y for y in cost_per_frames.items()][0][1]['performance'].keys()]
     for resolution in resolutions:
@@ -94,10 +131,10 @@ def PrettyPrintCostPerFramesForVendor(vendor: str):
             if cost_per_frames[item]['performance'].get(resolution) is None:
                 resolution_cost_per_frames.pop(item)
         
-        resolution_cost_per_frames = sorted(resolution_cost_per_frames.items(), key=lambda x: x[1]['Cost Per Frames (price (mean))'][resolution])
-        print(f"\n\n{resolution} - {vendor.replace('_', ' ').upper()} (mean price)")
+        resolution_cost_per_frames = sorted(resolution_cost_per_frames.items(), key=lambda x: x[1][f'Cost Per Frames (price ({type}))'][resolution])
+        print(f"\n\n{resolution} - {vendor.replace('_', ' ').upper()} ({type} price)")
         for item in resolution_cost_per_frames:
-            format_string = f"${format(item[1]['Cost Per Frames (price (mean))'][resolution], '.2f')}/frame @ ${item[1]['price (mean)']}"
+            format_string = f"${format(item[1][f'Cost Per Frames (price ({type}))'][resolution], '.2f')}/frame @ ${item[1][f'price ({type})']}"
             print(f"{item[0]:<22} | " + f"{format_string:<30}" + f"| {item[1]['performance'][resolution]}FPS")
 
 if __name__ == "__main__":
