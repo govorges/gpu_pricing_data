@@ -106,3 +106,4 @@ chdir(path.join(BIN_DIR, ".."))
 for vendor in vendors:
     system(f"git add {vendor}.json") 
 system("git commit -a -m \"Update pricing data\"")
+system("git push")
