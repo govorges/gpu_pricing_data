@@ -9,7 +9,7 @@ BIN_DIR = path.dirname(path.realpath(__file__))
 chdir(BIN_DIR)
 
 # Fixing permissions of the git repo & then destroying it violently.
-if path.isdir("./frogscraper"):
+if not path.isdir("./frogscraper"):
     for root, dirs, files in walk("./frogscraper"):
         for item in [*dirs, *files]:
             if "frogscraper" not in root: # failsafe
@@ -17,7 +17,7 @@ if path.isdir("./frogscraper"):
             chmod(path.join(root, item), stat.S_IRWXU)
     shutil.rmtree("./frogscraper")
 
-system("git clone https://github.com/govorges/frogscraper")
+# system("git clone https://github.com/govorges/frogscraper")
 assert path.isdir('./frogscraper'), "govorges/frogscraper was not successfully cloned."
 
 # Vendors.json contains a list of vendor identifiers that we will scrape using frogscraper.
@@ -56,6 +56,8 @@ search_handler = search.SearchHandler(
     logger = Logger
 )
 
+webdriver.navigate_page_to_url("https://google.com", search_page)
+
 gpuQueryList = query.QueryList("GPUs.json")
 
 for vendor in vendors:
@@ -71,7 +73,7 @@ for vendor in vendors:
             continue
         if vendor.preload is None:
             search_context.clear_cookies()
-        
+
         time.sleep(3)
 
         retrieved_listings = search_handler.retrieve_search_listings(
