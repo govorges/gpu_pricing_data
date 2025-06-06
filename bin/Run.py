@@ -63,7 +63,8 @@ gpuQueryList = query.QueryList("GPUs.json")
 for vendor in vendors:
     vendor: Vendor = search_handler.find_vendor_by_identifier(vendor)
     vendor_output_data = {
-        "generated_at": datetime.datetime.now().timestamp()
+        "generated_at": datetime.datetime.now().timestamp(),
+        "metadata": vendor.metadata
     }
     if vendor.preload is not None:
         webdriver.navigate_page_to_url(vendor.preload, search_page)
