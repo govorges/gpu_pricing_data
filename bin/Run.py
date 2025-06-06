@@ -9,7 +9,7 @@ BIN_DIR = path.dirname(path.realpath(__file__))
 chdir(BIN_DIR)
 
 # Fixing permissions of the git repo & then destroying it violently.
-if not path.isdir("./frogscraper"):
+if path.isdir("./frogscraper"):
     for root, dirs, files in walk("./frogscraper"):
         for item in [*dirs, *files]:
             if "frogscraper" not in root: # failsafe
@@ -17,7 +17,7 @@ if not path.isdir("./frogscraper"):
             chmod(path.join(root, item), stat.S_IRWXU)
     shutil.rmtree("./frogscraper")
 
-# system("git clone https://github.com/govorges/frogscraper")
+system("git clone https://github.com/govorges/frogscraper")
 assert path.isdir('./frogscraper'), "govorges/frogscraper was not successfully cloned."
 
 # Vendors.json contains a list of vendor identifiers that we will scrape using frogscraper.
