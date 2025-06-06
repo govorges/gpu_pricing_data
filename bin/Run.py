@@ -69,8 +69,6 @@ for vendor in vendors:
         webdriver.navigate_page_to_url(vendor.preload, search_page)
     
     for queryItem in gpuQueryList.Queries:
-        if "5090" not in queryItem.Content:
-            continue
         if vendor.preload is None:
             search_context.clear_cookies()
 
