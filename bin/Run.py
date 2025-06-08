@@ -4,6 +4,8 @@ import json
 import sys
 import shutil
 
+import requests
+
 # Setting wdir to bin/
 BIN_DIR = path.dirname(path.realpath(__file__))
 chdir(BIN_DIR)
@@ -17,7 +19,7 @@ if path.isdir("./frogscraper"):
             chmod(path.join(root, item), stat.S_IRWXU)
     shutil.rmtree("./frogscraper")
 
-system("git clone https://github.com/govorges/frogscraper")
+system("git clone https://github.com/govorges/frogscraper \"./frogscraper\"")
 assert path.isdir('./frogscraper'), "govorges/frogscraper was not successfully cloned."
 
 # Vendors.json contains a list of vendor identifiers that we will scrape using frogscraper.
@@ -45,9 +47,10 @@ import json
 Logger = logs.Logger()
 ErrorHandler = errors.ErrorHandler(logger=Logger)
 
-webdriver = driver.WebDriver(logger = Logger, _playwright = None)
+webdriver = driver.WebDriver(logger = Logger, _playwright = None, _conf={"headless": True, "engine": "firefox"})
 
 search_context = webdriver.create_browser_context()
+
 search_page = webdriver.create_page_in_context(search_context)
 
 search_handler = search.SearchHandler(
@@ -68,7 +71,9 @@ for vendor in vendors:
     }
     if vendor.preload is not None:
         webdriver.navigate_page_to_url(vendor.preload, search_page)
-    
+
+    print(f"Starting searches for {vendor.identifier}")
+
     for queryItem in gpuQueryList.Queries:
         if vendor.preload is None:
             search_context.clear_cookies()
