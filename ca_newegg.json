@@ -1,5 +1,5 @@
 {
-    "generated_at": 1750020117.344546,
+    "generated_at": 1750064550.171586,
     "metadata": {
         "name": "CA Newegg",
         "homepage": "https://newegg.ca",
@@ -43,13 +43,6 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-598-02.jpg"
             },
             {
-                "title": "ZOTAC AMP Extreme INFINITY GeForce RTX 5090 32GB GDDR7 PCI Express 5.0 x16 ATX Graphics Card ZT-B50900B-10P  5090 AMP Extreme INFINITY 32GB",
-                "url": "https://www.newegg.ca/zotac-5090-amp-extreme-infinity-32gb-geforce-rtx-5090-graphics-card-triple-fans/p/1FT-000M-00405",
-                "shipping_price": 0.0,
-                "price": 4899.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190KGTBR16.jpg"
-            },
-            {
                 "title": "ZOTAC Gaming GeForce RTX 5090 AMP Extreme Infinity DLSS 4 32GB GDDR7 512-bit 28 Gbps PCIE 5.0 Gaming Graphics Card, IceStorm 3.0 Advanced Cooling, Spectra 2.0 ARGB Lighting, ZT-B50900B-10P",
                 "url": "https://www.newegg.ca/p/1FT-000M-003Z1",
                 "shipping_price": 0.0,
@@ -71,39 +64,39 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS25042001TOMH04.jpg"
             },
             {
-                "title": "MSI Suprim GeForce RTX 5090 32GB GDDR7 PCI Express 5.0 Graphics Card RTX 5090 32G SUPRIM SOC",
-                "url": "https://www.newegg.ca/msi-rtx-5090-32g-suprim-soc-geforce-rtx-5090-32gb-graphics-card-triple-fans/p/N82E16814137915",
-                "shipping_price": 0.0,
-                "price": 5635.9,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-137-915-03.png"
-            },
-            {
                 "title": "ZOTAC SOLID OC White Edition GeForce RTX 5090 32GB 512-Bit GDDR7 PCI Express 5.0 x16 DLSS 4.0 Graphics Card ZT-B50900Q-10P SOLID OC White Edition",
                 "url": "https://www.newegg.ca/zotac-gaming-geforce-rtx-5090-solid-oc-white-edition-32gb-graphics-card-triple-fans/p/N82E16814500615",
                 "shipping_price": 0.0,
-                "price": 5999.99,
+                "price": 5599.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-615-02.jpg"
             },
             {
                 "title": "ZOTAC SOLID OC GeForce RTX 5090 32GB 512-Bit GDDR7 PCI Express 5.0 x16 DLSS 4.0 Video Card\nZOTAC GEFORCE RTX 5090  32GB SOLID OC",
                 "url": "https://www.newegg.ca/zotac-rtx-5090-solid-oc-geforce-rtx-5090-32gb-graphics-card-triple-fans/p/1FT-000M-00404",
                 "shipping_price": 0.0,
-                "price": 5999.99,
+                "price": 5599.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190JYCWJ10.jpg"
             },
             {
                 "title": "ZOTAC SOLID  GeForce RTX 5090 32GB 512-Bit GDDR7 PCI Express 5.0 x16 DLSS 4.0 Video Card ZOTAC GEFORCE RTX 5090 32GB SOLID",
                 "url": "https://www.newegg.ca/zotac-rtx-5090-solid-geforce-rtx-5090-32gb-graphics-card-triple-fans/p/1FT-000M-00407",
                 "shipping_price": 0.0,
-                "price": 5999.99,
+                "price": 5599.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190LS22M10.jpg"
             },
             {
                 "title": "ZOTAC SOLID OC White Edition GeForce RTX 5090 32GB 512-Bit GDDR7 PCI Express 5.0 x16 DLSS 4.0 Graphics Card ZT-B50900Q-10P SOLID OC White Edition  ZOTAC GEFORCE RTX 5090  32GB SOLID OC WHITE",
                 "url": "https://www.newegg.ca/zotac-gaming-geforce-rtx-5090-solid-oc-white-edition-32gb-graphics-card-triple-fans/p/1FT-000M-00406",
                 "shipping_price": 0.0,
-                "price": 5999.99,
+                "price": 5599.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190L1KW0F9.jpg"
+            },
+            {
+                "title": "ZOTAC AMP Extreme INFINITY GeForce RTX 5090 32GB GDDR7 PCI Express 5.0 x16 ATX Graphics Card ZT-B50900B-10P  5090 AMP Extreme INFINITY 32GB",
+                "url": "https://www.newegg.ca/zotac-5090-amp-extreme-infinity-32gb-geforce-rtx-5090-graphics-card-triple-fans/p/1FT-000M-00405",
+                "shipping_price": 0.0,
+                "price": 5999.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190KGTBR16.jpg"
             },
             {
                 "title": "ASUS TUF Gaming GeForce RTX 5090 GDDR7 PCI Express 4.0 x16 Graphics Card TUF-RTX5090-32G-GAMING",
@@ -145,32 +138,18 @@
     "RTX 5080": {
         "listings": [
             {
-                "title": "ZOTAC SOLID CORE GeForce RTX 5080 16GB 256-Bit GDDR7 PCI-Express 4.0 DLSS 4.0 Graphics Card ZT-B50800D2-10P, ZOTAC GEFORCE RTX 5080 16GB SOLID CORE",
-                "url": "https://www.newegg.ca/zotac-gaming-geforce-rtx-5080-solid-core-geforce-rtx-5080-16gb-graphics-card-triple-fans/p/1FT-000M-00410",
-                "shipping_price": 0.0,
-                "price": 1649.95,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190Q1UBFB3.jpg"
-            },
-            {
                 "title": "ZOTAC SOLID CORE OC GeForce RTX 5080 16GB 256-Bit GDDR7 DLSS 4.0 PCI Express 5.0 x16 Graphics Card ZT-B50800J2-10P",
                 "url": "https://www.newegg.ca/zotac-gaming-geforce-rtx-5080-solid-core-oc-16gb-graphics-card-triple-fans/p/N82E16814500604",
                 "shipping_price": 0.0,
-                "price": 1709.99,
+                "price": 1749.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-604-02.jpg"
             },
             {
                 "title": "ZOTAC GAMING GEFORCE RTX 5080 SOLID OC 256-Bit 16GB GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZT-B50800J-10P",
                 "url": "https://www.newegg.ca/zotac-solid-oc-zt-b50800j-10p-geforce-rtx-5080-16gb-graphics-card-air-cooler/p/N82E16814500594",
                 "shipping_price": 0.0,
-                "price": 1759.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-594-01.jpg"
-            },
-            {
-                "title": "ZOTAC AMP Extreme Infinity GeForce RTX 5080 16GB 256-Bit GDDR7 PCI-Express 5.0 DLSS 4.0 Graphics Card ZT-B50800B-10P",
-                "url": "https://www.newegg.ca/zotac-amp-extreme-infinity-zt-b50800b-10p-geforce-rtx-5080-16gb-graphics-card/p/N82E16814500595",
-                "shipping_price": 0.0,
                 "price": 1799.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-595-02.jpg"
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-594-01.jpg"
             },
             {
                 "title": "ZOTAC SOLID OC White Edition GeForce RTX 5080 16GB 256-Bit GDDR7 PCI-Express 5.0 DLSS 4.0 Graphics Card ZOTAC GAMING GeForce SOLID OC White Edition ZT-B50800Q-10P",
@@ -180,10 +159,24 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-606-02.jpg"
             },
             {
+                "title": "ZOTAC AMP Extreme Infinity GeForce RTX 5080 16GB 256-Bit GDDR7 PCI-Express 5.0 DLSS 4.0 Graphics Card ZT-B50800B-10P",
+                "url": "https://www.newegg.ca/zotac-amp-extreme-infinity-zt-b50800b-10p-geforce-rtx-5080-16gb-graphics-card/p/N82E16814500595",
+                "shipping_price": 0.0,
+                "price": 1869.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-595-02.jpg"
+            },
+            {
+                "title": "ZOTAC SOLID CORE GeForce RTX 5080 16GB 256-Bit GDDR7 PCI-Express 4.0 DLSS 4.0 Graphics Card ZT-B50800D2-10P, ZOTAC GEFORCE RTX 5080 16GB SOLID CORE",
+                "url": "https://www.newegg.ca/zotac-gaming-geforce-rtx-5080-solid-core-geforce-rtx-5080-16gb-graphics-card-triple-fans/p/1FT-000M-00410",
+                "shipping_price": 0.0,
+                "price": 2299.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190Q1UBFB3.jpg"
+            },
+            {
                 "title": "ZOTAC SOLID CORE OC GeForce RTX 5080 16GB 256-Bit GDDR7 DLSS 4.0 PCI Express 5.0 x16 Graphics Card ZT-B50800J2-10P, ZOTAC GEFORCE RTX 5080 16GB SOLID CORE OC",
                 "url": "https://www.newegg.ca/zotac-gaming-geforce-rtx-5080-solid-core-oc-16gb-graphics-card-triple-fans/p/1FT-000M-00409",
                 "shipping_price": 0.0,
-                "price": 2399.99,
+                "price": 2299.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190PKLZUB3.jpg"
             },
             {
@@ -194,18 +187,18 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-137-930-03.jpg"
             },
             {
-                "title": "ASUS PRIME GeForce RTX 5080 16GB 256-Bit GDDR7 PCI-Express 5.0 DLSS 4.0 Graphics Card PRIME-RTX5080-16G",
-                "url": "https://www.newegg.ca/asus-prime-rtx5080-16g-geforce-rtx-5080-16gb-graphics-card/p/1FT-000Y-00BS2",
-                "shipping_price": 0.0,
-                "price": 2699.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504190P495OE2.jpg"
-            },
-            {
                 "title": "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition PRIME-RTX5080-O16G PCI-Express 5.0 DLSS 4.0 Graphics Card",
                 "url": "https://www.newegg.ca/asus-prime-rtx5080-o16g-geforce-rtx-5080-16gb-graphics-card/p/1FT-000Y-00BS1",
                 "shipping_price": 0.0,
                 "price": 2699.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504190NMECKE2.jpg"
+            },
+            {
+                "title": "ASUS PRIME GeForce RTX 5080 16GB 256-Bit GDDR7 PCI-Express 5.0 DLSS 4.0 Graphics Card PRIME-RTX5080-16G",
+                "url": "https://www.newegg.ca/asus-prime-rtx5080-16g-geforce-rtx-5080-16gb-graphics-card/p/1FT-000Y-00BS2",
+                "shipping_price": 0.0,
+                "price": 2699.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504190P495OE2.jpg"
             },
             {
                 "title": "GIGABYTE AERO GeForce RTX 5080 16GB GDDR7 PCI Express 5.0 Graphics Card GV-N5080AERO OC-16GD",
@@ -310,18 +303,32 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-618-02.jpg"
             },
             {
-                "title": "MSI INSPIRE GeForce RTX 5070 Ti 16GB GDDR7 PCI Express 5.0 Graphics Card RTX 5070 Ti 16G INSPIRE 3X OC PLUS",
-                "url": "https://www.newegg.ca/msi-rtx-5070-ti-16g-inspire-3x-oc-plus-geforce-rtx-5070-ti-16gb-graphics-card-triple-fans/p/N82E16814137925",
-                "shipping_price": 8.99,
-                "price": 1420.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-137-925-26.jpg"
-            },
-            {
                 "title": "ZOTAC SOLID OC GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 Graphics Card ZT-B50710J-10P",
                 "url": "https://www.newegg.ca/zotac-rtx-5070-ti-solid-oc-geforce-rtx-5070-ti-16gb-graphics-card-triple-fans/p/N82E16814500601",
                 "shipping_price": 0.0,
                 "price": 1506.81,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-601-18.jpg"
+            },
+            {
+                "title": "ZOTAC XGAMING  GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB XGAMING",
+                "url": "https://www.newegg.ca/zotac-rtx-5070-ti-16gb-xgaming-geforce-rtx-5070-ti-graphics-card-triple-fans/p/1FT-000M-00402",
+                "shipping_price": 0.0,
+                "price": 1799.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190HCYJH0C.jpg"
+            },
+            {
+                "title": "ZOTAC SOLID CORE OC WHITE GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB SOLID CORE OC WHITE",
+                "url": "https://www.newegg.ca/zotac-rtx-5070-ti-16gb-solid-core-oc-white-geforce-rtx-5070-ti-graphics-card-triple-fans/p/1FT-000M-00403",
+                "shipping_price": 0.0,
+                "price": 1799.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190I68YWAB.jpg"
+            },
+            {
+                "title": "ZOTAC XGAMING OC GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB XGAMING  OC",
+                "url": "https://www.newegg.ca/zotac-rtx-5070-ti-16gb-xgaming-oc-geforce-rtx-5070-ti-graphics-card-triple-fans/p/1FT-000M-00401",
+                "shipping_price": 0.0,
+                "price": 1799.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190FYI7NA4.jpg"
             },
             {
                 "title": "ASUS PRIME GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card PRIME-RTX5070TI-16G",
@@ -345,6 +352,20 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS250501078G9179.jpg"
             },
             {
+                "title": "ZOTAC Apocalypse OC GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB Apocalypse OC",
+                "url": "https://www.newegg.ca/zotac-rtx-5070-ti-16gb-apocalypse-oc-geforce-rtx-5070-ti-graphics-card-triple-fans/p/1FT-000M-00400",
+                "shipping_price": 0.0,
+                "price": 1899.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS25051908NPW1E8.jpg"
+            },
+            {
+                "title": "ZOTAC AMP Extreme INFINITY GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB AMP EXTREME INFINITY",
+                "url": "https://www.newegg.ca/zotac-amp-extreme-infinity-zt-b50710b-10p-geforce-rtx-5070-ti-16gb-graphics-card-triple-fans/p/1FT-000M-003Z9",
+                "shipping_price": 0.0,
+                "price": 1899.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS250519082G1IA9.jpg"
+            },
+            {
                 "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 PCI-Express 5.0 DLSS 4.0 TUF-RTX5070TI-16G-GAMING Blackwell Graphics Card",
                 "url": "https://www.newegg.ca/asus-tuf-gaming-tuf-rtx5070ti-16g-gaming-geforce-rtx-5070-ti-16gb-graphics-card-triple-fans/p/N82E16814126755",
                 "shipping_price": 0.0,
@@ -357,41 +378,6 @@
                 "shipping_price": 0.0,
                 "price": 1972.9,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-137-924-19.jpg"
-            },
-            {
-                "title": "ZOTAC XGAMING  GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB XGAMING",
-                "url": "https://www.newegg.ca/zotac-rtx-5070-ti-16gb-xgaming-geforce-rtx-5070-ti-graphics-card-triple-fans/p/1FT-000M-00402",
-                "shipping_price": 0.0,
-                "price": 1999.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190HCYJH0C.jpg"
-            },
-            {
-                "title": "ZOTAC Apocalypse OC GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB Apocalypse OC",
-                "url": "https://www.newegg.ca/zotac-rtx-5070-ti-16gb-apocalypse-oc-geforce-rtx-5070-ti-graphics-card-triple-fans/p/1FT-000M-00400",
-                "shipping_price": 0.0,
-                "price": 1999.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS25051908NPW1E8.jpg"
-            },
-            {
-                "title": "ZOTAC SOLID CORE OC WHITE GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB SOLID CORE OC WHITE",
-                "url": "https://www.newegg.ca/zotac-rtx-5070-ti-16gb-solid-core-oc-white-geforce-rtx-5070-ti-graphics-card-triple-fans/p/1FT-000M-00403",
-                "shipping_price": 0.0,
-                "price": 1999.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190I68YWAB.jpg"
-            },
-            {
-                "title": "ZOTAC XGAMING OC GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB XGAMING  OC",
-                "url": "https://www.newegg.ca/zotac-rtx-5070-ti-16gb-xgaming-oc-geforce-rtx-5070-ti-graphics-card-triple-fans/p/1FT-000M-00401",
-                "shipping_price": 0.0,
-                "price": 1999.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505190FYI7NA4.jpg"
-            },
-            {
-                "title": "ZOTAC AMP Extreme INFINITY GeForce RTX 5070 Ti 16GB 256-Bit GDDR7 PCI Express 5.0 DLSS 4.0 Graphics Card ZOTAC GEFORCE RTX 5070 Ti 16GB AMP EXTREME INFINITY",
-                "url": "https://www.newegg.ca/zotac-amp-extreme-infinity-zt-b50710b-10p-geforce-rtx-5070-ti-16gb-graphics-card-triple-fans/p/1FT-000M-003Z9",
-                "shipping_price": 0.0,
-                "price": 1999.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS250519082G1IA9.jpg"
             },
             {
                 "title": "ASUS ROG-STRIX Gaming GeForce RTX 5070 Ti 16GB GDDR7 PCI-Express 5.0 DLSS 4.0 ROG-STRIX-RTX5070TI-O16G-GAMING Graphics Card",
@@ -489,6 +475,13 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-137-934-05.jpg"
             },
             {
+                "title": "ZOTAC AMP GeForce RTX 5070 12GB 192-Bit GDDR7 PCI Express 5.0 x16 Graphics Card RTX 5070 AMP White Edition ZT-B50700FQ-10P",
+                "url": "https://www.newegg.ca/zotac-rtx-5070-amp-white-edition-geforce-rtx-5070-12gb-graphics-card-triple-fans/p/N82E16814500617",
+                "shipping_price": 6.99,
+                "price": 919.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-617-10.jpg"
+            },
+            {
                 "title": "GIGABYTE WindForce GeForce RTX 5070 12GB GDDR7 PCI Express 5.0 ATX Graphics Card GV-N5070WF3-12GD",
                 "url": "https://www.newegg.ca/gigabyte-windforce-gv-n5070wf3-12gd-geforce-rtx-5070-12gb-graphics-card-triple-fans/p/N82E16814932782",
                 "shipping_price": 26.99,
@@ -584,6 +577,13 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-126-746-02.png"
             },
             {
+                "title": "SAPPHIRE NITRO+ Radeon RX 9070 16GB GDDR6 PCI Express 5.0 x16 ATX Graphics Card 11349-01-20G",
+                "url": "https://www.newegg.ca/sapphire-tech-sapphire-nitro-radeon-rx-9070-16gb-gddr-graphics-card-triple-fans/p/27N-0005-00274",
+                "shipping_price": 0.0,
+                "price": 1499.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504190591HHF3.jpg"
+            },
+            {
                 "title": "ASUS PRIME Radeon RX 9070 16GB GDDR6 PCI Express 5.0 RDNA 4 FSR 4 ATX Graphics Card PRIME-RX9070-16G",
                 "url": "https://www.newegg.ca/asus-prime-rx9070-16g-radeon-rx-9070-16gb-graphics-card-triple-fans/p/27N-000M-00259",
                 "shipping_price": 0.0,
@@ -603,13 +603,6 @@
                 "shipping_price": 0.0,
                 "price": 1699.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-126-747-01.png"
-            },
-            {
-                "title": "SAPPHIRE NITRO+ Radeon RX 9070 16GB GDDR6 PCI Express 5.0 x16 ATX Graphics Card 11349-01-20G",
-                "url": "https://www.newegg.ca/sapphire-tech-sapphire-nitro-radeon-rx-9070-16gb-gddr-graphics-card-triple-fans/p/27N-0005-00274",
-                "shipping_price": 0.0,
-                "price": 1699.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504190591HHF3.jpg"
             }
         ]
     },
@@ -672,18 +665,18 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504181FDDAZ41.jpg"
             },
             {
+                "title": "SAPPHIRE NITRO+ Radeon RX 9070 XT 16GB GDDR6 PCI Express 5.0 x16 ATX Graphics Card 11348-01-20G",
+                "url": "https://www.newegg.ca/sapphire-tech-nitro-radeon-rx-9070-xt-16gb-gddr6-graphics-card-triple-fans/p/27N-0005-00271",
+                "shipping_price": 0.0,
+                "price": 1699.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS250419029ZA3DF.jpg"
+            },
+            {
                 "title": "ASUS TUF Gaming Radeon RX 9070 XT 16GB 256-Bit GDDR6 PCI Express 5.0 RDNA 4 Graphics Card TUF-RX9070XT-O16G-GAMING",
                 "url": "https://www.newegg.ca/asus-tuf-gaming-tuf-rx9070xt-o16g-gaming-radeon-rx-9070-xt-16gb-graphics-card-triple-fans/p/27N-000M-00260",
                 "shipping_price": 0.0,
                 "price": 1799.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2505021DOCHI97.jpg"
-            },
-            {
-                "title": "SAPPHIRE NITRO+ Radeon RX 9070 XT 16GB GDDR6 PCI Express 5.0 x16 ATX Graphics Card 11348-01-20G",
-                "url": "https://www.newegg.ca/sapphire-tech-nitro-radeon-rx-9070-xt-16gb-gddr6-graphics-card-triple-fans/p/27N-0005-00271",
-                "shipping_price": 0.0,
-                "price": 1799.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS250419029ZA3DF.jpg"
             },
             {
                 "title": "ASUS PRIME Radeon RX 9070 XT 16GB 256-Bit GDDR6 PCI Express 5.0 RDNA 4 Graphics Card PRIME-RX9070XT-O16G",
@@ -710,7 +703,6 @@
             {
                 "title": "XFX SPEEDSTER MERC310 Radeon RX 7900 XTX 24GB GDDR6 PCI Express 4.0 x16 Graphics Card RX-79XMERCB9",
                 "url": "https://www.newegg.ca/xfx-speedster-merc310-rx-79xmercb9-radeon-rx-7900-xtx-24gb-graphics-card-triple-fans/p/N82E16814150878",
-                "shipping_price": 18.49,
                 "price": 1599.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-150-878-16.jpg"
             }
@@ -726,25 +718,25 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-150-898-02.jpg"
             },
             {
-                "title": "Asus Dual Radeon RX 7900 XT OC Edition 20GB video card GDDR6 PCI-E 4.0x16 320bit",
-                "url": "https://www.newegg.ca/p/1FT-000Y-00BY6",
-                "shipping_price": 0.0,
-                "price": 1620.9,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/AGBAS25052518KXB510.jpg"
-            },
-            {
                 "title": "SAPPHIRE Tech PURE Radeon RX 7900 XT 20GB OC Gaming Graphics Card,  RDNA 3, 20 Gbps, PCIe 4.0, GDDR6, HDMI 4K, DisplayPort 2.1a, Dual Ball Bearing Fans, Digital Power Design, WHITE",
                 "url": "https://www.newegg.ca/sapphire-tech-radeon-rx-7900-xt-graphics-card/p/27N-0005-00218",
                 "shipping_price": 0.0,
-                "price": 1699.0,
+                "price": 1599.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502050R050EC6.jpg"
             },
             {
                 "title": "SAPPHIRE Tech PURE  Radeon RX 7900 XT 20GB OC Gaming Graphics Card,  RDNA 3, 20 Gbps, PCIe 4.0, GDDR6, HDMI 4K, DisplayPort 2.1a, Dual Ball Bearing Fans, Digital Power Design, WHITE",
                 "url": "https://www.newegg.ca/sapphire-tech-radeon-rx-7900-xt-graphics-card/p/27N-0005-00248",
                 "shipping_price": 0.0,
-                "price": 1699.0,
+                "price": 1599.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080J57G9C6.jpg"
+            },
+            {
+                "title": "Asus Dual Radeon RX 7900 XT OC Edition 20GB video card GDDR6 PCI-E 4.0x16 320bit",
+                "url": "https://www.newegg.ca/p/1FT-000Y-00BY6",
+                "shipping_price": 0.0,
+                "price": 1620.9,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/AGBAS25052518KXB510.jpg"
             },
             {
                 "title": "ASRock Phantom Gaming Radeon RX 7900 XT 20GB GDDR6 PCI Express 4.0 ATX Graphics Card RX7900XT PG 20GO",
@@ -768,7 +760,7 @@
                 "title": "ASUS Dual GeForce RTX 4070 Ti SUPER Graphics Card (PCIe 4.0, 16GB GDDR6X, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, 2.56-slot design, Axial-tech fan design, 0dB technology) DUAL-RTX4070TIS-16G",
                 "url": "https://www.newegg.ca/asus-dual-rtx4070tis-16g-nvidia-geforce-rtx-4070-ti-super-16gb-gddr6x/p/1FT-000Y-00BA9",
                 "shipping_price": 0.0,
-                "price": 1763.02,
+                "price": 1759.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BTK0S2503160LTK1I5A.jpg"
             },
             {
@@ -786,6 +778,13 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504290GVV8126.jpg"
             },
             {
+                "title": "ZOTAC GeForce RTX 4070Ti SUPER-16GB AMP EXTREME Graphics Card, Gaming, AI Design,Video Editing, 3D Rendering, 3 x DP, 1 x HDMI, 16GB GDDR6X, 256-bit, Express 4.0 x16,2640MHz,21Gbps",
+                "url": "https://www.newegg.ca/zotac-4070ti-super-amp-exteme-geforce-rtx-4070-ti-super-16gb-graphics-card/p/1FT-000M-003N5",
+                "shipping_price": 0.0,
+                "price": 1799.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502220HJFWVBE.jpg"
+            },
+            {
                 "title": "ASUS Dual GeForce RTX 4070 Ti SUPER Graphics Card (PCIe 4.0, 16GB GDDR6X, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, 2.56-slot design, 0dB technology) DUAL-RTX4070TIS-16G",
                 "url": "https://www.newegg.ca/asus-dual-rtx4070tis-o16g-geforce-rtx-4070-super-16gb-graphics-card/p/1FT-000Y-00BJ4",
                 "shipping_price": 0.0,
@@ -798,13 +797,6 @@
                 "shipping_price": 0.0,
                 "price": 1799.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504070FGOX967.jpg"
-            },
-            {
-                "title": "ZOTAC GeForce RTX 4070Ti SUPER-16GB AMP EXTREME Graphics Card, Gaming, AI Design,Video Editing, 3D Rendering, 3 x DP, 1 x HDMI, 16GB GDDR6X, 256-bit, Express 4.0 x16,2640MHz,21Gbps",
-                "url": "https://www.newegg.ca/zotac-4070ti-super-amp-exteme-geforce-rtx-4070-ti-super-16gb-graphics-card/p/1FT-000M-003N5",
-                "shipping_price": 0.0,
-                "price": 1888.1,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502220HJFWVBE.jpg"
             },
             {
                 "title": "ZOTAC GAMING GeForce RTX 4070 Ti SUPER AMP Holo DLSS 3 16GB GDDR6X 256-bit 21 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, SPECTRA 2.0 ARGB Lighting, ZT-D40730F-10P",
@@ -906,18 +898,18 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-126-715-02.png"
             },
             {
-                "title": "SAPPHIRE Tech PURE RX7900 GRE 16G D6 OC Gaming Graphics Card, (PCIe 4.0, 16GB GDDR6, HDMI 4K, DisplayPort 2.1a, video card, High TG Copper PCB, Digital Power Design), WHITE",
-                "url": "https://www.newegg.ca/sapphire-tech-pure-7900gre-radeon-rx-7900-gre-16gb-graphics-card/p/27N-0005-00249",
-                "shipping_price": 0.0,
-                "price": 1598.0,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080JBPVZC7.jpg"
-            },
-            {
                 "title": "SAPPHIRE Tech PURE RX7900 GRE 16G D6  OC Gaming Graphics Card,  (PCIe 4.0, 16GB GDDR6, HDMI 4K, DisplayPort 2.1a, video card, High TG Copper PCB, Digital Power Design), WHITE",
                 "url": "https://www.newegg.ca/sapphire-tech-pure-7900gre-radeon-rx-7900-gre-16gb-graphics-card/p/27N-0005-00220",
                 "shipping_price": 0.0,
-                "price": 1599.0,
+                "price": 1597.0,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502200WKM0UC7.jpg"
+            },
+            {
+                "title": "SAPPHIRE Tech PURE RX7900 GRE 16G D6 OC Gaming Graphics Card, (PCIe 4.0, 16GB GDDR6, HDMI 4K, DisplayPort 2.1a, video card, High TG Copper PCB, Digital Power Design), WHITE",
+                "url": "https://www.newegg.ca/sapphire-tech-pure-7900gre-radeon-rx-7900-gre-16gb-graphics-card/p/27N-0005-00249",
+                "shipping_price": 0.0,
+                "price": 1597.0,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080JBPVZC7.jpg"
             }
         ]
     },
@@ -1071,7 +1063,7 @@
                 "title": "SAPPHIRE NITRO+ Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card 11330-01-20G",
                 "url": "https://www.newegg.ca/sapphire-tech-nitro-11330-01-20g-radeon-rx-7800-xt-16gb-graphics-card-triple-fans/p/N82E16814202433",
                 "shipping_price": 6.99,
-                "price": 739.99,
+                "price": 729.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-202-433-16.jpg"
             },
             {
@@ -1080,13 +1072,6 @@
                 "shipping_price": 6.99,
                 "price": 808.0,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-126-690-02.png"
-            },
-            {
-                "title": "SAPPHIRE PULSE Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card 11330-02-20G",
-                "url": "https://www.newegg.ca/sapphire-tech-pulse-11330-02-20g-radeon-rx-7800-xt-16gb-graphics-card-double-fans/p/N82E16814202434",
-                "shipping_price": 0.0,
-                "price": 829.68,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-202-434-11.jpg"
             },
             {
                 "title": "GIGABYTE Radeon RX 7800 XT GAMING OC 16G Graphics Card, 3x WINDFORCE Fans 16GB 256-bit GDDR6, GV-R78XTGAMING OC-16GD Video Card",
@@ -1117,11 +1102,11 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-202-439-09.png"
             },
             {
-                "title": "SAPPHIRE Tech PURE AMD RX 7800 XT 16G D6  OC Gaming Graphics Card,  AMD RDNA 3, 19.5 Gbps, PCIe 4.0, 16GB GDDR6, HDMI 4K, DisplayPort 2.1a, 256 bit, High TG Copper PCB, Digital Power Design, WHITE",
-                "url": "https://www.newegg.ca/sapphire-tech-radeon-rx-7800-xt-graphics-card/p/27N-0005-00215",
+                "title": "SAPPHIRE PULSE Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card 11330-02-20G",
+                "url": "https://www.newegg.ca/sapphire-tech-pulse-11330-02-20g-radeon-rx-7800-xt-16gb-graphics-card-double-fans/p/N82E16814202434",
                 "shipping_price": 0.0,
-                "price": 1119.0,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS25020605Q69J30.jpg"
+                "price": 1099.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-202-434-11.jpg"
             },
             {
                 "title": "PowerColor Fighter Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card RX7800XT 16G-F/OC",
@@ -1152,25 +1137,39 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-131-820-04.png"
             },
             {
-                "title": "PowerColor Hellhound Sakura Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card RX7800XT 16G-L/OC/SAKURA",
-                "url": "https://www.newegg.ca/powercolor-hellhound-sakura-rx7800xt-16g-l-oc-sakura-radeon-rx-7800-xt-16gb-graphics-card-triple-fans/p/N82E16814131866",
+                "title": "SAPPHIRE Tech NITRO+ AMD Radeon RX 7800 XT 16GB GDDR6 OC Gaming Graphics Card, AMD RDNA 3, PCIe 4.0, 16GB GDDR6, HDMI 4K, DisplayPort 2.1a, 256 bit, Aluminum Alloy Frame, video card",
+                "url": "https://www.newegg.ca/sapphire-tech-radeon-rx-7800-xt-graphics-card/p/27N-0005-00217",
                 "shipping_price": 0.0,
-                "price": 1288.5,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-131-866-03.png"
+                "price": 1199.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS25020606FGQN3F.jpg"
             },
             {
                 "title": "SAPPHIRE Tech PULSE Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card 11330-02-20G",
                 "url": "https://www.newegg.ca/sapphire-tech-pulse-11330-02-20g-radeon-rx-7800-xt-16gb-graphics-card-double-fans/p/27N-0005-00244",
                 "shipping_price": 0.0,
-                "price": 1299.0,
+                "price": 1199.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080IOML153.jpg"
+            },
+            {
+                "title": "SAPPHIRE Tech NITRO+ Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card 11330-01-20G",
+                "url": "https://www.newegg.ca/sapphire-tech-nitro-11330-01-20g-radeon-rx-7800-xt-16gb-graphics-card-triple-fans/p/27N-0005-00246",
+                "shipping_price": 0.0,
+                "price": 1199.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080IXNI63F.jpg"
             },
             {
                 "title": "SAPPHIRE Tech PURE  RX 7800 XT 16G D6 OC Gaming Graphics Card, AMD RDNA 3, 19.5 Gbps, PCIe 4.0, 16GB GDDR6, HDMI 4K, DisplayPort 2.1a, 256 bit, High TG Copper PCB, Digital Power Design, WHITE",
                 "url": "https://www.newegg.ca/sapphire-tech-radeon-rx-7800-xt-graphics-card/p/27N-0005-00245",
                 "shipping_price": 0.0,
-                "price": 1299.0,
+                "price": 1199.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080ITG4H30.jpg"
+            },
+            {
+                "title": "PowerColor Hellhound Sakura Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card RX7800XT 16G-L/OC/SAKURA",
+                "url": "https://www.newegg.ca/powercolor-hellhound-sakura-rx7800xt-16g-l-oc-sakura-radeon-rx-7800-xt-16gb-graphics-card-triple-fans/p/N82E16814131866",
+                "shipping_price": 0.0,
+                "price": 1288.5,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-131-866-03.png"
             },
             {
                 "title": "ASUS ATS Gaming RX 7800 XT OC Edition 16GB GDDR6 (PCIe 4.0, 16GB GDDR6, HDMI 2.1, DisplayPort 2.1) ATS-RX7800XT-O16G",
@@ -1180,25 +1179,18 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BTK0S250320110RVQF4.jpg"
             },
             {
+                "title": "Sapphire tech ONCE HUMAN  RX 7800 XT 16G D Gaming Graphics Card,  RDNA 3, 19.5 Gbps, PCIe 4.0, 16GB GDDR6, HDMI 4K*1, DisplayPort 2.1*3, 256 bit, Digital Power Design, black",
+                "url": "https://www.newegg.ca/sapphire-tech-sapphire-once-human-7800xt-16gb-graphics-card-triple-fans/p/27N-0005-00247",
+                "shipping_price": 0.0,
+                "price": 1299.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080J0QXCDE.jpg"
+            },
+            {
                 "title": "ASUS ATS Gaming RX 7800 XT OC Edition 16GB GDDR6 (PCIe 4.0, 16GB GDDR6, HDMI 2.1, DisplayPort 2.1) ATS-RX7800XT-O16G",
                 "url": "https://www.newegg.ca/p/1FT-000Y-00BR2",
                 "shipping_price": 0.0,
                 "price": 1299.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2504160SFCR519.jpg"
-            },
-            {
-                "title": "Sapphire tech ONCE HUMAN  RX 7800 XT 16G D Gaming Graphics Card,  RDNA 3, 19.5 Gbps, PCIe 4.0, 16GB GDDR6, HDMI 4K*1, DisplayPort 2.1*3, 256 bit, Digital Power Design, black",
-                "url": "https://www.newegg.ca/sapphire-tech-sapphire-once-human-7800xt-16gb-graphics-card-triple-fans/p/27N-0005-00247",
-                "shipping_price": 0.0,
-                "price": 1315.0,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080J0QXCDE.jpg"
-            },
-            {
-                "title": "SAPPHIRE Tech NITRO+ Radeon RX 7800 XT 16GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card 11330-01-20G",
-                "url": "https://www.newegg.ca/sapphire-tech-nitro-11330-01-20g-radeon-rx-7800-xt-16gb-graphics-card-triple-fans/p/27N-0005-00246",
-                "shipping_price": 0.0,
-                "price": 1399.0,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080IXNI63F.jpg"
             }
         ]
     },
@@ -1294,6 +1286,13 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BTK0S25031114BIMX9B.jpg"
             },
             {
+                "title": "ZOTAC GAMING GeForce RTX 4070 Twin Edge OC DLSS 3 12GB GDDR6X 192-bit 21 Gbps PCIE 4.0 Compact Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, SPECTRA RGB Lighting, ZT-D40700H-10M",
+                "url": "https://www.newegg.ca/zotac-twin-edge-zt-d40700h-10m-geforce-rtx-4070-12gb-graphics-card-double-fans/p/N82E16814500552",
+                "shipping_price": 0.0,
+                "price": 1438.5,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-500-552-V01.jpg"
+            },
+            {
                 "title": "ZOTAC GAMING GeForce RTX 4070 Twin Edge OC White Edition GDDR6 DLSS 3 12GB GDDR6 192-bit 20 Gbps PCIE 4.0 Compact SFF Gaming Graphics Card, SPECTRA RGB Lighting, ZT-D40740Q-10M",
                 "url": "https://www.newegg.ca/zotac-twin-edge-oc-zt-d40740q-10m-geforce-rtx-4070-12gb-graphics-card-double-fans/p/N82E16814500590",
                 "shipping_price": 0.0,
@@ -1354,13 +1353,6 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/AYTVD210902JA04G.jpg"
             },
             {
-                "title": "BIOSTAR GeForce RTX 3080 10GB graphics card (VN3816RMT3)",
-                "url": "https://www.newegg.ca/p/1FT-003G-00019",
-                "shipping_price": 50.0,
-                "price": 1736.02,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/AFYUD25030507WEKW37.jpg"
-            },
-            {
                 "title": "MSI Gaming GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Graphics Card RTX 3080 GAMING Z TRIO 10G",
                 "url": "https://www.newegg.ca/msi-rtx-3080-gaming-z-trio-10g-geforce-rtx-3080-10gb-graphics-card-triple-fans/p/N82E16814137652",
                 "shipping_price": 0.0,
@@ -1400,6 +1392,20 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-150-897-01.jpg"
             },
             {
+                "title": "SAPPHIRE Tech PURE Radeon RX 7700 XT 12GB GDDR6 PCI Express 4.0 x16 Video Card 11335-03-20G",
+                "url": "https://www.newegg.ca/sapphire-tech-pure-11335-03-20g-radeon-rx-7700-xt-12gb-graphics-card-triple-fans/p/27N-0005-00242",
+                "shipping_price": 0.0,
+                "price": 899.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS25030804SF4S57.jpg"
+            },
+            {
+                "title": "SAPPHIRE Tech PULSE  Radeon RX 7700 XT OC Graphics Card , 12GB Gaming Graphics,  Card  RDNA 3, PCIe 4.0, 192 bit GDDR6  2x HDMI  2x DisplayPort  7680\u00d74320 , 1440P gaming",
+                "url": "https://www.newegg.ca/sapphire-tech-pulse-11335-04-20g-radeon-rx-7700-xt-12gb-graphics-card-double-fans/p/27N-0005-00234",
+                "shipping_price": 0.0,
+                "price": 899.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503010HZTN407.jpg"
+            },
+            {
                 "title": "PowerColor Fighter Radeon RX 7700 XT 12GB GDDR6 PCI Express 4.0 x16 ATX Graphics Card RX7700XT 12G-F/OC",
                 "url": "https://www.newegg.ca/powercolor-fighter-rx7700xt-12g-f-oc-radeon-rx-7700-xt-12gb-graphics-card-triple-fans/p/N82E16814131824",
                 "shipping_price": 0.0,
@@ -1407,25 +1413,11 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-131-824-04.png"
             },
             {
-                "title": "SAPPHIRE Tech PURE Radeon RX 7700 XT 12GB GDDR6 PCI Express 4.0 x16 Video Card 11335-03-20G",
-                "url": "https://www.newegg.ca/sapphire-tech-pure-11335-03-20g-radeon-rx-7700-xt-12gb-graphics-card-triple-fans/p/27N-0005-00242",
-                "shipping_price": 0.0,
-                "price": 1099.0,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS25030804SF4S57.jpg"
-            },
-            {
                 "title": "SAPPHIRE Tech PULSE Radeon RX 7700 XT 12GB GDDR6 PCI Express 4.0 x16 Graphics Card 11335-04-20G",
                 "url": "https://www.newegg.ca/sapphire-tech-pulse-11335-04-20g-radeon-rx-7700-xt-12gb-graphics-card-double-fans/p/27N-0005-00243",
                 "shipping_price": 0.0,
                 "price": 1099.0,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2503080IDVSK07.jpg"
-            },
-            {
-                "title": "SAPPHIRE Tech PURE  Radeon RX 7700 XT 12GB Gaming Graphics Card,  RDNA 3, PCIe 4.0, 16GB GDDR6, HDMI 4K, DisplayPort 2.1a,  192 bit, 18 Gbps, Digital Power Design, High TG Copper, white",
-                "url": "https://www.newegg.ca/sapphire-tech-radeon-rx-7700-xt-graphics-card/p/27N-0005-00216",
-                "shipping_price": 0.0,
-                "price": 1099.0,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502050USTIJ57.jpg"
             }
         ]
     },
@@ -1602,6 +1594,13 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-126-655-14.png"
             },
             {
+                "title": "ZOTAC GeForce RTX 4060Ti-8GB PERAK OC HA Graphics Card, Gaming, AI Design, Video Editing, 3D Rendering, 3 x DP, 1 x HDMI, 8GB GDDR6, 128-bit, Express 4.0 8x, 2550MHz, 18Gbps",
+                "url": "https://www.newegg.ca/zotac-4060ti-perak-ha-geforce-rtx-4060-ti-8gb-graphics-card/p/1FT-000M-003M7",
+                "shipping_price": 0.0,
+                "price": 899.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502240HHC41A8.jpg"
+            },
+            {
                 "title": "ASUS Dual GeForce RTX 4060 Ti OC Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1, DisplayPort 1.4a, Axial-tech fan design, 0dB technology) DUAL-RTX4060TI-O8G",
                 "url": "https://www.newegg.ca/asus-dual-rtx4060ti-o8g-geforce-rtx-4060-ti-8gb-graphics-card-double-fans/p/N82E16814126647",
                 "shipping_price": 0.0,
@@ -1642,13 +1641,6 @@
                 "shipping_price": 0.0,
                 "price": 945.0,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-126-682-03.png"
-            },
-            {
-                "title": "ZOTAC GeForce RTX 4060Ti-8GB NEBULAE OC Graphics Card, Gaming, AI Design, Video Editing, 3D Rendering, 3 x DP, 1 x HDMI, 8GB GDDR6, 128-bit, Express 4.0 8x, 2550MHz, 18Gbps",
-                "url": "https://www.newegg.ca/zotac-4060ti-nebulae-geforce-rtx-4060-ti-8gb-graphics-card/p/1FT-000M-003M6",
-                "shipping_price": 0.0,
-                "price": 958.0,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502240IF7K62D.jpg"
             },
             {
                 "title": "ASUS TUF Gaming GeForce RTX 4060 Ti OC Edition Gaming Graphics Card (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1a, DisplayPort 1.4a) TUF-RTX4060TI-O8G-GAMING",
@@ -1852,7 +1844,6 @@
             {
                 "title": "MSI Ventus GeForce RTX 4060 8GB GDDR6 PCI Express 4.0 x8 ATX Graphics Card RTX 4060 VENTUS 2X BLACK 8G OC",
                 "url": "https://www.newegg.ca/msi-rtx-4060-ventus-2x-black-8g-oc-geforce-rtx-4060-8gb-graphics-card-double-fans/p/N82E16814137804",
-                "promo": " off w/ promo code CSUAET984, limited offer",
                 "shipping_price": 6.99,
                 "price": 469.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-137-804-11.jpg"
@@ -2049,17 +2040,6 @@
             }
         ]
     },
-    "RTX 2070 Super": {
-        "listings": [
-            {
-                "title": "Support de carte graphique pour Mini carte graphique HASEE RTX 2070 SUPER 8G, d\u00e9flecteur, lunette, r\u00e9f\u00e9rence 121100, 10 pi\u00e8ces/lot",
-                "url": "https://www.newegg.ca/p/1B4-0BYA-002G4",
-                "shipping_price": 0.0,
-                "price": 153.84,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/B4JHD2206121383OR58.jpg"
-            }
-        ]
-    },
     "RX 6600 XT": {
         "listings": [
             {
@@ -2135,13 +2115,6 @@
                 "shipping_price": 50.0,
                 "price": 800.91,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/AFYUD2409140KKNF419.jpg"
-            },
-            {
-                "title": "MSI GeForce RTX 3060 VENTUS 2X 12G OC NVIDIA 12GB GDDR6 Graphics Card",
-                "url": "https://www.newegg.ca/p/1FT-0009-00928",
-                "shipping_price": 50.0,
-                "price": 847.07,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/A4YUD2203020AR48B81.jpg"
             }
         ]
     },
@@ -2301,6 +2274,13 @@
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-137-810-02.png"
             },
             {
+                "title": "ZOTAC GeForce RTX 3050-6GB DESTROYER OC HA Graphics Card, Gaming, AI Design, Video Editing, 3D Rendering, 3 x DP, 1 x HDMI, 6GB GDDR6, 92-bit, Express 4.0, 1477MHz",
+                "url": "https://www.newegg.ca/zotac-3050-destroyer-ha-geforce-rtx-3050-6gb-graphics-card/p/1FT-000M-003M0",
+                "shipping_price": 0.0,
+                "price": 399.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502250GAOORED.jpg"
+            },
+            {
                 "title": "MSI GeForce RTX 3050 VENTUS 2X E 6G OC video card GDDR6 PCI Express Gen 4 x16 14 Gbps",
                 "url": "https://www.newegg.ca/p/1FT-0009-00CX4",
                 "shipping_price": 0.0,
@@ -2390,13 +2370,6 @@
                 "shipping_price": 0.0,
                 "price": 522.99,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-137-708-01.jpg"
-            },
-            {
-                "title": "ASUS Dual GeForce RTX 3050 8GB GDDR6 PCI Express 4.0 Graphics Card DUAL-RTX3050-O8G",
-                "url": "https://www.newegg.ca/asus-dual-rtx3050-o8g-geforce-rtx-3050-8gb-graphics-card-double-fans/p/N82E16814126557",
-                "shipping_price": 0.0,
-                "price": 529.99,
-                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-126-557-20.jpg"
             },
             {
                 "title": "ASUS Phoenix  GeForce RTX 3050 6GB Gaming Graphics Card - PCIe 4.0, 8GB GDDR6 Memory, HDMI 2.1, DisplayPort 1.4a,  0dB Technology, PH-RTX3050-8G",
@@ -2623,6 +2596,27 @@
                 "shipping_price": 0.0,
                 "price": 339.9,
                 "thumbnail": "https://c1.neweggimages.com/productimage/nb300/AGBAS2401210IKYIV46.jpg"
+            },
+            {
+                "title": "SAPPHIRE Tech PULSE Radeon RX 6500 XT Video Card,  11314-01-20G,oc, Graphics card, 2825 MHz, 4GB, 64-bit, GDDR6, 18 Gbps, RDNA 2",
+                "url": "https://www.newegg.ca/sapphire-tech-pulse-11314-01-20g-radeon-rx-6500-xt-4gb-graphics-card-double-fans/p/27N-0005-00226",
+                "shipping_price": 0.0,
+                "price": 399.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS2502250XT9VFE8.jpg"
+            },
+            {
+                "title": "SAPPHIRE Tech Pulse Radeon RX 6500 XT Video Card,oc, Graphics card, 2825 MHz, 4GB, 64-bit, GDDR6, 18 Gbps, RDNA 2",
+                "url": "https://www.newegg.ca/sapphire-tech-pulse-radeon-rx-6500-xt-4gb-graphics-card-double-fans/p/27N-0005-00235",
+                "shipping_price": 0.0,
+                "price": 399.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/BP4YS25030802VNFCE8.jpg"
+            },
+            {
+                "title": "SAPPHIRE PULSE Radeon RX 6500 XT 4GB GDDR6 PCI Express 4.0 ATX Graphics Card 11314-01-20G",
+                "url": "https://www.newegg.ca/sapphire-tech-pulse-11314-01-20g-radeon-rx-6500-xt-4gb-graphics-card-double-fans/p/N82E16814202412",
+                "shipping_price": 0.0,
+                "price": 399.99,
+                "thumbnail": "https://c1.neweggimages.com/productimage/nb300/14-202-412-01.jpg"
             },
             {
                 "title": "ASUS TUF Gaming Radeon RX 6500 XT 4GB GDDR6 PCI Express 4.0 CrossFireX Support Graphics Card TUF-RX6500XT-O4G-GAMING",
