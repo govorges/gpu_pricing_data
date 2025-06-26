@@ -1,5 +1,5 @@
 {
-    "generated_at": 1750912217.349455,
+    "generated_at": 1750955415.437035,
     "metadata": {
         "name": "USA Amazon",
         "homepage": "https://amazon.com",
@@ -9,65 +9,77 @@
         "listings": [
             {
                 "title": "GIGABYTE GeForce RTX 5090 WINDFORCE OC 32G Graphics Card - 32GB GDDR7, 512 Bits, PCI-E 5.0, 2467MHz Core Frequency, 3 x DP 2.1a, 1x HDMI 2.1b, NVIDIA DLSS 4, GV-N5090WF3OC-32GD",
-                "url": "https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5090WF3OC-32GD/dp/B0DVCBDJBJ/ref=sr_1_14",
+                "url": "https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5090WF3OC-32GD/dp/B0DVCBDJBJ/ref=sr_1_11",
                 "price": 2897.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71sQV0K2IjL._AC_UY218_.jpg"
             },
             {
+                "title": "GIGABYTE AORUS GeForce RTX 5090 Master ICE 32G Graphics Card, WINDFORCE Cooling System, 32GB 512-bit GDDR7, GV-N5090AORUSM ICE-32GD Video Card",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5090AORUSM-ICE-32GD/dp/B0DVCH9WJH/ref=sr_1_4",
+                "price": 2906.0,
+                "promo": "Exclusively for Prime Members",
+                "thumbnail": "https://m.media-amazon.com/images/I/71m0Z3xgGVL._AC_UY218_.jpg"
+            },
+            {
                 "title": "GIGABYTE GeForce RTX 5090 Gaming OC 32G Graphics Card, WINDFORCE Cooling System, 32GB 512-bit GDDR7, GV-N5090GAMING OC-32GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5090GAMING-OC-32GD/dp/B0DT7GBNWQ/ref=sr_1_3",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5090GAMING-OC-32GD/dp/B0DT7GBNWQ/ref=sr_1_1",
                 "price": 2919.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71TZmq7RYtL._AC_UY218_.jpg"
             },
             {
                 "title": "GIGABYTE AORUS GeForce RTX 5090 Master 32G Graphics Card, WINDFORCE Cooling System, 32GB 512-bit GDDR7, GV-N5090AORUS M-32GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5090AORUS-M-32GD/dp/B0DT7GHQMD/ref=sr_1_5",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5090AORUS-M-32GD/dp/B0DT7GHQMD/ref=sr_1_2",
                 "price": 2999.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71cfrt9r7tL._AC_UY218_.jpg"
             },
             {
-                "title": "GIGABYTE AORUS GeForce RTX 5090 Master ICE 32G Graphics Card, WINDFORCE Cooling System, 32GB 512-bit GDDR7, GV-N5090AORUSM ICE-32GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5090AORUSM-ICE-32GD/dp/B0DVCH9WJH/ref=sr_1_6",
-                "price": 2999.0,
-                "promo": "Exclusively for Prime Members",
-                "thumbnail": "https://m.media-amazon.com/images/I/71m0Z3xgGVL._AC_UY218_.jpg"
-            },
-            {
                 "title": "MSI Gaming RTX 5090 32G Gaming Trio OC Graphics Card (32GB GDDR7, 512-bit, Extreme Performance: 2497 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Graphics-512-bit-Extreme-Performance/dp/B0DT7L98J1/ref=sr_1_10",
+                "url": "https://www.amazon.com/MSI-Graphics-512-bit-Extreme-Performance/dp/B0DT7L98J1/ref=sr_1_5",
                 "price": 3049.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71tV-csYdCL._AC_UY218_.jpg"
             },
             {
-                "title": "MSI Gaming RTX 5090 32G Vanguard SOC Graphics Card (32GB GDDR7, 512-bit, Extreme Performance: 2527 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Vanguard-Graphics-512-bit-Performance/dp/B0DT7KGND2/ref=sr_1_13",
-                "price": 3049.0,
-                "promo": "Exclusively for Prime Members",
-                "thumbnail": "https://m.media-amazon.com/images/I/715PJSwhFBL._AC_UY218_.jpg"
-            },
-            {
                 "title": "ASUS NVIDIA GeForce RTX 5090 Video Card 32GB GDDR7 PCI Express 5.0 / TUF-RTX5090-32G-GAMING",
-                "url": "https://www.amazon.com/ASUS-NVIDIA-GeForce-Express-TUF-RTX5090-32G-GAMING/dp/B0DZFYPWDG/ref=sr_1_12",
+                "url": "https://www.amazon.com/ASUS-NVIDIA-GeForce-Express-TUF-RTX5090-32G-GAMING/dp/B0DZFYPWDG/ref=sr_1_3",
                 "price": 3182.0,
-                "promo": "Only 2 left in stock - order soon.",
+                "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81BE1H1w23L._AC_UY218_.jpg"
             },
             {
                 "title": "MSI GeForce RTX 5090 32G Gaming Trio OC 32GB GDDR7 (28Gbps/512-bit), PCIe 5, Boost: 2482MHz, HDMI 2.1b, DisplayPort 2.1b",
-                "url": "https://www.amazon.com/MSI-GeForce-Gaming-28Gbps-512-bit/dp/B0DT6Q3BXM/ref=sr_1_7",
+                "url": "https://www.amazon.com/MSI-GeForce-Gaming-28Gbps-512-bit/dp/B0DT6Q3BXM/ref=sr_1_8",
                 "price": 3199.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71tV-csYdCL._AC_UY218_.jpg"
             },
             {
-                "title": "Asus ROG Astral GeForce RTX 5090 32GB GDDR7 Gaming Graphics Card (Nvidia GeForce RTX5090, Four Fans, 3.8 Slot Design, PCIe 5.0, 2X HDMI 2.1b, 3X DisplayPort 2.1a, ROG-ASTRAL-RTX5090-32G-GAMING)",
-                "url": "https://www.amazon.com/GeForce-Graphics-RTX5090-DisplayPort-ROG-ASTRAL-RTX5090-32G-GAMING/dp/B0DTHVWZ7K/ref=sr_1_9",
-                "price": 3646.0,
-                "promo": "Only 8 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61AVKytXCyL._AC_UY218_.jpg"
+                "title": "MSI NVIDIA GeForce RTX 5090 32G Ventus 3X OC Gaming Graphics Card GDDR7 512-bit, Boost Frequency up to 2452 MHz, PCIe Gen 5, DLSS 4, DP 2.1 x 3, HDMI 2.1 x 1, ATX",
+                "url": "https://www.amazon.com/MSI-GeForce-Graphics-512-bit-Frequency/dp/B0DT6S77JK/ref=sr_1_16",
+                "price": 3356.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/71Hy5VauasL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI GeForce RTX 5090 Ventus 3X OC Graphics Card w/Gaming Headset, 32GB GDDR7, 21760 CUDA, 680 Tensor Cores, DLSS 3.5, 8K & 4K/240Hz Gaming, 3D Rendering, AI Acceleration, HDMI x1, DP x3",
+                "url": "https://www.amazon.com/MSI-GeForce-Graphics-Rendering-Acceleration/dp/B0F9M47665/ref=sr_1_9",
+                "price": 3539.0,
+                "promo": "Only 3 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/71LcL+KhoUL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI GeForce RTX 5090 Ventus 3X OC Graphics Card w/Gaming Headset, 32GB GDDR7, 21760 CUDA, 680 Tensor Cores, DLSS 3.5, 8K & 4K/240Hz Gaming, 3D Rendering, AI Acceleration, HDMI x1, DP x3",
+                "url": "https://www.amazon.com/sspa/click",
+                "price": 3539.0,
+                "promo": "Only 3 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/71LcL+KhoUL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI GeForce RTX 5090 32G SUPRIM Liquid SOC \u2014 32GB GDDR7 (28Gbps/512-bit), PCIe 5, Boost: 2565MHz, Water Cooling, HDMI 2.1b, DisplayPort 2.1b",
+                "url": "https://www.amazon.com/MSI-GeForce-5090-SUPRIM-Liquid/dp/B0BSN426TP/ref=sr_1_7",
+                "price": 3739.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/61W07KSaKYL._AC_UY218_.jpg"
             },
             {
                 "title": "MSI GeForce RTX 5090 Vanguard SOC Graphics Card w/Gaming Headset, 32GB GDDR7, 21760 CUDA, 680 Tensor Cores, DLSS 3.5, 8K & 4K/240Hz Gaming, 3D Rendering, AI Acceleration, HDMI x1, DP x3",
@@ -77,17 +89,10 @@
                 "thumbnail": "https://m.media-amazon.com/images/I/71NPhMdQFuL._AC_UY218_.jpg"
             },
             {
-                "title": "ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition Gaming Graphics Card (Nvidia GeForce RTX5090, Four Fans, 3.8 Slot Design, PCIe 5.0, 2X HDMI 2.1b, 3X DisplayPort 2.1a)",
-                "url": "https://www.amazon.com/ASUS-GeForce-Graphics-RTX5090-DisplayPort/dp/B0DTHV8THW/ref=sr_1_8",
-                "price": 4359.0,
-                "promo": "Only 2 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/6107rw9gndL._AC_UY218_.jpg"
-            },
-            {
                 "title": "ASUS GeForce RTX 5090 Astral LC Overclocked Liquid Cooled 32GB GDDR7 PCIe 5.0 Graphics Card, 7680 x 4320 Maximum Resolution, Full Height, Triple Slot",
-                "url": "https://www.amazon.com/ASUS-RTX-5090-Astral-Overclocked/dp/B0F4NQZHTW/ref=sr_1_16",
-                "price": 4693.0,
-                "promo": "Only 3 left in stock - order soon.",
+                "url": "https://www.amazon.com/ASUS-RTX-5090-Astral-Overclocked/dp/B0F4NQZHTW/ref=sr_1_14",
+                "price": 4671.0,
+                "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61AS5SzI5cL._AC_UY218_.jpg"
             }
         ]
@@ -97,23 +102,22 @@
             {
                 "title": "NVIDIA GeForce RTX 5080 Founders Edition",
                 "url": "https://www.amazon.com/NVIDIA-GeForce-RTX-5080-Founders/dp/B0DYVCGVK4/ref=sr_1_1",
-                "price": 1439.0,
-                "promo": "Only 1 left in stock - order soon.",
+                "price": 1449.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/31DskP4o6yL._AC_UY218_.jpg"
             },
             {
                 "title": "MSI Gaming RTX 5080 16G Ventus 3X OC Graphics Card (16GB GDDR7, 256-bit, Extreme Performance: 2655 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Graphics-256-bit-Extreme-Performance/dp/B0DZZ8L5V9/ref=sr_1_8",
+                "url": "https://www.amazon.com/MSI-Graphics-256-bit-Extreme-Performance/dp/B0DZZ8L5V9/ref=sr_1_4",
                 "price": 1449.0,
                 "promo": "Temporarily out of stock.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71S-DC70BuL._AC_UY218_.jpg"
             },
             {
-                "title": "MSI Gaming RTX 5080 16G Inspire 3X OC Graphics Card (16GB GDDR7, 256-bit, Extreme Clock TBD MHz, DisplayPort x 3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Graphics-DisplayPort-Blackwell-Architecture/dp/B0DSX9Y24P/ref=sr_1_16",
-                "price": 1499.0,
-                "promo": "Only 3 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/612uXxKOQVL._AC_UY218_.jpg"
+                "title": "GIGABYTE GeForce RTX 5080 Gaming OC 16G Graphics Card, WINDFORCE Cooling System, 16GB 256-bit GDDR7, GV-N5080GAMING OC-16GD Video Card",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5080GAMING-OC-16GD/dp/B0DS2R6948/ref=sr_1_8",
+                "price": 1539.0,
+                "promo": "Exclusively for Prime Members",
+                "thumbnail": "https://m.media-amazon.com/images/I/71lZess7M8L._AC_UY218_.jpg"
             },
             {
                 "title": "GIGABYTE GeForce RTX 5080 AERO OC SFF 16G Graphics Card, WINDFORCE Cooling System, 16GB 256-bit GDDR7, GV-N5080AERO OC-16GD Video Card",
@@ -123,32 +127,11 @@
                 "thumbnail": "https://m.media-amazon.com/images/I/71v6oXQ72ZL._AC_UY218_.jpg"
             },
             {
-                "title": "MSI Gaming RTX 5080 16G Gaming Trio OC Graphics Card (16GB GDDR7, 256-bit, Extreme Performance: 2715 MHz, DisplayPort x 3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Graphics-256-bit-Extreme-Performance/dp/B0DSXNXTSS/ref=sr_1_10",
-                "price": 1579.0,
-                "promo": "Exclusively for Prime Members",
-                "thumbnail": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_UY218_.jpg"
-            },
-            {
-                "title": "MSI NVIDIA GeForce RTX 5080 16G Ventus 3X OC Plus Graphics Card - 16GB GDDR7 (30 GB/s /256 Bits), PCIe 5.0 - Triple Fan (3 x TORX 5.0 Fans), HDMI 2.1b, DisplayPort 2.1b",
-                "url": "https://www.amazon.com/MSI-NVIDIA-GeForce-Ventus-Graphics/dp/B0BSN91TGK/ref=sr_1_13",
-                "price": 1599.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/81ZkeQUjeuL._AC_UY218_.jpg"
-            },
-            {
                 "title": "MSI GeForce RTX 5080 16G Gaming Trio OC Graphics Card - RTX 5080 GPU, 16GB GDDR7 (30Gbps/256-bit), PCIe 5.0 - TRI FROZR 4 (3 x STORMFORCE Fan), Gaming & Silent Mode, RGB - HDMI 2.1b, DisplayPort 2.1b",
-                "url": "https://www.amazon.com/MSI-GeForce-5080-Gaming-Graphics/dp/B0BX6LGM2X/ref=sr_1_4",
+                "url": "https://www.amazon.com/MSI-GeForce-5080-Gaming-Graphics/dp/B0BX6LGM2X/ref=sr_1_9",
                 "price": 1699.0,
                 "promo": "Only 3 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Gigabyte AORUS GeForce RTX 5080 Master ICE 16G Graphics Card - 16GB GDDR7, 256 Bit, PCI-E 5.0, 2805MHz Core Clock, 3 x DP 2.1a, 1 x HDMI 2.1b, NVIDIA DLSS 4, GV-N5080AORUSM ICE-16GD",
-                "url": "https://www.amazon.com/Gigabyte-AORUS-GeForce-Master-Graphics/dp/B0DT9YQ2Q1/ref=sr_1_14",
-                "price": 1919.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_UY218_.jpg"
             }
         ]
     },
@@ -162,80 +145,61 @@
             },
             {
                 "title": "MSI Gaming RTX 5070 Ti 16G Ventus 3X OC Graphics Card (16GB GDDR7, 256-bit, Extreme Performance: 2497 MHz, DisplayPort x 3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Graphics-256-bit-Extreme-Performance/dp/B0DWHHSZH1/ref=sr_1_5",
+                "url": "https://www.amazon.com/MSI-Graphics-256-bit-Extreme-Performance/dp/B0DWHHSZH1/ref=sr_1_4",
                 "price": 899.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71z4wLCzcIL._AC_UY218_.jpg"
             },
             {
-                "title": "ZOTAC Gaming GeForce RTX 5070 Ti Solid SFF OC DLSS 4 16GB GDDR7 256-bit 28 Gbps PCIE 5.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, ZT-B50710J3-10P",
-                "url": "https://www.amazon.com/ZOTAC-Graphics-IceStorm-Advanced-ZT-B50710J3-10P/dp/B0F4485KVY/ref=sr_1_8",
-                "price": 899.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/71hSAWRoENL._AC_UY218_.jpg"
-            },
-            {
                 "title": "MSI Gaming RTX 5070 Ti 16G Vanguard SOC Graphics Card (16GB GDDR7, 256-bit, Extreme Performance: 2602 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Vanguard-Graphics-256-bit-Performance/dp/B0F147F18Y/ref=sr_1_4",
+                "url": "https://www.amazon.com/MSI-Vanguard-Graphics-256-bit-Performance/dp/B0F147F18Y/ref=sr_1_5",
                 "price": 969.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71WRa73cttL._AC_UY218_.jpg"
             },
             {
                 "title": "MSI GeForce RTX 5070 Ti 16G Shadow 3X OC \u2014 16GB GDDR7 (28Gbps/256-bit), PCIe 5, Boost: 2482MHz, HDMI 2.1b, DisplayPort 2.1b",
-                "url": "https://www.amazon.com/MSI-GeForce-RTX-5070-Shadow/dp/B0DZD6QV9L/ref=sr_1_9",
-                "price": 999.0,
+                "url": "https://www.amazon.com/MSI-GeForce-RTX-5070-Shadow/dp/B0DZD6QV9L/ref=sr_1_12",
+                "price": 969.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71bmZxrahrL._AC_UY218_.jpg"
             },
             {
                 "title": "Gigabyte GeForce RTX 5070 Ti WINDFORCE OC SFF 16G Graphics Card - 16GB GDDR7, 256bit, PCI-E 5.0, 2497 MHz Core Clock, 3 x DP 2.1a, 1 x HDMI 2.1b, NVIDIA DLSS 4, GV-N507TWF3OC-16GD",
-                "url": "https://www.amazon.com/Gigabyte-GeForce-WINDFORCE-Graphics-GV-N507TWF3OC-16GD/dp/B0DTGNB9Q5/ref=sr_1_10",
+                "url": "https://www.amazon.com/Gigabyte-GeForce-WINDFORCE-Graphics-GV-N507TWF3OC-16GD/dp/B0DTGNB9Q5/ref=sr_1_15",
                 "price": 1049.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71aujv61egL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Gigabyte GeForce RTX 5070 Ti AERO OC 16G Graphics Card - 16GB GDDR7, 256bit, PCI-E 5.0, 2588 MHz Core Clock, 3 x DP 2.1a, 1 x HDMI 2.1b, NVIDIA DLSS 4, GV-N507TAERO OC-16GD",
-                "url": "https://www.amazon.com/Gigabyte-GeForce-5070-AERO-Graphics/dp/B0DTGN2659/ref=sr_1_12",
-                "price": 1249.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71ywdO29FLL._AC_UY218_.jpg"
             }
         ]
     },
     "RTX 5070": {
         "listings": [
             {
-                "title": "MSI Gaming RTX 5070 12G Shadow 2X OC Graphics Card (12GB GDDR7, 192-bit, Extreme Performance: 2557 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-RTX-5070-12G-Performance/dp/B0DYGFJK7C/ref=sr_1_12",
-                "price": 589.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/71Gt6dCsZ4L._AC_UY218_.jpg"
-            },
-            {
                 "title": "GIGABYTE GeForce RTX 5070 WINDFORCE SFF 12G Graphics Card, 12GB 256-bit GDDR7, PCIe 5.0, WINDFORCE Cooling System, GV-N5070WF3-12GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5070WF3-12GD/dp/B0F72TVCGF/ref=sr_1_1",
+                "url": "https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5070WF3-12GD/dp/B0F72TVCGF/ref=sr_1_3",
                 "price": 604.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/717XiRt+pOL._AC_UY218_.jpg"
             },
             {
                 "title": "GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF 12G Graphics Card, 12GB 192-bit GDDR7, PCIe 5.0, WINDFORCE Cooling System, GV-N5070WF3OC-12GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5070WF3OC-12GD/dp/B0DTQMLX4F/ref=sr_1_4",
+                "url": "https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5070WF3OC-12GD/dp/B0DTQMLX4F/ref=sr_1_5",
                 "price": 609.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71kUODqPVoL._AC_UY218_.jpg"
             },
             {
-                "title": "MSI Gaming RTX 5070 12G Ventus 2X OC Graphics Card (12GB GDDR7, 192-bit, Extreme Performance: 2557 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-RTX-5070-12G-Performance/dp/B0DYGDT9YD/ref=sr_1_8",
+                "title": "MSI GeForce RTX 5070 12G Ventus 2X OC",
+                "url": "https://www.amazon.com/MSI-GeForce-RTX-5070-Ventus/dp/B0DX7JJ87N/ref=sr_1_8",
                 "price": 619.0,
-                "promo": "Only 8 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71HWQ09yKbL._AC_UY218_.jpg"
+                "promo": "Only 16 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/71IhfyiqviL._AC_UY218_.jpg"
             },
             {
-                "title": "MSI Gaming RTX 5070 12G Shadow 3X OC Graphics Card (12GB GDDR7, 192-bit, Extreme Performance: 2557 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Graphics-192-bit-Extreme-Performance/dp/B0DYGKHNM3/ref=sr_1_15",
-                "price": 624.0,
-                "promo": "Only 2 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71xTys3tfhL._AC_UY218_.jpg"
+                "title": "MSI Gaming RTX 5070 12G Ventus 2X OC Graphics Card (12GB GDDR7, 192-bit, Extreme Performance: 2557 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
+                "url": "https://www.amazon.com/MSI-RTX-5070-12G-Performance/dp/B0DYGDT9YD/ref=sr_1_14",
+                "price": 619.0,
+                "promo": "Exclusively for Prime Members",
+                "thumbnail": "https://m.media-amazon.com/images/I/71HWQ09yKbL._AC_UY218_.jpg"
             },
             {
                 "title": "MSI Gaming RTX 5070 12G Ventus 3X OC Graphics Card (12GB GDDR7, 192-bit, Extreme Performance: 2557 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
@@ -246,31 +210,17 @@
             },
             {
                 "title": "MSI Gaming RTX 5070 12G Ventus 2X OC White Graphics Card (12GB GDDR7, 192-bit, Extreme Performance: 2557 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Graphics-192-bit-Extreme-Performance/dp/B0DYG3JLGY/ref=sr_1_9",
+                "url": "https://www.amazon.com/MSI-Graphics-192-bit-Extreme-Performance/dp/B0DYG3JLGY/ref=sr_1_11",
                 "price": 629.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/7193Uix3o1L._AC_UY218_.jpg"
             },
             {
-                "title": "MSI Gaming RTX 5070 12G Vanguard SOC Graphics Card (12GB GDDR7, 192-bit, Extreme Performance: 2655 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Vanguard-Graphics-192-bit-Performance/dp/B0DYG483V1/ref=sr_1_14",
-                "price": 649.0,
-                "promo": "Exclusively for Prime Members",
-                "thumbnail": "https://m.media-amazon.com/images/I/71ZR56zH-KL._AC_UY218_.jpg"
-            },
-            {
                 "title": "MSI RTX 5070 12G Gaming Trio OC Graphics Card (12GB GDDR7, 192-bit, Extreme Performance: 2625 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
-                "url": "https://www.amazon.com/MSI-Graphics-192-bit-Extreme-Performance/dp/B0DYFXGDJF/ref=sr_1_13",
+                "url": "https://www.amazon.com/MSI-Graphics-192-bit-Extreme-Performance/dp/B0DYFXGDJF/ref=sr_1_12",
                 "price": 679.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71vOVP+iFnL._AC_UY218_.jpg"
-            },
-            {
-                "title": "NVIDIA - GeForce RTX 5070 12GB GDDR7 Graphics Card - Graphite Grey",
-                "url": "https://www.amazon.com/NVIDIA-GeForce-GDDR7-Graphics-Graphite/dp/B0F7XHBT13/ref=sr_1_16",
-                "price": 679.0,
-                "promo": "Only 2 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71CXXxhCzdL._AC_UY218_.jpg"
             },
             {
                 "title": "GIGABYTE GeForce RTX 5070 Gaming OC 12G Graphics Card, 12GB 192-bit GDDR7, PCIe 5.0, WINDFORCE Cooling System, GV-N5070GAMING OC-12GD Video Card",
@@ -281,17 +231,17 @@
             },
             {
                 "title": "GIGABYTE GeForce RTX 5070 AERO OC 12G Graphics Card, 12GB 192-bit GDDR7, PCIe 5.0, WINDFORCE Cooling System, GV-N5070AERO OC-12GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5070AERO-OC-12GD/dp/B0DTR54HZZ/ref=sr_1_11",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5070AERO-OC-12GD/dp/B0DTR54HZZ/ref=sr_1_9",
                 "price": 719.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/714QtozQg9L._AC_UY218_.jpg"
             },
             {
-                "title": "ASUS RTX5070 PCIe 5.0 Video Card 12GB GDDR7 OC Edition TUF-RTX5070-O12G-GAMING",
-                "url": "https://www.amazon.com/ASUS-RTX5070-Video-GDDR7-TUF-RTX5070-O12G-GAMING/dp/B0DZ62D3MP/ref=sr_1_3",
-                "price": 1333.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/81Pchkfvz3L._AC_UY218_.jpg"
+                "title": "NVIDIA - GeForce RTX 5070 12GB GDDR7 Graphics Card - Graphite Grey",
+                "url": "https://www.amazon.com/NVIDIA-GeForce-GDDR7-Graphics-Graphite/dp/B0F7XHBT13/ref=sr_1_16",
+                "price": 749.0,
+                "promo": "Only 10 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/71CXXxhCzdL._AC_UY218_.jpg"
             }
         ]
     },
@@ -306,37 +256,30 @@
             },
             {
                 "title": "Radeon RX 9070 Gaming OC 16G Graphics Card, PCIe 5.0, 16GB GDDR6, GV-R9070GAMING OC-16GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Radeon-Graphics-GV-R9070GAMING-OC-16GD/dp/B0DS2QZC9P/ref=sr_1_2",
+                "url": "https://www.amazon.com/GIGABYTE-Radeon-Graphics-GV-R9070GAMING-OC-16GD/dp/B0DS2QZC9P/ref=sr_1_5",
                 "price": 669.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71RLbyxkUpL._AC_UY218_.jpg"
             },
             {
                 "title": "11349-02-20G Pure AMD Radeon\u2122 RX 9070 Gaming OC Graphics Card with 16GB GDDR6, AMD RDNA 4",
-                "url": "https://www.amazon.com/Sapphire-11349-02-20G-RadeonTM-Gaming-Graphics/dp/B0DTHPM52L/ref=sr_1_7",
+                "url": "https://www.amazon.com/Sapphire-11349-02-20G-RadeonTM-Gaming-Graphics/dp/B0DTHPM52L/ref=sr_1_8",
                 "price": 699.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71xu-O-OYDL._AC_UY218_.jpg"
             },
             {
                 "title": "AMD Radeon RX 9070 Challenger 16GB 2520 MHz 20 Gbps GDDR6 256Bit GPU RT+AI Accelerators PCIe5.0 2x8-pin Triple Fan 700W Graphics Card 0DB Silent Cooling DisplayPort2.1a HDMI2.1b LED Indicator",
-                "url": "https://www.amazon.com/ASRock-Challenger-Accelerators-DisplayPort2-1a-Indicator/dp/B0DTTKCTRD/ref=sr_1_9",
+                "url": "https://www.amazon.com/ASRock-Challenger-Accelerators-DisplayPort2-1a-Indicator/dp/B0DTTKCTRD/ref=sr_1_13",
                 "price": 709.0,
                 "promo": "Only 11 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/611Xx8c9puL._AC_UY218_.jpg"
             },
             {
                 "title": "Swift AMD Radeon RX 9070 OC White Triple Fan Gaming Edition with 16GB GDDR6 HDMI 3xDP, AMD RDNA 4 RX-97SWFB3W9",
-                "url": "https://www.amazon.com/XFX-Radeon-Triple-Gaming-RX-97SWFB3W9/dp/B0DWPHKWWD/ref=sr_1_8",
+                "url": "https://www.amazon.com/XFX-Radeon-Triple-Gaming-RX-97SWFB3W9/dp/B0DWPHKWWD/ref=sr_1_11",
                 "price": 719.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/61KwyjI8ZjL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Swift AMD Radeon RX 9070 OC Triple Fan Gaming Edition with 16GB GDDR6 HDMI 3xDP, AMD RDNA 4 RX-97SWFB3BA",
-                "url": "https://www.amazon.com/XFX-Radeon-Triple-Gaming-RX-97SWFB3BA/dp/B0DW4GPX5Q/ref=sr_1_17",
-                "price": 719.0,
-                "promo": "Only 7 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61iRh5dFrCL._AC_UY218_.jpg"
             }
         ]
     },
@@ -346,22 +289,15 @@
                 "title": "11348-03-20G Pulse AMD Radeon\u2122 RX 9070 XT Gaming Graphics Card with 16GB GDDR6, AMD RDNA 4",
                 "url": "https://www.amazon.com/Sapphire-11348-03-20G-RadeonTM-Gaming-Graphics/dp/B0DTHMPWFR/ref=sr_1_1",
                 "price": 779.0,
-                "promo": "Only 2 left in stock - order soon.",
+                "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/71CC7BfXjGL._AC_UY218_.jpg"
             },
             {
                 "title": "11348-01-20G Nitro+ AMD Radeon\u2122 RX 9070 XT Gaming OC Graphics Card with 16GB GDDR6, AMD RDNA 4",
-                "url": "https://www.amazon.com/Sapphire-11348-01-20G-RadeonTM-Gaming-Graphics/dp/B0DTHP39JF/ref=sr_1_3",
+                "url": "https://www.amazon.com/Sapphire-11348-01-20G-RadeonTM-Gaming-Graphics/dp/B0DTHP39JF/ref=sr_1_6",
                 "price": 799.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/81anmp7jb6L._AC_UY218_.jpg"
-            },
-            {
-                "title": "11348-02-20G Pure AMD Radeon\u2122 RX 9070 XT Gaming OC Graphics Card with 16GB GDDR6, AMD RDNA 4",
-                "url": "https://www.amazon.com/Sapphire-11348-02-20G-RadeonTM-Gaming-Graphics/dp/B0DTHNM3VM/ref=sr_1_9",
-                "price": 799.0,
-                "promo": "Exclusively for Prime Members",
-                "thumbnail": "https://m.media-amazon.com/images/I/81F-NhawrhL._AC_UY218_.jpg"
             },
             {
                 "title": "Swift AMD Radeon RX 9070XT Triple Fan Gaming Edition with 16GB GDDR6 HDMI 3xDP, AMD RDNA 4 RX-97TSWF3BA",
@@ -371,13 +307,6 @@
                 "thumbnail": "https://m.media-amazon.com/images/I/61Ktllk8BvL._AC_UY218_.jpg"
             },
             {
-                "title": "Graphics Board Steel Legend RX 9070 XT 16G AMD Radeon RX9070XT RX9070XT SL 16G / AX",
-                "url": "https://www.amazon.com/ASRock-16G-RX9070XT-SL-AX/dp/B0DXZ83DSK/ref=sr_1_15",
-                "price": 809.0,
-                "promo": "Only 3 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71zFocy1M3L._AC_UY218_.jpg"
-            },
-            {
                 "title": "Red Devil AMD Radeon RX 9070 XT 16GB GDDR6",
                 "url": "https://www.amazon.com/PowerColor-Devil-Radeon-9070-GDDR6/dp/B0CWD7DNTB/ref=sr_1_4",
                 "price": 819.0,
@@ -385,68 +314,56 @@
                 "thumbnail": "https://m.media-amazon.com/images/I/71BHpQLBvXL._AC_UY218_.jpg"
             },
             {
-                "title": "Quicksilver AMD Radeon RX 9070XT White Gaming Edition with 16GB GDDR6 HDMI 3xDP, AMD RDNA 4 RX-97TQICKW9",
-                "url": "https://www.amazon.com/XFX-Quicksilver-Radeon-9070XT-RX-97TQICKW9/dp/B0DX16XMDN/ref=sr_1_10",
-                "price": 819.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/61mXw+7jgAL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Mercury AMD Radeon RX 9070XT OC Gaming Edition with RGB 16GB GDDR6, HDMI 3xDP, AMD RDNA 4 RX-97TRGBBBA",
-                "url": "https://www.amazon.com/XFX-Mercury-Radeon-9070XT-RX-97TRGBBBA/dp/B0DW4G95GG/ref=sr_1_5",
-                "price": 859.0,
-                "promo": "Exclusively for Prime Members",
-                "thumbnail": "https://m.media-amazon.com/images/I/61GYVASwu2L._AC_UY218_.jpg"
-            },
-            {
                 "title": "Hellhound AMD Radeon RX 9070 XT 16GB GDDR6",
-                "url": "https://www.amazon.com/PowerColor-Hellhound-Radeon-9070-GDDR6/dp/B0CVVLV5TV/ref=sr_1_7",
+                "url": "https://www.amazon.com/PowerColor-Hellhound-Radeon-9070-GDDR6/dp/B0CVVLV5TV/ref=sr_1_5",
                 "price": 859.0,
                 "promo": "Exclusively for Prime Members",
                 "thumbnail": "https://m.media-amazon.com/images/I/716791ZqcsL._AC_UY218_.jpg"
             },
             {
-                "title": "Mercury AMD Radeon RX 9070XT OC Gaming White Edition with RGB 16GB GDDR6, HDMI 3xDP, AMD RDNA 4 RX-97TRGBBW9",
-                "url": "https://www.amazon.com/XFX-Mercury-Radeon-9070XT-RX-97TRGBBW9/dp/B0DWPH5N38/ref=sr_1_13",
-                "price": 879.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/61SB+a5kPpL._AC_UY218_.jpg"
-            },
-            {
                 "title": "Radeon RX 9070 XT Gaming 16G Graphics Card, PCIe 5.0, 16GB GDDR6, GV-R9070XTGAMING-16GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Radeon-Gaming-Graphics-GV-R9070XTGAMING-16GD/dp/B0F3HS4692/ref=sr_1_16",
-                "price": 895.0,
+                "url": "https://www.amazon.com/GIGABYTE-Radeon-Gaming-Graphics-GV-R9070XTGAMING-16GD/dp/B0F3HS4692/ref=sr_1_15",
+                "price": 859.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71vmiwYiqmL._AC_UY218_.jpg"
             },
             {
                 "title": "Radeon RX 9070 XT Gaming OC 16G Graphics Card - 16 GB GDDR6, 256 Bit, PCI-E 5.0, 3060 MHz Core Frequency, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
-                "url": "https://www.amazon.com/Gigabyte-Radeon-9070-Gaming-Graphics/dp/B0DT7B79K9/ref=sr_1_8",
+                "url": "https://www.amazon.com/Gigabyte-Radeon-9070-Gaming-Graphics/dp/B0DT7B79K9/ref=sr_1_9",
                 "price": 899.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81OO5-B1DVL._AC_UY218_.jpg"
+            },
+            {
+                "title": "Prime RX9070 XT OC, PCIe5, 16GB DDR6, HDMI, 3 DP, 3030MHz Clock, Overclocked, Compact SFF-Ready",
+                "url": "https://www.amazon.com/ASUS-3030MHz-Overclocked-Compact-SFF-Ready/dp/B0DSG52H7D/ref=sr_1_11",
+                "price": 929.0,
+                "promo": "Only 6 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81huTBuLV+L._AC_UY218_.jpg"
+            },
+            {
+                "title": "Radeon\u2122 RX 9070 XT Gaming OC 16GB GDDR6, 256 bit, Resolution 7680x4320, PCI-E 5.0, Boost Clock: up to 3060 MHz (Reference 2970 MHz), Bundle with Targus dockstation and Backpack Alinware.",
+                "url": "https://www.amazon.com/GIGABYTE-RX-9070-XT-Gaming/dp/B0F71NP12G/ref=sr_1_18",
+                "price": 999.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/710RcdBERFL._AC_UY218_.jpg"
             }
         ]
     },
     "RTX 4090": {
         "listings": [
             {
-                "title": "Zotac NVIDIA GeForce RTX 4090 AMP Extreme AIRO 24GB GDDR6X Gaming Graphics Card",
-                "url": "https://www.amazon.com/NVIDIA-GeForce-Extreme-GDDR6X-Graphics/dp/B0BHJLCPTG/ref=sr_1_15",
-                "price": 2549.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61Ubn8zSFoL._AC_UY218_.jpg"
-            },
-            {
                 "title": "MSI GeForce RTX 4090 SUPRIM Liquid X 24G Gaming Graphics Card - 24GB GDDR6X, 2625 MHz, PCI Express Gen 4, 384-bit, 3X DP v 1.4a, HDMI 2.1a (Supports 4K & 8K HDR)",
-                "url": "https://www.amazon.com/MSI-GeForce-SUPRIM-Liquid-V510-007R/dp/B09YD4FJ5R/ref=sr_1_8",
+                "url": "https://www.amazon.com/MSI-GeForce-SUPRIM-Liquid-V510-007R/dp/B09YD4FJ5R/ref=sr_1_14",
                 "price": 2977.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71mKnFnBj+L._AC_UY218_.jpg"
             },
             {
-                "title": "GIGABYTE GeForce RTX 4090 Gaming OC 24G Graphics Card, 3X WINDFORCE Fans, 24GB 384-bit GDDR6X, GV-N4090GAMING OC-24GD Video Card",
-                "url": "https://www.amazon.com/Gigabyte-Graphics-WINDFORCE-GV-N4090GAMING-OC-24GD/dp/B0BGP8FGNZ/ref=sr_1_12",
-                "price": 2979.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/711vU2IrEuL._AC_UY218_.jpg"
+                "title": "ASUS ROG Strix GeForce RTX 4090 Gaming Graphics Card (PCIe 4.0, 24GB GDDR6X, HDMI 2.1a, DisplayPort 1.4a, DLSS3 Support, Supports 4K)",
+                "url": "https://www.amazon.com/ASUS-GeForce-Graphics-DisplayPort-Supports/dp/B0BHD8MTST/ref=sr_1_15",
+                "price": 3295.0,
+                "promo": "Only 1 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81GInA2woaL._AC_UY218_.jpg"
             }
         ]
     },
@@ -455,40 +372,40 @@
             {
                 "title": "XFX Speedster MERC310 AMD Radeon RX 7900XTX Black Gaming Graphics Card with 24GB GDDR6, AMD RDNA 3 RX-79XMERCB9",
                 "url": "https://www.amazon.com/XFX-Speedster-MERC310-Graphics-RX-79XMERCB9/dp/B0BNLSW23M/ref=sr_1_1",
-                "price": 1099.0,
+                "price": 1066.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71vGm7dSHoL._AC_UY218_.jpg"
             },
             {
                 "title": "PowerColor Hellhound AMD Radeon RX 7900 XTX Graphics Card",
-                "url": "https://www.amazon.com/PowerColor-Hellhound-Radeon-7900-Graphics/dp/B0BMWSRM7W/ref=sr_1_4",
+                "url": "https://www.amazon.com/PowerColor-Hellhound-Radeon-7900-Graphics/dp/B0BMWSRM7W/ref=sr_1_2",
                 "price": 1125.0,
                 "promo": "Only 12 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81GV77sd43L._AC_UY218_.jpg"
             },
             {
                 "title": "ASRock Phantom Gaming Radeon RX 7900 XTX 24GB OC GDDR6 PCI Express 4.0, Boost Clock*: Up to 2615MHz / 20Gbps, 24GB GDDR6 on 384-Bit Memory Bus, Polychrome SYNC, Phantom Gaming 3X Cooling System.",
-                "url": "https://www.amazon.com/ASRock-Phantom-Gaming-Radeon-Express/dp/B0F6YRGX5Z/ref=sr_1_5",
+                "url": "https://www.amazon.com/ASRock-Phantom-Gaming-Radeon-Express/dp/B0F6YRGX5Z/ref=sr_1_6",
                 "price": 1129.0,
                 "promo": "Only 3 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71wRZSP5YOL._AC_UY218_.jpg"
             },
             {
                 "title": "Sapphire 11322-02-20G Pulse AMD Radeon RX 7900 XTX Gaming Graphics Card with 24GB GDDR6, AMD RDNA 3, Output: 2 x HDMI, 2 x DisplayPort",
-                "url": "https://www.amazon.com/Sapphire-11322-02-20G-Radeon-Gaming-Graphics/dp/B0BR6HZZ6Z/ref=sr_1_11",
+                "url": "https://www.amazon.com/Sapphire-11322-02-20G-Radeon-Gaming-Graphics/dp/B0BR6HZZ6Z/ref=sr_1_8",
                 "price": 1219.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81cIjpP-uYL._AC_UY218_.jpg"
             },
             {
                 "title": "Sapphire Pulse Radeon RX 7900 XTX AMD 24 GB GDDR6",
-                "url": "https://www.amazon.com/Sapphire-Pulse-Radeon-GDDR6-Graphics/dp/B0BQNCSW3X/ref=sr_1_10",
+                "url": "https://www.amazon.com/Sapphire-Pulse-Radeon-GDDR6-Graphics/dp/B0BQNCSW3X/ref=sr_1_9",
                 "price": 1224.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71RLYg05ahL._AC_UY218_.jpg"
             },
             {
                 "title": "ASRock RX7900XTX TC 24GO AMD Radeon\u2122 RX 7900 XTX Taichi 24GB OC Graphics Card",
-                "url": "https://www.amazon.com/ASRock-RX7900XTX-TC-24GO-RadeonTM/dp/B0BRYWVKCR/ref=sr_1_6",
+                "url": "https://www.amazon.com/ASRock-RX7900XTX-TC-24GO-RadeonTM/dp/B0BRYWVKCR/ref=sr_1_4",
                 "price": 1289.0,
                 "promo": "Only 3 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61Z2EPcEX7L._AC_UY218_.jpg"
@@ -498,15 +415,21 @@
     "RTX 4080 Super": {
         "listings": [
             {
+                "title": "GIGABYTE GeForce RTX 4080 Super Gaming OC 16G Graphics Card, 3X WINDFORCE Fans, 16GB 256-bit GDDR6X, GV-N408SGAMING OC-16GD Video Card",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N408SGAMING-OC-16GD/dp/B0CSJYJRKD/ref=sr_1_5",
+                "price": 1499.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/715V9bTWg8L._AC_UY218_.jpg"
+            },
+            {
                 "title": "NVIDIA - GeForce RTX 4080 Super 16GB GDDR6X Gra",
-                "url": "https://www.amazon.com/NVIDIA-GeForce-4080-Super-GDDR6X/dp/B0CVNM2LBK/ref=sr_1_2",
+                "url": "https://www.amazon.com/NVIDIA-GeForce-4080-Super-GDDR6X/dp/B0CVNM2LBK/ref=sr_1_3",
                 "price": 1679.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/51FM3WrDB+L._AC_UY218_.jpg"
             },
             {
                 "title": "MSI GeForce RTX 4080 Super 16G Expert Graphics Card, 16GB GDDR6X, 23Gbps, 256-bit, PCI Express Gen 4, 7680 x 4320",
-                "url": "https://www.amazon.com/MSI-RTX-4080-16G-Graphics/dp/B0CVL5KRDX/ref=sr_1_7",
+                "url": "https://www.amazon.com/MSI-RTX-4080-16G-Graphics/dp/B0CVL5KRDX/ref=sr_1_12",
                 "price": 1989.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/718OTOL3ddL._AC_UY218_.jpg"
@@ -517,7 +440,7 @@
         "listings": [
             {
                 "title": "GeForce RTX 4080 16GB GDDR6X Graphics Card",
-                "url": "https://www.amazon.com/NVIDIA-GeForce-4080-GDDR6X-Graphics/dp/B0BMZ9TGH1/ref=sr_1_3",
+                "url": "https://www.amazon.com/NVIDIA-GeForce-4080-GDDR6X-Graphics/dp/B0BMZ9TGH1/ref=sr_1_6",
                 "price": 1899.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71m9FJCubXL._AC_UY218_.jpg"
             }
@@ -529,33 +452,26 @@
                 "title": "Sapphire 21323-01-20G AMD Radeon RX 7900 XT Gaming Graphics Card with 20GB GDDR6, AMD RDNA 3, Black",
                 "url": "https://www.amazon.com/Sapphire-21323-01-20G-Radeon-Gaming-Graphics/dp/B0BMNGT8XM/ref=sr_1_1",
                 "price": 760.0,
-                "promo": "Only 9 left in stock - order soon.",
+                "promo": "Only 6 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81ZBhhO35mL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Sapphire 11323-02-20G Pulse AMD Radeon RX 7900 XT Gaming Graphics Card with 20GB GDDR6, AMD RDNA 3",
-                "url": "https://www.amazon.com/Sapphire-11323-02-20G-Radeon-Gaming-Graphics/dp/B0BR6L7TKR/ref=sr_1_9",
-                "price": 829.0,
-                "promo": "Only 2 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/81n9vllhNeL._AC_UY218_.jpg"
             },
             {
                 "title": "XFX Speedster MERC310 AMD Radeon RX 7900XT Ultra Gaming Graphics Card with 20GB GDDR6, AMD RDNA 3 RX-79TMERCU9",
                 "url": "https://www.amazon.com/XFX-Speedster-MERC310-Graphics-RX-79TMERCU9/dp/B0BNLT17XQ/ref=sr_1_2",
                 "price": 951.0,
-                "promo": "Only 1 left in stock - order soon.",
+                "promo": "Only 4 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61F2rF1rKCL._AC_UY218_.jpg"
             },
             {
                 "title": "PowerColor AMD Radeon RX 7900 XT Graphics Card",
-                "url": "https://www.amazon.com/PowerColor-Radeon-7900-XT-Graphics-Card/dp/B0BMWHCGBZ/ref=sr_1_12",
+                "url": "https://www.amazon.com/PowerColor-Radeon-7900-XT-Graphics-Card/dp/B0BMWHCGBZ/ref=sr_1_8",
                 "price": 998.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71tv3YrVPKL._AC_UY218_.jpg"
             },
             {
                 "title": "ASRock AMD Radeon\u2122 RX 7900 XT Phantom Gaming 20GB OC Graphics Card 320 Bit 7680 x 4320 0dB Silent Cooling 3 x DisplayPort\u2122 2.1 GDDR6 1 x HDMI\u2122 2.1 20Gbps PCI Express 4.0",
-                "url": "https://www.amazon.com/ASRock-RX7900XT-PG-20GO-Graphics/dp/B0BTPJBSBV/ref=sr_1_8",
+                "url": "https://www.amazon.com/ASRock-RX7900XT-PG-20GO-Graphics/dp/B0BTPJBSBV/ref=sr_1_7",
                 "price": 1129.0,
                 "promo": "Only 12 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61h86qFR9eL._AC_UY218_.jpg"
@@ -566,53 +482,25 @@
         "listings": [
             {
                 "title": "ASUS TUF Gaming GeForce RTX 4070 Ti Super 16GB GDDR6X OC Edition Gaming Graphics Card (NVIDIA GeForce RTX4070Ti DLSS 3, PCIe 4.0, 2X HDMI 2.1a, 3X DisplayPort 1.4a, TUF-RTX4070TIS-O16G-GAMING, Black)",
-                "url": "https://www.amazon.com/ASUS-Graphics-RTX4070Ti-DisplayPort-TUF-RTX4070TIS-O16G-GAMING/dp/B0CS3X3DTG/ref=sr_1_3",
+                "url": "https://www.amazon.com/ASUS-Graphics-RTX4070Ti-DisplayPort-TUF-RTX4070TIS-O16G-GAMING/dp/B0CS3X3DTG/ref=sr_1_5",
                 "price": 1198.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71jjBcnQqyL._AC_UY218_.jpg"
             },
             {
                 "title": "ASUS TUF Gaming GeForce RTX 4070 Ti SUPER 16GB GDDR6X Gaming Graphics Card (NVIDIA GeForce RTX4070Ti DLSS 3, PCIe 4.0, 2X HDMI 2.1a, 3X DisplayPort 1.4a, TUF-RTX4070TIS-16G-GAMING, Black)",
-                "url": "https://www.amazon.com/ASUS-Graphics-RTX4070Ti-DisplayPort-TUF-RTX4070TIS-16G-GAMING/dp/B0CS3VH4M1/ref=sr_1_2",
+                "url": "https://www.amazon.com/ASUS-Graphics-RTX4070Ti-DisplayPort-TUF-RTX4070TIS-16G-GAMING/dp/B0CS3VH4M1/ref=sr_1_1",
                 "price": 1229.0,
-                "promo": "Only 9 left in stock - order soon.",
+                "promo": "Only 8 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81bA6rsNw8L._AC_UY218_.jpg"
-            },
-            {
-                "title": "Zotac Gaming GEFORCE RTX 4070 Ti Super Solid OC 16GB GDDR6X 256bit 2640/21000 HDCP Three DP HDMI Premium Pack",
-                "url": "https://www.amazon.com/Gaming-GEFORCE-GDDR6X-256bit-Premium/dp/B0DFMQ89TT/ref=sr_1_11",
-                "price": 1748.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/41FisLl8DjL._AC_UY218_.jpg"
             }
         ]
     },
     "RTX 4070 Super": {
         "listings": [
             {
-                "title": "Yeston Sakura Nvidia GeForce RTX 4070 Super Graphics Card GDDR6X 12G 192bit GDDR6X Gaming GPU",
-                "url": "https://www.amazon.com/Yeston-RTX-4070-Super-Graphics/dp/B0F3VV4VDH/ref=sr_1_8",
-                "price": 749.0,
-                "promo": "Only 2 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/51C+Trx2RAL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Yeston Sakura Nvidia GeForce RTX 4070 Super OC SA 12G Gaming Graphics Card (NVIDIA RTX 4070 Super, 192-Bit,12GB GDRR6X 21 Gbps, HDMI/DP",
-                "url": "https://www.amazon.com/Yeston-Sakura-GeForce-Graphics-192-Bit/dp/B0F7GDH76P/ref=sr_1_16",
-                "price": 749.0,
-                "promo": "Only 9 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/51C+Trx2RAL._AC_UY218_.jpg"
-            },
-            {
-                "title": "MSI GeForce RTX 4070 Super 12G Ventus 2X White OC Gaming Graphics Card - 12GB GDDR6X, PCI Express Gen 4, 192-bit, 3X DP v 1.4a, HDMI 2.1a (Supports 4K & 8K HDR)",
-                "url": "https://www.amazon.com/MSI-GeForce-Ventus-Gaming-Graphics/dp/B0CRBB6JL3/ref=sr_1_5",
-                "price": 999.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/51BfGVlOstL._AC_UY218_.jpg"
-            },
-            {
                 "title": "NVIDIA - GeForce RTX 4070 Super 12GB GDDR6X Graphics Card - Titanium/Black",
-                "url": "https://www.amazon.com/NVIDIA-GeForce-GDDR6X-Graphics-Titanium/dp/B0CT8LQZ47/ref=sr_1_9",
+                "url": "https://www.amazon.com/NVIDIA-GeForce-GDDR6X-Graphics-Titanium/dp/B0CT8LQZ47/ref=sr_1_8",
                 "price": 1439.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/512T3hTT5ZL._AC_UY218_.jpg"
@@ -623,7 +511,7 @@
         "listings": [
             {
                 "title": "Radeon\u2122 RX 6950 XT gddr6 Graphics Card",
-                "url": "https://www.amazon.com/AMD-Radeon-GDDR6-PCI-Express-Graphics/dp/B0BKPT56HK/ref=sr_1_4",
+                "url": "https://www.amazon.com/AMD-Radeon-GDDR6-PCI-Express-Graphics/dp/B0BKPT56HK/ref=sr_1_2",
                 "price": 1249.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71QG+d5qzXL._AC_UY218_.jpg"
@@ -634,7 +522,7 @@
         "listings": [
             {
                 "title": "nVidia GeForce RTX 3090 Ti Founders Edition",
-                "url": "https://www.amazon.com/Nvidia-RTX-3090-TI-Founders/dp/B09X4JVZB5/ref=sr_1_8",
+                "url": "https://www.amazon.com/Nvidia-RTX-3090-TI-Founders/dp/B09X4JVZB5/ref=sr_1_14",
                 "price": 1999.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/51K36OrmxLL._AC_UY218_.jpg"
             }
@@ -650,57 +538,50 @@
             },
             {
                 "title": "PowerColor Hellhound AMD Radeon RX 7800 XT 16GB GDDR6 Graphics Card",
-                "url": "https://www.amazon.com/PowerColor-Hellhound-Radeon-GDDR6-Graphics/dp/B0CFPJY54Q/ref=sr_1_10",
+                "url": "https://www.amazon.com/PowerColor-Hellhound-Radeon-GDDR6-Graphics/dp/B0CFPJY54Q/ref=sr_1_8",
                 "price": 652.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/81kt9CenGUL._AC_UY218_.jpg"
             },
             {
                 "title": "PowerColor Fighter AMD Radeon RX 7800 XT 16GB GDDR6 Graphics Card",
-                "url": "https://www.amazon.com/PowerColor-Fighter-Radeon-GDDR6-Graphics/dp/B0CJGP4P4V/ref=sr_1_11",
+                "url": "https://www.amazon.com/PowerColor-Fighter-Radeon-GDDR6-Graphics/dp/B0CJGP4P4V/ref=sr_1_16",
                 "price": 654.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71xBR512Z-L._AC_UY218_.jpg"
             },
             {
                 "title": "Sapphire 11330-01-20G Nitro+ AMD Radeon RX 7800 XT Gaming Graphics Card with 16GB GDDR6, AMD RDNA 3",
-                "url": "https://www.amazon.com/Sapphire-11330-01-20G-Radeon-Gaming-Graphics/dp/B0CFX69R1R/ref=sr_1_9",
-                "price": 679.0,
-                "promo": "Only 9 left in stock - order soon.",
+                "url": "https://www.amazon.com/Sapphire-11330-01-20G-Radeon-Gaming-Graphics/dp/B0CFX69R1R/ref=sr_1_14",
+                "price": 694.0,
+                "promo": "Only 4 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/91g3-mnMQ-L._AC_UY218_.jpg"
             },
             {
                 "title": "Sapphire 11330-02-20G Pulse AMD Radeon RX 7800 XT Gaming Graphics Card with 16GB GDDR6, AMD RDNA 3",
                 "url": "https://www.amazon.com/Sapphire-11330-02-20G-Radeon-Gaming-Graphics/dp/B0CFWM1LNH/ref=sr_1_5",
-                "price": 694.0,
-                "promo": "Only 3 left in stock - order soon.",
+                "price": 699.0,
+                "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81VpOvD9wJL._AC_UY218_.jpg"
             },
             {
                 "title": "GIGABYTE Radeon RX 7800 XT Gaming OC 16G Graphics Card, 3X WINDFORCE Fans 16GB 256-bit GDDR6, GV-R78XTGAMING OC-16GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-R78XTGAMING-OC-16GD/dp/B0CGHQ32S2/ref=sr_1_4",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-R78XTGAMING-OC-16GD/dp/B0CGHQ32S2/ref=sr_1_3",
                 "price": 714.0,
-                "promo": "Only 2 left in stock - order soon.",
+                "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71GKfo5qtaL._AC_UY218_.jpg"
             },
             {
                 "title": "Sapphire Pulse AMD Radeon RX 7800 XT Gaming 16GB GDDR6 Dual Video Card",
-                "url": "https://www.amazon.com/Sapphire-Pulse-Radeon-Gaming-Gddr6/dp/B0CGM19NMS/ref=sr_1_16",
+                "url": "https://www.amazon.com/Sapphire-Pulse-Radeon-Gaming-Gddr6/dp/B0CGM19NMS/ref=sr_1_12",
                 "price": 734.0,
                 "promo": "Only 10 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81LrgyAxfmL._AC_UY218_.jpg"
             },
             {
                 "title": "GIGABYTE Radeon RX 7800 XT Gaming OC 16GB Graphics Card - 16GB GDDR6 256-bit, Windforce Cooling System, Metal Back Plate, DP 2.1, HDMI 2.1, AMD RDNA 3 Architecture, GV-R78XTGAMING OC-16GD",
-                "url": "https://www.amazon.com/Gigabyte-Radeon-7800-Gaming-Graphics/dp/B0CGRMJF6C/ref=sr_1_6",
+                "url": "https://www.amazon.com/Gigabyte-Radeon-7800-Gaming-Graphics/dp/B0CGRMJF6C/ref=sr_1_4",
                 "price": 739.0,
-                "promo": "Only 1 left in stock - order soon.",
+                "promo": "Only 6 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61aQwrGeLCL._AC_UY218_.jpg"
-            },
-            {
-                "title": "SAPPHIRE Pure Radeon RX 7800 XT Gaming OC 16GB GDDR6 3 Fan White Model Graphics Card 11330-03-20G VD8650",
-                "url": "https://www.amazon.com/SAPPHIRE-Radeon-Gaming-Graphics-11330-03-20G/dp/B0CH9Q6DK7/ref=sr_1_3",
-                "price": 899.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61tlZ-IElgL._AC_UY218_.jpg"
             }
         ]
     },
@@ -708,40 +589,46 @@
         "listings": [
             {
                 "title": "nVidia GeForce RTX 3090 Founders Edition Graphics Card",
-                "url": "https://www.amazon.com/NVIDIA-RTX-3090-Founders-Graphics/dp/B08HR6ZBYJ/ref=sr_1_10",
+                "url": "https://www.amazon.com/NVIDIA-RTX-3090-Founders-Graphics/dp/B08HR6ZBYJ/ref=sr_1_8",
                 "price": 1599.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/61wbV8oqAbL._AC_UY218_.jpg"
+            },
+            {
+                "title": "ASUS TUF Gaming NVIDIA GeForce RTX 3090 OC Edition Graphics Card- PCIe 4.0, 24GB GDDR6X, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings",
+                "url": "https://www.amazon.com/ASUS-GeForce-Graphics-DisplayPort-Bearings/dp/B08HJGNJ81/ref=sr_1_11",
+                "price": 1899.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/81XHNWut5WL._AC_UY218_.jpg"
+            },
+            {
+                "title": "ASUS ROG STRIX NVIDIA GeForce RTX 3090 Gaming Graphics Card- PCIe 4.0, 24GB GDDR6X, HDMI 2.1, DisplayPort 1.4a, Axial-Tech Fan Design, 2.9-Slot",
+                "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-Axial-Tech-2-9-Slot/dp/B08J6GMWCQ/ref=sr_1_10",
+                "price": 1979.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/91XyrUFYKfL._AC_UY218_.jpg"
             }
         ]
     },
     "RX 6900 XT": {
         "listings": [
             {
-                "title": "Red Devil AMD Radeon\u2122 RX 6900 XT Gaming Graphics Card with 16GB GDDR6 Memory, Powered by AMD RDNA\u2122 2, Raytracing, PCI Express 4.0, HDMI 2.1, AMD Infinity Cache",
-                "url": "https://www.amazon.com/PowerColor-Graphics-Powered-Raytracing-Infinity/dp/B08Q2R71CS/ref=sr_1_5",
-                "price": 769.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/81U5H5c0jyL._AC_UY218_.jpg"
-            },
-            {
                 "title": "Red Devil AMD Radeon RX 6900 XT Ultimate Gaming Graphics Card with 16GB GDDR6 Memory, Powered by AMD RDNA 2, HDMI 2.1",
-                "url": "https://www.amazon.com/PowerColor-Radeon-Ultimate-Graphics-Powered/dp/B09258PCFS/ref=sr_1_3",
-                "price": 799.0,
+                "url": "https://www.amazon.com/PowerColor-Radeon-Ultimate-Graphics-Powered/dp/B09258PCFS/ref=sr_1_2",
+                "price": 769.0,
                 "promo": "Only 7 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81L5pyFMhgL._AC_UY218_.jpg"
             },
             {
                 "title": "AMD Radeon RX6900XT Graphics Board GDDR6 16GB [Domestic Authorized Dealer] RX RX 6900 XT PG D 16G OC",
-                "url": "https://www.amazon.com/ASRock-Authorized-RX-6900-16G/dp/B08QYQH7QW/ref=sr_1_16",
+                "url": "https://www.amazon.com/ASRock-Authorized-RX-6900-16G/dp/B08QYQH7QW/ref=sr_1_10",
                 "price": 1099.0,
                 "promo": "Only 20 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61Qyr1jhTxS._AC_UY218_.jpg"
             },
             {
-                "title": "11308-03-20G Nitro+ AMD Radeon RX 6900 XT Special Edition PCIe 4.0 Gaming Graphics Card with 16GB GDDR6",
-                "url": "https://www.amazon.com/Sapphire-Technology-Special-Graphics-11308-03-20G/dp/B094DYSQQL/ref=sr_1_9",
-                "price": 1199.0,
-                "promo": "Only 4 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/81HsrskNPkS._AC_UY218_.jpg"
+                "title": "Gaming Radeon RX 6900 XT Boost Clock Up to 2340 MHz 256-bit 16GB GDDR6 DP/HDMI Triple Torx 4.0 Fans FreeSync DirectX 12 VR Ready RGB Graphics Card (RX 6900 XT Gaming X Trio 16G)",
+                "url": "https://www.amazon.com/MSI-Gaming-6900-Trio-16G/dp/B08W2GPR62/ref=sr_1_16",
+                "price": 1116.0,
+                "promo": "Only 1 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/812Gs+u9OAL._AC_UY218_.jpg"
             }
         ]
     },
@@ -754,8 +641,15 @@
                 "thumbnail": "https://m.media-amazon.com/images/I/51kvZMgvvJL._AC_UY218_.jpg"
             },
             {
+                "title": "MSI GeForce RTX 3080 Ti Gaming X Trio 12G Gaming Graphics Card - 12GB GDDR6X, 1770 MHz, PCI Express Gen 4, 384-bit, 3X DP v 1.4a, HDMI 2.1 (Supports 4K)",
+                "url": "https://www.amazon.com/RTX-3080-Gaming-Trio-12GB/dp/B0957TV4YR/ref=sr_1_4",
+                "price": 1289.0,
+                "promo": "Only 3 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/61BkqitH3FS._AC_UY218_.jpg"
+            },
+            {
                 "title": "GIGABYTE GeForce RTX 3080 Ti Vision OC 12G Graphics Card, 3X WINDFORCE Fans, 12GB 384-bit GDDR6X, GV-N308TVISION OC-12GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N308TVISION-OC-12GD/dp/B083HZF4GV/ref=sr_1_12",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N308TVISION-OC-12GD/dp/B083HZF4GV/ref=sr_1_15",
                 "price": 1595.0,
                 "promo": "Only 8 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71-TUmK+yHS._AC_UY218_.jpg"
@@ -766,21 +660,42 @@
         "listings": [
             {
                 "title": "Gaming AMD Radeon RX 6800 XT 16GB GDRR6 256-bit HDMI/DP 2310 MHz Boost Clock RDNA 2 OC Graphics Card (RX 6800 XT Gaming Z Trio 16G)",
-                "url": "https://www.amazon.com/MSI-Radeon-RX-6800-16G/dp/B09S596QVD/ref=sr_1_1",
+                "url": "https://www.amazon.com/MSI-Radeon-RX-6800-16G/dp/B09S596QVD/ref=sr_1_2",
                 "price": 599.0,
                 "promo": "Only 11 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71P4+eYukZL._AC_UY218_.jpg"
             },
             {
+                "title": "11304-02-20G Nitro+ AMD Radeon RX 6800 XT PCIe 4.0 Gaming Graphics Card with 16GB GDDR6",
+                "url": "https://www.amazon.com/Sapphire-11304-02-20G-Radeon-Gaming-Graphics/dp/B08NXXT7WN/ref=sr_1_13",
+                "price": 898.0,
+                "promo": "Only 10 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81lEaN6HGvL._AC_UY218_.jpg"
+            },
+            {
+                "title": "Radeon RX 6800 XT Reference Edition Gaming Graphics Card",
+                "url": "https://www.amazon.com/AMD-Radeon-Reference-Gaming-Graphics/dp/B09W7S6QC3/ref=sr_1_7",
+                "price": 899.0,
+                "promo": "Only 4 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/51QbS7ZwetL._AC_UY218_.jpg"
+            },
+            {
                 "title": "AMD Radeon RX 6800 XT GAMING OC 16G Graphics Card, 16GB of GDDR6 memory, powered by AMD RDNA 2, HDMI 2.1, WINDFORCE 3X Cooling System, GV-R68XTGAMING OC-16GD",
-                "url": "https://www.amazon.com/GIGABYTE-Graphics-Powered-WINDFORCE-GV-R68XTGAMING/dp/B08PFX6PZ6/ref=sr_1_16",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-Powered-WINDFORCE-GV-R68XTGAMING/dp/B08PFX6PZ6/ref=sr_1_9",
                 "price": 949.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81ReRd8MrSL._AC_UY218_.jpg"
             },
             {
+                "title": "Radeon RX 6800 XT Gaming X Trio 16G Gaming Graphics Card - 16GB GDDR6, 2285 MHz, PCI Express 4, 256-bit, 3X DP v 1.4a, HDMI 2.1",
+                "url": "https://www.amazon.com/MSI-Radeon-6800-GAMING-TRIO/dp/B08QCLRN7S/ref=sr_1_10",
+                "price": 969.0,
+                "promo": "Only 1 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/711fGYMXTlL._AC_UY218_.jpg"
+            },
+            {
                 "title": "Red Dragon AMD Radeon\u2122 RX 6800 XT Gaming Graphics Card with 16GB GDDR6 Memory, Powered by AMD RDNA\u2122 2, Raytracing, PCI Express 4.0, HDMI 2.1, AMD Infinity Cache",
-                "url": "https://www.amazon.com/PowerColor-Graphics-Powered-Raytracing-Infinity/dp/B08V1WK4LB/ref=sr_1_15",
+                "url": "https://www.amazon.com/PowerColor-Graphics-Powered-Raytracing-Infinity/dp/B08V1WK4LB/ref=sr_1_5",
                 "price": 995.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81jI-3BjnKL._AC_UY218_.jpg"
@@ -791,15 +706,9 @@
         "listings": [
             {
                 "title": "Speedster SWFT210 Radeon RX 7700XT Gaming Graphics Card with 12GB GDDR6 HDMI 3xDP, AMD RDNA 3 RX-77TSWFTFA",
-                "url": "https://www.amazon.com/XFX-Speedster-SWFT210-Graphics-RX-77TSWFTFA/dp/B0DDY9YRM8/ref=sr_1_1",
+                "url": "https://www.amazon.com/XFX-Speedster-SWFT210-Graphics-RX-77TSWFTFA/dp/B0DDY9YRM8/ref=sr_1_2",
                 "price": 499.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/61oYeIB0Q8L._AC_UY218_.jpg"
-            },
-            {
-                "title": "Fighter AMD Radeon RX 7700 XT 12GB GDDR6 Graphics Card",
-                "url": "https://www.amazon.com/PowerColor-Fighter-Radeon-GDDR6-Graphics/dp/B0CFP6F859/ref=sr_1_10",
-                "price": 569.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/81XO1+7353L._AC_UY218_.jpg"
             },
             {
                 "title": "Radeon RX 7700 XT Gaming OC 12G Graphics Card, 3X WINDFORCE Fans 12GB 192-bit GDDR6, GV-R77XTGAMING OC-12GD Video Card",
@@ -809,34 +718,21 @@
                 "thumbnail": "https://m.media-amazon.com/images/I/71K6e37YltL._AC_UY218_.jpg"
             },
             {
-                "title": "Speedster SWFT210 Radeon RX 7700XT Gaming Graphics Card with 12GB GDDR6 HDMI 3xDP, AMD RDNA 3 RX-77TSWFTFP",
-                "url": "https://www.amazon.com/XFX-Speedster-SWFT210-Graphics-RX-77TSWFTFP/dp/B0D9QKXJDK/ref=sr_1_12",
-                "price": 620.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/61-D5GncsNL._AC_UY218_.jpg"
-            },
-            {
                 "title": "Radeon RX 7700 XT Gaming OC 12GB Graphics Card - 12GB GDDR6 192-bit, Windforce Cooling System, Metal Back Plate, DP 2.1, HDMI 2.1, AMD RDNA 3 Architecture, GV-R77XTGAMING OC-12GD",
-                "url": "https://www.amazon.com/Gigabyte-Radeon-7700-Gaming-Graphics/dp/B0CGRN842P/ref=sr_1_7",
+                "url": "https://www.amazon.com/Gigabyte-Radeon-7700-Gaming-Graphics/dp/B0CGRN842P/ref=sr_1_13",
                 "price": 627.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71mgr3jiEvL._AC_UY218_.jpg"
-            },
-            {
-                "title": "SAPPHIRE PULSE AMD RADEON RX 7700 XT GAMING 12GB GDDR6 DUAL VIDEO CARD",
-                "url": "https://www.amazon.com/SAPPHIRE-PULSE-RADEON-GAMING-GDDR6-VIDEO/dp/B0CGLYMRFX/ref=sr_1_15",
-                "price": 718.0,
-                "promo": "Only 7 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/81cRh290cyL._AC_UY218_.jpg"
             }
         ]
     },
     "RX 6800": {
         "listings": [
             {
-                "title": "PowerColor AMD Radeon RX 6800 Gaming Graphics Card with 16GB GDDR6 Memory, PCIe 4.0, HDMI 2.1, AMD Infinity Cache",
-                "url": "https://www.amazon.com/PowerColor-Fighter-Graphics-Raytracing-Infinity/dp/B0977NMYS8/ref=sr_1_7",
-                "price": 424.0,
+                "title": "AORUS Radeon RX 6800 Master 16G Graphics Card, MAX-Covered Cooling, 16GB 256-bit GDDR6, GV-R68AORUS M-16GD Video Card",
+                "url": "https://www.amazon.com/Graphics-MAX-Covered-Cooling-256-bit-GV-R68AORUS/dp/B08SGTGTZD/ref=sr_1_13",
+                "price": 769.0,
                 "promo": "Only 8 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71-WeC1wxZS._AC_UY218_.jpg"
+                "thumbnail": "https://m.media-amazon.com/images/I/71wSTO6ASwL._AC_UY218_.jpg"
             }
         ]
     },
@@ -844,19 +740,16 @@
         "listings": [
             {
                 "title": "NVIDIA - GeForce RTX 3070 Ti 8GB GDDR6X PCI Express 4.0 Graphics Card - Dark Platinum and Black",
-                "url": "https://www.amazon.com/NVIDIA-GeForce-Express-Graphics-Platinum/dp/B097PZT7J3/ref=sr_1_16",
+                "url": "https://www.amazon.com/NVIDIA-GeForce-Express-Graphics-Platinum/dp/B097PZT7J3/ref=sr_1_10",
                 "price": 749.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/51FE8nl+8hL._AC_UY218_.jpg"
-            }
-        ]
-    },
-    "RTX 4060 Ti 16GB": {
-        "listings": [
+            },
             {
-                "title": "PNY VGA GEFORCE RTX 4060 TI, RTX 4060 TI 16GB Verto, Dual Fan Edition, DLSS 3 Brand",
-                "url": "https://www.amazon.com/PNY-GEFORCE-4060-Verto-Brand/dp/B0CT5ZGY1G/ref=sr_1_8",
-                "price": 611.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/51cmYyeKoyL._AC_UY218_.jpg"
+                "title": "GIGABYTE AORUS GeForce RTX 3070 Ti Master 8G Graphics Card, MAX-Covered Cooling, 8GB 256-bit GDDR6X, GV-N307TAORUS M-8GD Video Card",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-MAX-Covered-GV-N307TAORUS-M-8GD/dp/B097GMHNCT/ref=sr_1_15",
+                "price": 949.0,
+                "promo": "Only 2 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/71afWy-m5RS._AC_UY218_.jpg"
             }
         ]
     },
@@ -870,16 +763,10 @@
             },
             {
                 "title": "GIGABYTE GeForce RTX 4060 Ti WINDFORCE OC 8G Graphics Card, 2X WINDFORCE Fans, 8GB 128-bit GDDR6, GV-N406TWF2OC-8GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N406TWF2OC-8GD/dp/B0CBW16TL3/ref=sr_1_16",
+                "url": "https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N406TWF2OC-8GD/dp/B0CBW16TL3/ref=sr_1_14",
                 "price": 569.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/7193Z+r-+vL._AC_UY218_.jpg"
-            },
-            {
-                "title": "GIGABYTE GV-N406TEAGLE-8GD GeForce RTX 4060 Ti Eagle 8G Graphics Card, 3X WINDFORCE Fans, 8GB 128-bit GDDR6, Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-GV-N406TEAGLE-8GD-GeForce-Graphics-WINDFORCE/dp/B0C5BQ1HM6/ref=sr_1_15",
-                "price": 583.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/712setWp52L._AC_UY218_.jpg"
             },
             {
                 "title": "Gigabyte NVIDIA GeForce RTX 4060 Ti WINDFORCE OC Graphics Card - 8GB GDDR6, 128-bit, PCI-E 4.0, 2550MHz Core Clock, 2X DP 1.4, 2X HDMI 2.1a, NVIDIA DLSS 3 - GV-N406TWF2OC-8GD",
@@ -893,18 +780,18 @@
     "RX 6700 XT": {
         "listings": [
             {
-                "title": "VCX 11306-01-20T Nitro+ AMD Radeon RX 6700 XT Gaming OC 12GB GDDR6",
-                "url": "https://www.amazon.com/Sapphire-11306-01-20T-Nitro-Radeon-Gaming/dp/B094593LB8/ref=sr_1_16",
-                "price": 599.0,
-                "promo": "Only 2 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/51LFGzMV+sL._AC_UY218_.jpg"
-            },
-            {
                 "title": "Gaming Radeon RX 6700 XT 192-bit 12GB GDDR6 DP/HDMI Dual Torx 4.0 Fans FreeSync DirectX 12 VR Ready RGB Graphics Card (RX 6700 XT Gaming X 12G)",
-                "url": "https://www.amazon.com/MSI-RX-6700-XT-12G/dp/B08Z72P3R9/ref=sr_1_14",
+                "url": "https://www.amazon.com/MSI-RX-6700-XT-12G/dp/B08Z72P3R9/ref=sr_1_4",
                 "price": 789.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/613UVoLGpzL._AC_UY218_.jpg"
+            },
+            {
+                "title": "TUF Gaming AMD Radeon RX 6700 XT OC Edition Graphics Card AMD RDNA 2, PCIe 4.0, 12GB GDDR6, HDMI 2.1, DisplayPort 1.4a, Dual ball fan bearings, all-aluminum shroud, reinforced frame, GPU Tweak II",
+                "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-all-aluminum-reinforced/dp/B08YX8D8ST/ref=sr_1_17",
+                "price": 868.0,
+                "promo": "Only 1 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81bsxGqJKIL._AC_UY218_.jpg"
             },
             {
                 "title": "Radeon RX 6700 XT Gaming OC 12G Graphics Card, WINDFORCE 3X Cooling System, 12GB 192-bit GDDR6, GV-R67XTGAMING OC-12GD Video Card",
@@ -919,9 +806,16 @@
         "listings": [
             {
                 "title": "NVIDIA GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Graphics Card - Dark Platinum and Black",
-                "url": "https://www.amazon.com/NVIDIA-GeForce-RTX-3070-Graphics/dp/B08MYCN952/ref=sr_1_7",
-                "price": 536.0,
+                "url": "https://www.amazon.com/NVIDIA-GeForce-RTX-3070-Graphics/dp/B08MYCN952/ref=sr_1_2",
+                "price": 569.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/51c63ubHJyL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI Gaming GeForce RTX 3070 8GB GDRR6 256-Bit HDMI/DP Tri-Frozr 2 TORX Fan 4.0 Ampere Architecture RGB OC Graphics Card (RTX 3070 Gaming X Trio)",
+                "url": "https://www.amazon.com/MSI-GeForce-Tri-Frozr-Architecture-Graphics/dp/B08KWN2LZG/ref=sr_1_12",
+                "price": 689.0,
+                "promo": "Only 4 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81761uwFaIL._AC_UY218_.jpg"
             }
         ]
     },
@@ -929,10 +823,17 @@
         "listings": [
             {
                 "title": "NVIDIA GEFORCE RTX 2080 Ti Founders Edition",
-                "url": "https://www.amazon.com/NVIDIA-GEFORCE-RTX-2080-Founders/dp/B07HWMDDMK/ref=sr_1_6",
+                "url": "https://www.amazon.com/NVIDIA-GEFORCE-RTX-2080-Founders/dp/B07HWMDDMK/ref=sr_1_5",
                 "price": 820.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/51+dKj5AkAL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI GAMING GeForce RTX 2080 Ti GDRR6 352-bit HDMI/DP/USB Ray Tracing Turing Architecture Graphics Card (RTX 2080 TI DUKE 11G OC)",
+                "url": "https://www.amazon.com/MSI-RTX-2080-DUKE-11G/dp/B07GHXBHSS/ref=sr_1_1",
+                "price": 989.0,
+                "promo": "Only 3 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/71fuBbpy1AL._AC_UY218_.jpg"
             }
         ]
     },
@@ -943,25 +844,6 @@
                 "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-R76XTGAMING-OC-16GD/dp/B0CSVJZNNX/ref=sr_1_1",
                 "price": 359.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71PSxIuhYJL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Sapphire Pulse AMD Radeon\u2122 RX 7600 XT Gaming OC 16GB GDDR6 Dual HDMI/Dual DP",
-                "url": "https://www.amazon.com/Sapphire-Pulse-RadeonTM-Gaming-GDDR6/dp/B0CSN564QQ/ref=sr_1_7",
-                "price": 441.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/61AziJP9ekL._AC_UY218_.jpg"
-            },
-            {
-                "title": "ASUS Dual Radeon RX 7600 XT OC Edition 16GB GDDR6 Graphics Card AMD RDNA 3 PCIe 4.0 16GB GDDR6 Memory HDMI 2.1 DisplayPort 2.1",
-                "url": "https://www.amazon.com/ASUS-Radeon-Graphics-Memory-DisplayPort/dp/B086ZTKLXQ/ref=sr_1_13",
-                "price": 532.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71O-Re-3sTL._AC_UY218_.jpg"
-            },
-            {
-                "title": "XG76XT EGPU Expansion Card, 8 GB GDDR6 RDNA3 Architecture AMD Radeon RX 7600XT, Oculink+Usb4 Ports",
-                "url": "https://www.amazon.com/sspa/click",
-                "price": 619.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/5100sl3DScL._AC_UY218_.jpg"
             }
         ]
     },
@@ -969,36 +851,36 @@
         "listings": [
             {
                 "title": "GeForce Nvidia RTX 3060ti Founders Edition 8GB",
-                "url": "https://www.amazon.com/NVIDIA-GeForce-Founders-Express-Graphics/dp/B08PW559LL/ref=sr_1_8",
-                "price": 503.0,
+                "url": "https://www.amazon.com/NVIDIA-GeForce-Founders-Express-Graphics/dp/B08PW559LL/ref=sr_1_5",
+                "price": 501.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/81uFpNyjm5L._AC_UY218_.jpg"
+            },
+            {
+                "title": "EVGA GeForce RTX 3060 Ti FTW Ultra Gaming, 08G-P5-3667-KL, 8GB GDDR6, iCX3 Cooling, ARGB LED, LHR",
+                "url": "https://www.amazon.com/EVGA-GeForce-Gaming-08G-P5-3667-KL-Cooling/dp/B097S8BR3C/ref=sr_1_15",
+                "price": 530.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/811tNjIvM6L._AC_UY218_.jpg"
             }
         ]
     },
     "RTX 4060": {
         "listings": [
             {
-                "title": "Dual GeForce RTX 4060 EVO White OC Edition 8GB GDDR6 Gaming Graphics Card White (Nvidia GeForce RTX4060 DLSS3, 246 AI Tops, PCIe 4.0, 1x HDMI 2.1a, 3X DisplayPort 1.4a,",
-                "url": "https://www.amazon.com/ASUS-GeForce-Graphics-RTX4060-DisplayPort/dp/B0DGL1DVJ3/ref=sr_1_14",
+                "title": "Dual GeForce RTX 4060 EVO OC Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, Axial-Tech Fan Design, 0dB Technology, Dual BIOS, Auto-Extreme Technology)",
+                "url": "https://www.amazon.com/ASUS-DisplayPort-Axial-Tech-Technology-Auto-Extreme/dp/B086ZTB81P/ref=sr_1_7",
                 "price": 429.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/41ZfMKNNnvL._AC_UY218_.jpg"
+                "thumbnail": "https://m.media-amazon.com/images/I/817G0HRzaZL._AC_UY218_.jpg"
             },
             {
                 "title": "GeForce RTX 4060 Gaming OC 8G Graphics Card, 3X WINDFORCE Fans, 8GB 128-bit GDDR6, GV-N4060GAMING OC-8GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N4060GAMING-OC-8GD/dp/B0C8KQRH32/ref=sr_1_4",
+                "url": "https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N4060GAMING-OC-8GD/dp/B0C8KQRH32/ref=sr_1_6",
                 "price": 438.0,
                 "promo": "Only 18 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71N7BLpLAhL._AC_UY218_.jpg"
             },
             {
-                "title": "Dual GeForce RTX 4060 EVO OC Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, Axial-Tech Fan Design, 0dB Technology, Dual BIOS, Auto-Extreme Technology)",
-                "url": "https://www.amazon.com/ASUS-DisplayPort-Axial-Tech-Technology-Auto-Extreme/dp/B086ZTB81P/ref=sr_1_5",
-                "price": 439.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/817G0HRzaZL._AC_UY218_.jpg"
-            },
-            {
                 "title": "GeForce RTX 4060 Ventus 2X Black 8G OC Gaming Graphics Card - 8GB GDDR6X, PCI Express Gen 4, 128-bit, 3X DP v 1.4a, HDMI 2.1a (Supports 4K & 8K HDR)",
-                "url": "https://www.amazon.com/MSI-GeForce-Ventus-Gaming-Graphics/dp/B0C7W8GZMJ/ref=sr_1_2",
+                "url": "https://www.amazon.com/MSI-GeForce-Ventus-Gaming-Graphics/dp/B0C7W8GZMJ/ref=sr_1_3",
                 "price": 459.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/61q0rsE3ezL._AC_UY218_.jpg"
             }
@@ -1008,7 +890,7 @@
         "listings": [
             {
                 "title": "EVGA GeForce RTX 2080 XC ULTRA GAMING, 8GB GDDR6, Dual HDB Fans & RGB LED Graphics Card 08G-P4-2183-KR",
-                "url": "https://www.amazon.com/EVGA-GeForce-GAMING-Graphics-08G-P4-2183-KR/dp/B07GHVK4KN/ref=sr_1_15",
+                "url": "https://www.amazon.com/EVGA-GeForce-GAMING-Graphics-08G-P4-2183-KR/dp/B07GHVK4KN/ref=sr_1_6",
                 "price": 735.0,
                 "promo": "Only 4 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71fXhPZu5ZL._AC_UY218_.jpg"
@@ -1019,14 +901,27 @@
         "listings": [
             {
                 "title": "ASUS Dual Radeon\u2122 RX 7600 EVO OC Edition 8GB GDDR6 (PCIe\u00ae 4.0, 8 GB GDDR6, HDMI\u00ae 2.1, DisplayPort\u2122 1.4a, 2.5-Slot Design, Axial-tech Fans, GPU Tweak III)",
+                "url": "https://www.amazon.com/sspa/click",
+                "price": 274.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/81QItJufypL._AC_UY218_.jpg"
+            },
+            {
+                "title": "ASUS Dual Radeon\u2122 RX 7600 EVO OC Edition 8GB GDDR6 (PCIe\u00ae 4.0, 8 GB GDDR6, HDMI\u00ae 2.1, DisplayPort\u2122 1.4a, 2.5-Slot Design, Axial-tech Fans, GPU Tweak III)",
                 "url": "https://www.amazon.com/ASUS-RadeonTM-DisplayPortTM-2-5-Slot-Axial-tech/dp/B0DNP7Q1PH/ref=sr_1_3",
                 "price": 274.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/81QItJufypL._AC_UY218_.jpg"
             },
             {
+                "title": "ASRock AMD Radeon RX 7600 Challenger 8GB OC GDDR6 DisplayPort HDMI 0dB Silent Cooling Graphics Card 128-bit 7680 x 4320 18 Gbps Graphics Card",
+                "url": "https://www.amazon.com/ASRock-RX7600-CL-8GO-Challenger/dp/B0C626FFG2/ref=sr_1_6",
+                "price": 279.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/81asxT0eljL._AC_UY218_.jpg"
+            },
+            {
                 "title": "GIGABYTE GV-R76GAMING OC-8GD Radeon RX 7600 Gaming OC 8G Graphics Card, 3X WINDFORCE Fans 8GB 128-bit GDDR6, Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-GV-R76GAMING-OC-8GD-Graphics-WINDFORCE/dp/B0C5S9CHMG/ref=sr_1_2",
+                "url": "https://www.amazon.com/GIGABYTE-GV-R76GAMING-OC-8GD-Graphics-WINDFORCE/dp/B0C5S9CHMG/ref=sr_1_9",
                 "price": 299.0,
+                "promo": "Only 5 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71+Lh5QLfyL._AC_UY218_.jpg"
             },
             {
@@ -1036,89 +931,68 @@
                 "thumbnail": "https://m.media-amazon.com/images/I/81ba+dsNlUL._AC_UY218_.jpg"
             },
             {
-                "title": "ASUS Dual Radeon RX 7600 EVO OC Edition 8GB GDDR6 Gaming Graphics Card (AMD Radeon RX7600, PCIe 4.0, 1x HDMI 2.1, 3X DisplayPort 1.4a, DUAL-RX7600-O8G-EVO)",
-                "url": "https://www.amazon.com/ASUS-Radeon-Graphics-DisplayPort-DUAL-RX7600-O8G-EVO/dp/B0DKPGQT97/ref=sr_1_13",
-                "price": 328.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/81QItJufypL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Sapphire Pulse AMD Radeon RX 7600 Gaming 8GB GDDR6",
-                "url": "https://www.amazon.com/Sapphire-Pulse-Radeon-7600-Graphics/dp/B0C49S5R55/ref=sr_1_9",
-                "price": 336.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/714nXgTiuAL._AC_UY218_.jpg"
-            },
-            {
-                "title": "XFX Speedster QICK308 Radeon RX 7600 Black Gaming Graphics Card with 8GB GDDR6 HDMI 3xDP, AMD RDNA 3 RX-76PQICKBY",
-                "url": "https://www.amazon.com/XFX-Speedster-QICK308-Graphics-RX-76PQICKBY/dp/B0C59PD6LD/ref=sr_1_10",
-                "price": 337.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/61npXbrlkNL._AC_UY218_.jpg"
-            },
-            {
                 "title": "Gigabyte VGA GBT RX 7600 8GB Gaming OC Graphics Card",
-                "url": "https://www.amazon.com/Gigabyte-VGA-GBT-7600-Gaming/dp/B0C5DXJ165/ref=sr_1_8",
+                "url": "https://www.amazon.com/Gigabyte-VGA-GBT-7600-Gaming/dp/B0C5DXJ165/ref=sr_1_11",
                 "price": 376.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71Gv7B+318L._AC_UY218_.jpg"
             }
         ]
     },
+    "RX 6600 XT": {
+        "listings": [
+            {
+                "title": "Red Devil AMD Radeon RX 6600 XT Gaming Graphics Card with 8GB GDDR6 Memory, Powered by AMD RDNA 2, HDMI 2.1",
+                "url": "https://www.amazon.com/PowerColor-Radeon-Gaming-Graphics-Powered/dp/B09BWR9J1M/ref=sr_1_15",
+                "price": 599.0,
+                "promo": "Only 2 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81XvEK3g4KL._AC_UY218_.jpg"
+            }
+        ]
+    },
     "RX 5700 XT": {
         "listings": [
             {
-                "title": "AMD RX 5700 XT Graphics Card 8 GB DDR6 Performance Equal to RTX 3060 and 2060 Super 2560SP 256Bit PCI E 4.0x16 Base/BST/Mem 1605/1905/1750 3X DP HDMI",
-                "url": "https://www.amazon.com/Generic-RX-5700-XT-Performance/dp/B0DBNZJ26V/ref=sr_1_14",
-                "price": 210.0,
-                "promo": "Only 9 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61pzLLEUpdL._AC_UY218_.jpg"
-            },
-            {
-                "title": "RX 5700 XT 8GB Graphics Card, GDDR6 2560SP 256bit PCI-e 4.0 x16 AMD Radeon GPU Computer Graphics Cards, Support Up to 8K Video Cards, HDMI DisplayPort*3 Interface",
+                "title": "RX 5700 XT 8GB Graphics Card, GDDR6 2560SP 256bit PCI-e 4.0 x16 AMD Radeon GPU Computer Graphics Card, Support Up to 8K Video Cards, HDMI DisplayPort*3 Interface",
                 "url": "https://www.amazon.com/sspa/click",
                 "price": 239.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71FEzl9xvmL._AC_UY218_.jpg"
+            },
+            {
+                "title": "Radeon RX 5700 XT Gaming X Graphics Card '8GB GDDR6, 1980Hz, RGB Mystic Light, AMD NAVI 10 XT GPU, 3X DisplayPort, HDMI, Dual Fan Cooling System'",
+                "url": "https://www.amazon.com/RX-5700-XT-Graphics-DisplayPort/dp/B07XSJ2F8S/ref=sr_1_11",
+                "price": 635.0,
+                "promo": "Only 2 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/51SSSKgskrL._AC_UY218_.jpg"
             }
         ]
     },
     "RTX 3060": {
         "listings": [
             {
-                "title": "MSI Gaming GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC Graphics Card",
-                "url": "https://www.amazon.com/MSI-GeForce-RTX-3060-12G/dp/B08WPRMVWB/ref=sr_1_1",
-                "price": 299.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/71tduSp8ooL._AC_UY218_.jpg"
+                "title": "ASUS Dual NVIDIA GeForce RTX 3060 V2 OC Edition 12GB GDDR6 Gaming Graphics Card (PCIe 4.0, 12GB GDDR6 Memory, HDMI 2.1, DisplayPort 1.4a, 2-Slot, Axial-tech Fan Design, 0dB Technology)",
+                "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-Axial-tech-Technology/dp/B0985X2YR1/ref=sr_1_5",
+                "price": 329.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/81si2RRaWUS._AC_UY218_.jpg"
             },
             {
                 "title": "GIGABYTE GeForce RTX 3060 Gaming OC 12G (REV2.0) Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6, GV-N3060GAMING OC-12GD Video Card",
-                "url": "https://www.amazon.com/GIGABYTE-REV2-0-WINDFORCE-GV-N3060GAMING-OC-12GD/dp/B0971BG25M/ref=sr_1_2",
+                "url": "https://www.amazon.com/GIGABYTE-REV2-0-WINDFORCE-GV-N3060GAMING-OC-12GD/dp/B0971BG25M/ref=sr_1_1",
                 "price": 354.0,
-                "promo": "Only 16 left in stock - order soon.",
+                "promo": "Only 10 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61XAtpgr1lL._AC_UY218_.jpg"
             },
             {
                 "title": "ASUS Dual NVIDIA GeForce RTX 3060 V2 12GB GDDR6 Gaming Graphics Card (PCIe 4.0, 12GB GDDR6 Memory, HDMI 2.1, DisplayPort 1.4a, 2-Slot Design, Axial-tech Fan Design, 0dB Technology)",
-                "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-Axial-tech-Technology/dp/B09YCF3Q1S/ref=sr_1_11",
+                "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-Axial-tech-Technology/dp/B09YCF3Q1S/ref=sr_1_12",
                 "price": 359.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/81si2RRaWUS._AC_UY218_.jpg"
             },
             {
                 "title": "ASUS Gaming Graphics Card - GeForce Dual RTX 3060, 12GB GDDR6, RGB, LHR, Ray Tracing, DLSS",
-                "url": "https://www.amazon.com/ASUS-DUAL-RTX3060-12GB-GDDR6/dp/B096658ZWP/ref=sr_1_6",
-                "price": 379.0,
+                "url": "https://www.amazon.com/ASUS-DUAL-RTX3060-12GB-GDDR6/dp/B096658ZWP/ref=sr_1_4",
+                "price": 375.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71hoPufXoDL._AC_UY218_.jpg"
-            },
-            {
-                "title": "MSI Gaming GeForce RTX 3060 8GB GDRR6 Boost Clock: 1807 MHz 128-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC Graphics Card (RTX 3060 Ventus 2X 8G OC)",
-                "url": "https://www.amazon.com/MSI-GeForce-RTX-3060-OC/dp/B0BL7Y69YP/ref=sr_1_16",
-                "price": 379.0,
-                "promo": "Only 16 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71s0eVgu5xL._AC_UY218_.jpg"
-            },
-            {
-                "title": "GIGABYTE GV-N3060WF2OC-12GD NVIDIA GeForce RTX3060 Graphic Board GDDR6 12GB",
-                "url": "https://www.amazon.com/GIGABYTE-GV-N3060WF2OC-12GD-GeForce-RTX3060-Graphic/dp/B0CHMT3LVS/ref=sr_1_3",
-                "price": 429.0,
-                "promo": "Only 2 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61L-RNvrCVL._AC_UY218_.jpg"
             }
         ]
     },
@@ -1126,9 +1000,41 @@
         "listings": [
             {
                 "title": "GUNNIR Intel Arc A750 Photon 8G OC White Graphics Card,2400Mhz Video Card,8GB 256-bit GDDR6,PCIE 4.0,1 HDMI,3 DP,3 Fans, TBP 285W",
-                "url": "https://www.amazon.com/WEELIAO-A750-8G-Graphics-2400Mhz/dp/B0DFHBF3VS/ref=sr_1_9",
+                "url": "https://www.amazon.com/WEELIAO-A750-8G-Graphics-2400Mhz/dp/B0DFHBF3VS/ref=sr_1_11",
                 "price": 285.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/51AixccH05L._AC_UY218_.jpg"
+            }
+        ]
+    },
+    "RTX 2070": {
+        "listings": [
+            {
+                "title": "MSI GAMING GeForce RTX 2070 8GB GDRR6 256-bit HDMI/DP/USB Ray Tracing Turing Architecture HDCP Graphics Card (RTX 2070 GAMING Z 8G)",
+                "url": "https://www.amazon.com/MSI-RTX-2070-Architecture-8G/dp/B07J4VJX6L/ref=sr_1_2",
+                "price": 659.0,
+                "promo": "Only 4 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81aYe59YJKL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI GAMING GeForce RTX 2070 8GB GDRR6 256-bit HDMI/DP/USB Ray Tracing Turing Architecture HDCP Graphics Card (RTX 2070 DUKE 8G OC)",
+                "url": "https://www.amazon.com/MSI-RTX-2070-Architecture-8G/dp/B07JW76BFS/ref=sr_1_4",
+                "price": 659.0,
+                "promo": "Only 2 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81Onm44JojL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI GAMING GeForce RTX 2070 8GB GDRR6 256-bit HDMI/DP/USB Ray Tracing Turing Architecture HDCP Graphics Card (RTX 2070 ARMOR 8G OC)",
+                "url": "https://www.amazon.com/MSI-RTX-2070-Architecture-8G/dp/B07JC4MB7V/ref=sr_1_8",
+                "price": 659.0,
+                "promo": "Only 1 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81qLESP4SsL._AC_UY218_.jpg"
+            },
+            {
+                "title": "EVGA GeForce RTX 2070 XC Gaming, 8GB GDDR6, Dual HDB Fans & RGB LED Graphics Card 08G-P4-2172-KR, Real Boost Clock: 1710 MHz",
+                "url": "https://www.amazon.com/EVGA-RTX-2070-XC-08G-P4-2172-KR/dp/B07J63W42X/ref=sr_1_15",
+                "price": 755.0,
+                "promo": "Only 4 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/71WA8Pm9AoL._AC_UY218_.jpg"
             }
         ]
     },
@@ -1136,7 +1042,7 @@
         "listings": [
             {
                 "title": "AMD Radeon VII 16GB HBM2, 1750 MHz Boost, 1801 MHz Peak, 3xDP 1xHDMI Pci-E 3.0",
-                "url": "https://www.amazon.com/XFX-Radeon-16GB-Boost-1xHDMI/dp/B07NFGDZWQ/ref=sr_1_1",
+                "url": "https://www.amazon.com/XFX-Radeon-16GB-Boost-1xHDMI/dp/B07NFGDZWQ/ref=sr_1_2",
                 "price": 945.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/51KnLEXO5hL._AC_UY218_.jpg"
@@ -1147,35 +1053,17 @@
         "listings": [
             {
                 "title": "MSI Gaming GeForce GTX 1080 Ti 11GB GDRR5X DirectX 12 352-bit VR Ready Graphics Card (GTX 1080 TI Duke 11G OC)",
-                "url": "https://www.amazon.com/MSI-GTX-1080-TI-11G/dp/B0722YBZGK/ref=sr_1_9",
+                "url": "https://www.amazon.com/MSI-GTX-1080-TI-11G/dp/B0722YBZGK/ref=sr_1_5",
                 "price": 495.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81I9ecHd8DL._AC_UY218_.jpg"
             },
             {
                 "title": "EVGA GeForce GTX 1080 Ti FTW3 DT Gaming 11GB GDDR5X iCX Technology - 9 Thermal Sensors & RGB LED G/P/M Graphic Cards (11G-P4-6694-KR)",
-                "url": "https://www.amazon.com/EVGA-GeForce-Gaming-GDDR5X-Technology/dp/B0762Q49NV/ref=sr_1_12",
+                "url": "https://www.amazon.com/EVGA-GeForce-Gaming-GDDR5X-Technology/dp/B0762Q49NV/ref=sr_1_7",
                 "price": 495.0,
                 "promo": "Only 5 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71I+CdSp1NL._AC_UY218_.jpg"
-            }
-        ]
-    },
-    "RTX 2060 Super": {
-        "listings": [
-            {
-                "title": "RTX 2060 Super 8GB GDDR6 Graphics Card Performance 97% of RTX 3060 130% of RTX 3050 Core 1470 MHz Memory1750 MHz CUDA 2176 256 bit PCI Express 3.0 HDMI DP DVI",
-                "url": "https://www.amazon.com/Super-Graphics-Performance-Memory1750-Express/dp/B0DVS119GM/ref=sr_1_11",
-                "price": 259.0,
-                "promo": "Only 4 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/51vs-YJIiUL._AC_UY218_.jpg"
-            },
-            {
-                "title": "msi Graphics Card - GF RTX 2060 Super - 8 GB GDDR6 - PCIe 3.0 x16 - HDMI, 3 x DisplayPort",
-                "url": "https://www.amazon.com/msi-Graphics-Card-Super-DisplayPort/dp/B07Y427TFP/ref=sr_1_13",
-                "price": 349.0,
-                "promo": "Only 10 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61vpvZs3wYL._AC_UY218_.jpg"
             }
         ]
     },
@@ -1183,13 +1071,13 @@
         "listings": [
             {
                 "title": "RX 6600 8GB CLD Challenger D gddr6",
-                "url": "https://www.amazon.com/ASRock-6600-8GB-Challenger-gddr6/dp/B09J8VCFWN/ref=sr_1_1",
+                "url": "https://www.amazon.com/ASRock-6600-8GB-Challenger-gddr6/dp/B09J8VCFWN/ref=sr_1_2",
                 "price": 219.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/61n6JjRZBGL._AC_UY218_.jpg"
             },
             {
                 "title": "Chanllenger AMD RX 6600 8G GDDR6 Graphics Card and Bronze 80+ 550W Power Supply",
-                "url": "https://www.amazon.com/ASRock-Chanllenger-Graphics-Bronze-Supply/dp/B0DV2ZCDDB/ref=sr_1_4",
+                "url": "https://www.amazon.com/ASRock-Chanllenger-Graphics-Bronze-Supply/dp/B0DV2ZCDDB/ref=sr_1_7",
                 "price": 266.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71nQMe5+9XL._AC_UY218_.jpg"
             },
@@ -1201,20 +1089,10 @@
             },
             {
                 "title": "AMD Radeon RX 6600 Challenger White 8GB GDDR6 128-bit Grahipcs Card and 80+ Bronze Power Supply 550W ATX 2.52",
-                "url": "https://www.amazon.com/ASRock-Radeon-Challenger-128-bit-Grahipcs/dp/B0DV3KWR71/ref=sr_1_9",
+                "url": "https://www.amazon.com/ASRock-Radeon-Challenger-128-bit-Grahipcs/dp/B0DV3KWR71/ref=sr_1_16",
                 "price": 288.0,
-                "promo": "Only 16 left in stock - order soon.",
+                "promo": "Only 9 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71ZBP3Rhu1L._AC_UY218_.jpg"
-            }
-        ]
-    },
-    "RX Vega 64": {
-        "listings": [
-            {
-                "title": "MSI RX Vega 64 AIR Boost 8G OC Computer Graphics Cards",
-                "url": "https://www.amazon.com/MSI-RX-64-AIR-8G/dp/B07DH7S1X1/ref=sr_1_2",
-                "price": 986.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/61LsxY6gNGL._AC_UY218_.jpg"
             }
         ]
     },
@@ -1229,17 +1107,45 @@
             {
                 "title": "ASUS GeForce RTX 2060 Overclocked 6G GDDR6 Dual-Fan EVO Edition VR Ready HDMI DisplayPort DVI Graphics Card (DUAL-RTX2060-O6G-EVO)",
                 "url": "https://www.amazon.com/ASUS-Overclocked-Dual-Fan-DisplayPort-DUAL-RTX2060-O6G-EVO/dp/B07R18TH1X/ref=sr_1_8",
-                "price": 349.0,
-                "promo": "Only 9 left in stock - order soon.",
+                "price": 339.0,
+                "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71RiTiF4MKL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI Gaming GeForce RTX 2060 6GB GDRR6 192-bit HDMI/DP 1710 MHz Boost Clock Ray Tracing Turing Architecture VR Ready Graphics Card (RTX 2060 Ventus GP OC)",
+                "url": "https://www.amazon.com/MSI-GeForce-RTX-2060-VENTUS/dp/B091PVFYXM/ref=sr_1_14",
+                "price": 445.0,
+                "promo": "Only 2 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/61in2eJQ1RL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI Gaming GeForce RTX 2060 6GB GDRR6 192-bit HDMI/DP Ray Tracing Turing Architecture VR Ready Graphics Card (RTX 2060 GAMING Z 6G)",
+                "url": "https://www.amazon.com/MSI-GeForce-RTX-2060-Architecture/dp/B07MQ36Z6L/ref=sr_1_16",
+                "price": 484.0,
+                "promo": "Only 1 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/61pE8kBYykL._AC_UY218_.jpg"
             }
         ]
     },
     "GTX 1080": {
         "listings": [
             {
+                "title": "EVGA GeForce GTX 1080 GAMING ACX 3.0, 8GB GDDR5X, LED, DX12 OSD Support (PXOC) Graphics Card 08G-P4-6181-KR",
+                "url": "https://www.amazon.com/EVGA-GeForce-Support-Graphics-08G-P4-6181-KR/dp/B01GE9RFNK/ref=sr_1_11",
+                "price": 498.0,
+                "promo": "Only 3 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/71LiI6a2sYL._AC_UY218_.jpg"
+            },
+            {
+                "title": "MSI Gaming GeForce GTX 1080 8GB GDDR5X SLI DirectX 12 VR Ready Graphics Card (GTX 1080 ARMOR 8G OC)",
+                "url": "https://www.amazon.com/MSI-GeForce-GTX-1080-ARMOR/dp/B01GXOWUDQ/ref=sr_1_6",
+                "price": 598.0,
+                "promo": "Only 2 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/6181OcvWe7L._AC_UY218_.jpg"
+            },
+            {
                 "title": "MSI Gaming GeForce GTX 1080 8GB GDDR5X SLI DirectX 12 VR Ready Graphics Card (GTX 1080 GAMING X 8G)",
-                "url": "https://www.amazon.com/MSI-GTX-1080-GAMING-8G/dp/B01GLYD7MG/ref=sr_1_7",
+                "url": "https://www.amazon.com/MSI-GTX-1080-GAMING-8G/dp/B01GLYD7MG/ref=sr_1_8",
                 "price": 598.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81j60y4FkaL._AC_UY218_.jpg"
@@ -1258,27 +1164,15 @@
                 "title": "ZOTAC Gaming GeForce RTX 3050 6GB GDDR6 Low-Profile 96-bit 14 Gbps PCIE 4.0 Super Compact Gaming Graphics Card, ZT-A30510L-10L",
                 "url": "https://www.amazon.com/ZOTAC-GeForce-Low-Profile-Graphics-ZT-A30510L-10L/dp/B0D4TRRSDV/ref=sr_1_4",
                 "price": 199.0,
-                "promo": "Only 7 left in stock - order soon.",
+                "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71Mwdnov1aL._AC_UY218_.jpg"
             },
             {
                 "title": "MSI GeForce RTX 3050 Ventus 2X 6G OC",
-                "url": "https://www.amazon.com/MSI-GeForce-RTX-3050-Ventus/dp/B0CSPNYB42/ref=sr_1_8",
+                "url": "https://www.amazon.com/MSI-GeForce-RTX-3050-Ventus/dp/B0CSPNYB42/ref=sr_1_9",
                 "price": 214.0,
-                "promo": "Only 8 left in stock - order soon.",
+                "promo": "Only 3 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61mgNqv7DPL._AC_UY218_.jpg"
-            },
-            {
-                "title": "ASUS GeForce RTX 3050 LP BRK OC Edition 6GB GDDR6 Gaming Graphics Card (Nvidia RTX3050, PCIe 4.0, 1x DVI-D, 1x HDMI 2.1, 1x DisplayPort 1.4a, RTX3050-O6G-LP-BRK)",
-                "url": "https://www.amazon.com/ASUS-GeForce-Graphics-DisplayPort-RTX3050-O6G-LP-BRK/dp/B09T9H1YNV/ref=sr_1_16",
-                "price": 227.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/71oGzQfXmRL._AC_UY218_.jpg"
-            },
-            {
-                "title": "Inno3D GeForce RTX 3050 Twin X2 Tablet NVIDIA 8 GB GDDR6",
-                "url": "https://www.amazon.com/Inno3D-GeForce-tablet-NVIDIA-GDDR6/dp/B0CMV24NQJ/ref=sr_1_3",
-                "price": 291.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/61P+4rb4u9L._AC_UY218_.jpg"
             }
         ]
     },
@@ -1286,14 +1180,14 @@
         "listings": [
             {
                 "title": "MSI Gaming GeForce GTX 1070 Ti 8GB GDRR5 256-bit HDCP Support DirectX 12 SLI Twin Frozr Heat Pipes Dual TORX 2.0 Fan VR Ready Graphics Card (GTX 1070 TI Gaming 8G)",
-                "url": "https://www.amazon.com/MSI-GeForce-GTX-1070-TI/dp/B076Q6GYKY/ref=sr_1_4",
+                "url": "https://www.amazon.com/MSI-GeForce-GTX-1070-TI/dp/B076Q6GYKY/ref=sr_1_1",
                 "price": 529.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61oqI0rkjOL._AC_UY218_.jpg"
             },
             {
                 "title": "EVGA GeForce GTX 1070 Ti FTW2 GAMING, 8GB GDDR5, iCX Technology - 9 Thermal Sensors & RGB LED G/P/M, Asynch Fan, Optimized Airflow Graphics Card 08G-P4-6775-KR",
-                "url": "https://www.amazon.com/EVGA-GeForce-GAMING-GDDR5-Technology/dp/B076RT2ZVV/ref=sr_1_8",
+                "url": "https://www.amazon.com/EVGA-GeForce-GAMING-GDDR5-Technology/dp/B076RT2ZVV/ref=sr_1_4",
                 "price": 549.0,
                 "promo": "Only 3 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71h+pqRYXRL._AC_UY218_.jpg"
@@ -1304,21 +1198,21 @@
         "listings": [
             {
                 "title": "MSI Radeon RX Vega 56 Air Boost, G OC Graphics Board vd6516",
-                "url": "https://www.amazon.com/MSI-Radeon-RX-OC-Graphics/dp/B077Y8328G/ref=sr_1_5",
+                "url": "https://www.amazon.com/MSI-Radeon-RX-OC-Graphics/dp/B077Y8328G/ref=sr_1_2",
                 "price": 380.0,
                 "promo": "Only 10 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71x7nx+pBHL._AC_UY218_.jpg"
             },
             {
                 "title": "Sapphire Technology Technology Radeon 11276-02-40G Pulse RX Vega 56 8GB HBM2 HDMI/Triple DP (UEFI) PCI-E Graphics Card",
-                "url": "https://www.amazon.com/Sapphire-11276-02-40G-Radeon-Pulse-Graphics/dp/B07BGZNTQJ/ref=sr_1_7",
+                "url": "https://www.amazon.com/Sapphire-11276-02-40G-Radeon-Pulse-Graphics/dp/B07BGZNTQJ/ref=sr_1_5",
                 "price": 399.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81wglgK-WZL._AC_UY218_.jpg"
             },
             {
                 "title": "MSI Video Card Radeon RX Vega 56 Air Boost 8G OC",
-                "url": "https://www.amazon.com/MSI-RX-Vega-Air-Boost/dp/B078DZR5YK/ref=sr_1_6",
+                "url": "https://www.amazon.com/MSI-RX-Vega-Air-Boost/dp/B078DZR5YK/ref=sr_1_4",
                 "price": 599.0,
                 "promo": "Only 4 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61Z+J-6BdOL._AC_UY218_.jpg"
@@ -1329,35 +1223,22 @@
         "listings": [
             {
                 "title": "GeForce GTX 1660 Super 6GB Graphics Cards, GDRR6 192Bit PCIE 3.0X16 Computer Gaming Gpu, Dual Freeze Fans Video Card with HDMI/DP/DVI Ports Support 4K and 8K HD",
-                "url": "https://www.amazon.com/ZER-LON-GeForce-GTX-1660-Super/dp/B0BWMCF6GN/ref=sr_1_2",
+                "url": "https://www.amazon.com/sspa/click",
+                "price": 179.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/71D2plAvGnL._AC_UY218_.jpg"
+            },
+            {
+                "title": "GeForce GTX 1660 Super 6GB Graphics Cards, GDRR6 192Bit PCIE 3.0X16 Computer Gaming Gpu, Dual Freeze Fans Video Card with HDMI/DP/DVI Ports Support 4K and 8K HD",
+                "url": "https://www.amazon.com/ZER-LON-GeForce-GTX-1660-Super/dp/B0BWMCF6GN/ref=sr_1_3",
                 "price": 179.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71D2plAvGnL._AC_UY218_.jpg"
             },
             {
                 "title": "GTX 1660 Super 6GB Graphics Card GDDR6 192 Bit PCI-e 3.0 x16 4 Monitors Video Card Support DirectX 12 OpenGL4.5 HDMI and 3*DisplayPort 1.4a",
-                "url": "https://www.amazon.com/SRhonyra-Graphics-Monitors-OpenGL4-5-DisplayPort/dp/B0D8W6SSD2/ref=sr_1_11",
+                "url": "https://www.amazon.com/sspa/click",
                 "price": 195.0,
                 "promo": "Only 8 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61FwC22wkeL._AC_UY218_.jpg"
-            },
-            {
-                "title": "ASUS TUF GeForce GTX 1660 Super Overclocked 6GB Edition HDMI DP DVI Gaming Graphics Card (TUF-GTX1660S-O6G-GAMING)",
-                "url": "https://www.amazon.com/Gaming-GeForce-Overclocked-Graphics-TUF-GTX1660S-O6G-GAMING/dp/B081SPGMBD/ref=sr_1_15",
-                "price": 229.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/71tex85KCNL._AC_UY218_.jpg"
-            },
-            {
-                "title": "ZOTAC GeForce GTX 1660 Super 6GB GDDR6 192-bit Gaming Graphics Card, Super Compact, ZT-T16620F-10L",
-                "url": "https://www.amazon.com/ZOTAC-GTX-1660-Graphics-ZT-T16620F-10L/dp/B07Z8PWC6R/ref=sr_1_13",
-                "price": 252.0,
-                "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/71+9RYWPREL._AC_UY218_.jpg"
-            },
-            {
-                "title": "MSI Gaming GeForce GTX 1660 Super 192-bit HDMI/DP 6GB GDRR6 HDCP Support DirectX 12 Dual Fan VR Ready OC Graphics Card (GTX 1660 Super VENTUS XS OC)",
-                "url": "https://www.amazon.com/MSI-GeForce-192-bit-Support-Graphics/dp/B07ZHDZ1K6/ref=sr_1_9",
-                "price": 322.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/619Ui9f--pL._AC_UY218_.jpg"
             }
         ]
     },
@@ -1365,17 +1246,24 @@
         "listings": [
             {
                 "title": "GTX 1660 Ti 6GB Graphics Card GDDR6 192 Bit PCI-e 3.0 x16 4 Monitors Video Card Support DirectX 12 OpenGL 4.5 HDMI and 3*DisplayPort 1.4a",
-                "url": "https://www.amazon.com/SRhonyra-GeForce-Graphics-Monitors-DisplayPort/dp/B0D8W8JHYT/ref=sr_1_12",
+                "url": "https://www.amazon.com/sspa/click",
                 "price": 199.0,
                 "promo": "Only 14 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/61f0UXH8+IL._AC_UY218_.jpg"
             },
             {
-                "title": "ZOTAC GeForce GTX 1660 Ti Gaming Dual Fan Graphics Card - 6 GB",
-                "url": "https://www.amazon.com/ZOTAC-GeForce-1660-Graphic-Card/dp/B07PCZYTN4/ref=sr_1_9",
-                "price": 217.0,
+                "title": "MSI Gaming GeForce GTX 1660 Ti 192-bit HDMI/DP 6GB GDRR6 HDCP Support DirectX 12 Dual Fan VR Ready OC Graphics Card (GTX 1660 TI VENTUS XS 6G OC)",
+                "url": "https://www.amazon.com/MSI-GeForce-GTX-1660-Ti/dp/B07N824KNV/ref=sr_1_4",
+                "price": 425.0,
+                "promo": "Only 7 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81QnPIBbZML._AC_UY218_.jpg"
+            },
+            {
+                "title": "EVGA GeForce GTX 1660 Ti XC Black Gaming, 6GB GDDR6, HDB Fan Graphics Card 06G-P4-1261-KR",
+                "url": "https://www.amazon.com/EVGA-GeForce-Gaming-Graphics-06G-P4-1261-KR/dp/B07N9XNC1B/ref=sr_1_15",
+                "price": 435.0,
                 "promo": "Only 1 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/8149aCXpDlL._AC_UY218_.jpg"
+                "thumbnail": "https://m.media-amazon.com/images/I/81Xok8ZmBhL._AC_UY218_.jpg"
             }
         ]
     },
@@ -1383,7 +1271,7 @@
         "listings": [
             {
                 "title": "EVGA GeForce GTX 1070 FTW GAMING ACX 3.0, 8GB GDDR5, RGB LED, 10CM FAN, 10 Power Phases, Double BIOS, DX12 OSD Support (PXOC) Graphics Card 08G-P4-6276-KR",
-                "url": "https://www.amazon.com/EVGA-GeForce-Support-Graphics-08G-P4-6276-KR/dp/B01I60OGUK/ref=sr_1_16",
+                "url": "https://www.amazon.com/EVGA-GeForce-Support-Graphics-08G-P4-6276-KR/dp/B01I60OGUK/ref=sr_1_9",
                 "price": 489.0,
                 "promo": "Only 5 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71g5zicYoML._AC_UY218_.jpg"
@@ -1405,27 +1293,25 @@
         "listings": [
             {
                 "title": "Radeon RX 590 8GB GME Graphics Card, 2304SP GDDR5 256 Bit PCIE 3.0X16 Computer Gaming Gpu, Dual Freeze Fans Video Card with HDMI/DP/DVI Ports Support 8K",
-                "url": "https://www.amazon.com/ZER-LON-Radeon-Graphics-Computer-Support/dp/B0DXV7SSSL/ref=sr_1_2",
+                "url": "https://www.amazon.com/sspa/click",
                 "price": 109.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71CP6VbmXgL._AC_UY218_.jpg"
             },
             {
-                "title": "VBESTLIFE RX590 8GB Graphics Card, GDDR5, 256bit, PCI Express 3.0 x16, 1460/8000MHz, 4096x2160, Gaming Video Card with , DVI D and 3 Ports",
-                "url": "https://www.amazon.com/VBESTLIFE-Graphics-Express-4096x2160-VBESTLIFEn576axsuid/dp/B0CSZBXQSX/ref=sr_1_15",
-                "price": 125.0,
-                "promo": "Only 3 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61aS1oX-6pL._AC_UY218_.jpg"
+                "title": "Radeon RX 590 8GB GME Graphics Card, 2304SP GDDR5 256 Bit PCIE 3.0X16 Computer Gaming Gpu, Dual Freeze Fans Video Card with HDMI/DP/DVI Ports Support 8K",
+                "url": "https://www.amazon.com/ZER-LON-Radeon-Graphics-Computer-Support/dp/B0DXV7SSSL/ref=sr_1_4",
+                "price": 109.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/71CP6VbmXgL._AC_UY218_.jpg"
             },
             {
-                "title": "VBESTLIFE RX590 8GB Graphics Card, GDDR5, 256bit, PCI Express 3.0 x16, 1460/8000MHz, 4096x2160, Gaming Video Card with , DVI D and 3 Ports",
+                "title": "AMD Radeon RX590 2304sp 8GB gpu 256-Bit GDDR5 HDCP Ready CrossFireX Computer Graphics Video Card PCIe 3.0 \u00d716 1340MHz Base Clock Video Gaming AMD Graphics Card",
                 "url": "https://www.amazon.com/sspa/click",
-                "price": 125.0,
-                "promo": "Only 3 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61aS1oX-6pL._AC_UY218_.jpg"
+                "price": 148.0,
+                "thumbnail": "https://m.media-amazon.com/images/I/410OTOuEkvL._AC_UY218_.jpg"
             },
             {
                 "title": "XUANMO AMD Radeon RX590 2304sp 8GB gpu 256-Bit GDDR5 HDCP Ready CrossFireX Computer Graphics Video Card PCIe 3.0 \u00d716 1340MHz Base Clock Video Gaming AMD Graphics Card",
-                "url": "https://www.amazon.com/XUANMO-256-Bit-CrossFireX-Computer-Graphics/dp/B0CPCFHQJT/ref=sr_1_13",
+                "url": "https://www.amazon.com/XUANMO-256-Bit-CrossFireX-Computer-Graphics/dp/B0CPCFHQJT/ref=sr_1_19",
                 "price": 148.0,
                 "promo": "Only 16 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/410OTOuEkvL._AC_UY218_.jpg"
@@ -1436,7 +1322,7 @@
         "listings": [
             {
                 "title": "MSI Limited GAMING Edition GeForce GTX 980 TI 6GB OC DirectX 12 VR READY (GTX 980TI GAMING 6G GOLDEN EDITION)",
-                "url": "https://www.amazon.com/MSI-GAMING-GTX-980TI-GOLDEN/dp/B0166T31O0/ref=sr_1_12",
+                "url": "https://www.amazon.com/MSI-GAMING-GTX-980TI-GOLDEN/dp/B0166T31O0/ref=sr_1_2",
                 "price": 449.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71QqIeUFTvL._AC_UY218_.jpg"
@@ -1447,7 +1333,7 @@
         "listings": [
             {
                 "title": "Gigabyte Gv-N165SWF2OC-4GD GeForce GTX 1650 Super Windforce OC 4G Graphics Card, 2X Windforce Fans, 4GB 128-Bit GDDR6, Video Card",
-                "url": "https://www.amazon.com/Gigabyte-GeForce-Windforce-Graphics-Gv-N165SWF2OC-4GD/dp/B081R359ZM/ref=sr_1_7",
+                "url": "https://www.amazon.com/Gigabyte-GeForce-Windforce-Graphics-Gv-N165SWF2OC-4GD/dp/B081R359ZM/ref=sr_1_11",
                 "price": 294.0,
                 "promo": "Only 5 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/811eJeQfu7L._AC_UY218_.jpg"
@@ -1456,13 +1342,6 @@
     },
     "GTX 1060 6GB": {
         "listings": [
-            {
-                "title": "GTX 1060 6GB Low Profile Graphics Card GDDR5 PCIe 3.0 X16 160 Bits SFF GPU HDMI DisplayPort Dual Displays",
-                "url": "https://www.amazon.com/SRhonyra-Geforce-Graphics-DisplayPort-Displays/dp/B0D1QW6NLB/ref=sr_1_10",
-                "price": 262.0,
-                "promo": "Only 7 left in stock - order soon.",
-                "thumbnail": "https://m.media-amazon.com/images/I/61RTZgQWQOL._AC_UY218_.jpg"
-            },
             {
                 "title": "GTX 1060 6GB Low Profile Graphics Card GDDR5 PCIe 3.0 X16 160 Bits SFF GPU HDMI DisplayPort Dual Displays",
                 "url": "https://www.amazon.com/sspa/click",
@@ -1478,36 +1357,50 @@
                 "thumbnail": "https://m.media-amazon.com/images/I/51p7oFv-vUL._AC_UY218_.jpg"
             },
             {
+                "title": "EVGA GeForce GTX 1060 6GB FTW+ GAMING ACX 3.0, 6GB GDDR5, LED, DX12 OSD Support (PXOC) Graphics Card 06G-P4-6368-KR",
+                "url": "https://www.amazon.com/EVGA-GeForce-Support-Graphics-06G-P4-6368-KR/dp/B01LSLRTFI/ref=sr_1_11",
+                "price": 349.0,
+                "promo": "Only 1 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/81ICn1ColML._AC_UY218_.jpg"
+            },
+            {
                 "title": "EVGA GeForce GTX 1060 6GB GAMING ACX 3.0, 6GB GDDR5, LED, DX12 OSD Support (PXOC) Graphics Card 06G-P4-6262-KR",
-                "url": "https://www.amazon.com/EVGA-GeForce-Support-Graphics-06G-P4-6262-KR/dp/B01LZ3VNG0/ref=sr_1_13",
+                "url": "https://www.amazon.com/EVGA-GeForce-Support-Graphics-06G-P4-6262-KR/dp/B01LZ3VNG0/ref=sr_1_5",
                 "price": 369.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/710kUMNVijL._AC_UY218_.jpg"
             },
             {
+                "title": "EVGA GeForce GTX 1060 6GB SSC GAMING ACX 3.0, 6GB GDDR5, LED, DX12 OSD Support (PXOC) Graphics Card 06G-P4-6267-KR",
+                "url": "https://www.amazon.com/EVGA-GeForce-Support-Graphics-06G-P4-6267-KR/dp/B01LYN9KK6/ref=sr_1_13",
+                "price": 385.0,
+                "promo": "Only 2 left in stock - order soon.",
+                "thumbnail": "https://m.media-amazon.com/images/I/717YWZ8PTYL._AC_UY218_.jpg"
+            },
+            {
                 "title": "MSI GAMING GeForce GTX 1060 6GB GDRR5 192-bit HDCP Support DirectX 12 Single Fan VR Ready OC Graphics Card (GTX 1060 6G OCV1)",
-                "url": "https://www.amazon.com/MSI-GTX-1060-6G-OCV1/dp/B01N2W09Q6/ref=sr_1_12",
+                "url": "https://www.amazon.com/MSI-GTX-1060-6G-OCV1/dp/B01N2W09Q6/ref=sr_1_4",
                 "price": 395.0,
                 "promo": "Only 3 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71vZCemaMcL._AC_UY218_.jpg"
             },
             {
                 "title": "MSI GAMING GeForce GTX 1060 6GB GDRR5 192-bit HDCP Support DirectX 12 Dual Fan VR Ready OC Graphics Card (GTX 1060 ARMOR 6G OCV1)",
-                "url": "https://www.amazon.com/MSI-GTX-1060-ARMOR-OCV1/dp/B01L9VB642/ref=sr_1_15",
+                "url": "https://www.amazon.com/MSI-GTX-1060-ARMOR-OCV1/dp/B01L9VB642/ref=sr_1_10",
                 "price": 398.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/81p1IBTIONL._AC_UY218_.jpg"
             },
             {
                 "title": "PNY GeForce GTX 1060 6GB Graphics Card (VCGGTX10606PB)",
-                "url": "https://www.amazon.com/PNY-GeForce-1060-Graphics-VCGGTX10606PB/dp/B01IR5MR32/ref=sr_1_14",
+                "url": "https://www.amazon.com/PNY-GeForce-1060-Graphics-VCGGTX10606PB/dp/B01IR5MR32/ref=sr_1_7",
                 "price": 399.0,
                 "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/619QA0gOWpL._AC_UY218_.jpg"
             },
             {
                 "title": "MSI GAMING GeForce GTX 1060 6GB GDRR5 192-bit HDCP Support DirectX 12 Dual TORX 2.0 Fan VR Ready Graphics Card (GTX 1060 GAMING X 6G)",
-                "url": "https://www.amazon.com/MSI-GAMING-GTX-1060-6G/dp/B01IEKYD5U/ref=sr_1_5",
+                "url": "https://www.amazon.com/MSI-GAMING-GTX-1060-6G/dp/B01IEKYD5U/ref=sr_1_3",
                 "price": 445.0,
                 "promo": "Only 1 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71l-y4+ZQaL._AC_UY218_.jpg"
@@ -1526,32 +1419,20 @@
                 "title": "Speedster QICK210 Radeon RX 6500XT Black Gaming Graphics Card with 4GB GDDR6 HDMI, AMD RDNA 2, RX-65XT4DBDQ",
                 "url": "https://www.amazon.com/XFX-Speedster-QICK210-Graphics-RX-65XT4DBDQ/dp/B09Q98KRTG/ref=sr_1_2",
                 "price": 169.0,
-                "promo": "Only 4 left in stock - order soon.",
+                "promo": "Only 2 left in stock - order soon.",
                 "thumbnail": "https://m.media-amazon.com/images/I/71hAHq2I3wL._AC_UY218_.jpg"
             },
             {
                 "title": "Fighter AMD Radeon RX 6500 XT Gaming Graphics Card with 4GB GDDR6 Memory",
-                "url": "https://www.amazon.com/PowerColor-Fighter-Radeon-Gaming-Graphics/dp/B09PSN3Y63/ref=sr_1_8",
+                "url": "https://www.amazon.com/PowerColor-Fighter-Radeon-Gaming-Graphics/dp/B09PSN3Y63/ref=sr_1_7",
                 "price": 169.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/71d8+9M+ikL._AC_UY218_.jpg"
             },
             {
                 "title": "AMD Radeon RX 6500 XT ITX Gaming Graphics Card with 4GB GDDR6 Memory",
-                "url": "https://www.amazon.com/PowerColor-Radeon-Gaming-Graphics-Memory/dp/B09PSHYHLM/ref=sr_1_5",
+                "url": "https://www.amazon.com/PowerColor-Radeon-Gaming-Graphics-Memory/dp/B09PSHYHLM/ref=sr_1_3",
                 "price": 179.0,
                 "thumbnail": "https://m.media-amazon.com/images/I/61vLJ4xtNGL._AC_UY218_.jpg"
-            },
-            {
-                "title": "PULSE AMD RADEON RX6500 XT ITX GAM. OC 4GB GDDR6 HDMI DP",
-                "url": "https://www.amazon.com/PULSE-RADEON-RX6500-GAM-GDDR6/dp/B0CDTV5PWS/ref=sr_1_16",
-                "price": 215.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/614Bo0WHIxL._AC_UY218_.jpg"
-            },
-            {
-                "title": "SAFIR DARBE AMD Radeon\u2122 RX 6500 XT Gaming OC 8GB GDDR6 HDMI/DP LITE",
-                "url": "https://www.amazon.com/Sapphire-SAFIR-DARBE-RadeonTM-Gaming/dp/B0DHVYQ7PW/ref=sr_1_3",
-                "price": 253.0,
-                "thumbnail": "https://m.media-amazon.com/images/I/61SOrPjg2cL._AC_UY218_.jpg"
             }
         ]
     }
